@@ -2,7 +2,7 @@ This file contains runtime results of RZk_byte algorithms and other effective al
 
 
 Σ = 4  
-![Results sigma = 4](23-01/auto_4.md)  
+[Results sigma = 4](23-01/auto_4.md)  
 Σ = 8  
 [Results sigma = 8](23-01/auto_8.md)  
 Σ = 16  
