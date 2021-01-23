@@ -1,6 +1,7 @@
 #ifndef CONSTS_H
 #define CONSTS_H
 
+#include <QStringList>
 #include <algorithm>
 #include <conio.h>
 #include <cstdio>
@@ -16,13 +17,14 @@
 #include <time.h>
 #include <vector>
 #include <windows.h>
+
 using namespace std;
 
 #define MIN(a, b) ((a) < (b) ? (a) : (b))
 #define MAX(a, b) ((a) > (b) ? (a) : (b))
 #define FALSE 0
 #define TRUE 1
-#define WSIZE 256 //greater int value fitting in a computer word
+#define WSIZE 256 // greater int value fitting in a computer word
 #define AS 4
 #define LOGAS 2
 
@@ -38,7 +40,7 @@ using namespace std;
 //#define ASIZE		256				//constant alphabet size
 #define UNDEFINED -1
 #define HALFDEFINED -2
-#define WORD 32 //computer word size (in bit)
+#define WORD 32 // computer word size (in bit)
 #define OUTPUT(j) count++
 
 #define RANK3 3
@@ -50,5 +52,8 @@ extern unsigned int SIGMA, MINM, MAXM;
 
 extern float sumu2, sum_rzk[20], sum_bsdm;
 extern LARGE_INTEGER start, finish, freq;
+
+extern QStringList patternLengths;
+extern QStringList sigmaValues;
 
 #endif // CONSTS_H

@@ -23,7 +23,7 @@
  */
 
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define GRAM6(j) (B[y[j]]<<5)&(B[y[j-1]]<<4)&(B[y[j-2]]<<3)&(B[y[j-3]]<<2)&(B[y[j-4]]<<1)&B[y[j-5]]
 

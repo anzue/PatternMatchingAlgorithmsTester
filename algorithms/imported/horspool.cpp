@@ -1,4 +1,4 @@
-#include "algos.h"
+#include "algorithms/consts.h"
 
 int search_h(unsigned char *P, int m, unsigned char *T, int n, float* time) {
     int i, s, count, hbc[MAX_SIGMA];

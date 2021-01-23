@@ -21,7 +21,7 @@
  * The Second Haifa Annual International Stringology Research Workshop of the Israeli Science Foundation, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define neg(K) (~K)
 

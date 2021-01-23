@@ -20,7 +20,7 @@
  * in R. N. Horspool. Practical fast searching in strings. Softw. Pract. Exp., vol.10, n.6, pp.501--506, (1980).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void Pre_Horspool(unsigned char *P, int m, int hbc[]) {

@@ -23,7 +23,7 @@
 
 
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/log2.h"
 
 void verify_aoso4_aoso4(unsigned char *y, int j, int n, unsigned char *x, int m, int q, unsigned int D, unsigned int mm, int *count) {

@@ -22,7 +22,7 @@
  * ALENEX 2009, pp.29--37, SIAM, New York, New York, USA, (2009).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define GRAM8(i) ((B[y[i-7]]<<7)|(B[y[i-6]]<<6)|(B[y[i-5]]<<5)|(B[y[i-4]]<<4)|(B[y[i-3]]<<3)|(B[y[i-2]]<<2)|(B[y[i-1]]<<1)|B[y[i]])
 

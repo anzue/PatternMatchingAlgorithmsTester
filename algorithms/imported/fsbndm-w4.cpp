@@ -41,7 +41,7 @@
  SUCH DAMAGE.
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_fsbndm_w4(unsigned char *x, int m, unsigned char *y, int n, float* time) {

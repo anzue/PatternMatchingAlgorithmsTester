@@ -22,7 +22,7 @@
  * Proc. of Third International Conference on Fun with algorithms, pp.118--131, (2004).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_ts(unsigned char* x, int m, unsigned char * y, int n) {

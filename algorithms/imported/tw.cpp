@@ -20,7 +20,7 @@
  * in  	M. Crochemore and D. Perrin. Two-way string-matching. J. Assoc. Comput. Mach., vol.38, n.3, pp.651--675, (1991).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 /* Computing of the maximal suffix for <= */

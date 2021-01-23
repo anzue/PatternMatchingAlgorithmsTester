@@ -22,7 +22,7 @@
  * Proceedings of the Workshop on Algorithm Engineering and Experiments, ALENEX 2009, pp.29--37, SIAM, New York, New York, USA, (2009).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define GRAM2(j) (B[y[j]]<<1)&B[y[j-1]]
 

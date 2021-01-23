@@ -21,7 +21,7 @@
  * A fast string searching algorithm. Commun. ACM, vol.20, n.10, pp.762--772, (1977).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 
 void preBmBc_bm(unsigned char *x, int m, int bmBc[]) {
    int i;

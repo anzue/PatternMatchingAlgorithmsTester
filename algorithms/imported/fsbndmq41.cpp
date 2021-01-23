@@ -24,7 +24,7 @@
  * F is the number of forward characters
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define Q 4 
 #define F 1 

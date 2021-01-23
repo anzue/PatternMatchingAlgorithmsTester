@@ -21,7 +21,7 @@
  * Speeding up two string matching algorithms. Algorithmica, vol.12, n.4/5, pp.247--267, (1994).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #include "include/AUTOMATON.h"
 

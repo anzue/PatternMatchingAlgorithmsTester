@@ -23,7 +23,7 @@
  * Lecture Notes in Computer Science, n.1448, pp.55--64, Springer-Verlag, Berlin, (1998).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preKmp_kmpskip(unsigned char *x, int m, int kmpNext[]) {

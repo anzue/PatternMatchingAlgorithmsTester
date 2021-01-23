@@ -22,7 +22,7 @@
  * J. Inform. Process., vol.10, n.3, pp.173--177, (1987).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void suffixes_zt(unsigned char *x, int m, int *suff) {

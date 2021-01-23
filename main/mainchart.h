@@ -2,39 +2,42 @@
 #define MAINCHART_H
 
 #include <QMainWindow>
-#include <QTableView>
 #include <QTabWidget>
+#include <QTableView>
 #include <QTableWidget>
 #include <QtCharts>
 
-#include "Tester/tester.h"
-#include "Algorithms/executablealgo.h"
+#include "algorithms/executablealgo.h"
+#include "tester/tester.h"
 
 QT_BEGIN_NAMESPACE
-namespace Ui { class MainChart; }
+namespace Ui {
+class MainChart;
+}
 QT_END_NAMESPACE
 
-class MainChart : public QMainWindow
-{
+class MainChart : public QMainWindow {
     Q_OBJECT
-public:
-    MainChart(QWidget *parent = nullptr);
+  public:
+    MainChart(QWidget* parent = nullptr);
     ~MainChart();
 
     void initChart();
 
-private:
-    Ui::MainChart *ui;
+  private:
+    Ui::MainChart* ui;
 
-    QTableWidget *runtimeTableResults;
-    QTabWidget *tabs;
-    QtCharts::QChart *chart;
+    QTableWidget* runtimeTableResults;
+    QTabWidget* tabs;
+    QtCharts::QChartView* chartView;
+    QtCharts::QChart* chart;
 
     Tester tester;
 
     vector<ExecutableAlgo*> algoritms;
 
-private slots:
+  private slots:
     void refreshAllAction();
+    void save(QString name);
 };
 #endif // MAINCHART_H

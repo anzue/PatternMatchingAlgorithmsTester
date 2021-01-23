@@ -21,7 +21,7 @@
  * Practical and Optimal String Matching. SPIRE, Lecture Notes in Computer Science, vol.3772, pp.376--387, Springer-Verlag, Berlin, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/log2.h"
 
 void verify_aoso6(unsigned char *y, int j, int n, unsigned char *x, int m, int q, unsigned int D, unsigned int mm, int *count) {

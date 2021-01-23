@@ -21,7 +21,7 @@
  * Fast and Flexible String Matching by Combining Bit-Parallelism and Suffix Automata. ACM J. Experimental Algorithmics, vol.5, pp.4, (2000).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 #define CHAR_BIT 8

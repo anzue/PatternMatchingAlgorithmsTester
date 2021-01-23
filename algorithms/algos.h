@@ -25,4 +25,7 @@ int search_fs_w4(unsigned char* P, int m, unsigned char* T, int n, float* time);
 int search_fs_w6(unsigned char* P, int m, unsigned char* T, int n, float* time);
 int search_fs_w8(unsigned char* P, int m, unsigned char* T, int n, float* time);
 
+int search_fjs( unsigned char *x, int m, unsigned char *y, int n , float* time);
+int search_fs(unsigned char *x, int m, unsigned char *y, int n, float *time);
+
 #endif // ALGOS_H

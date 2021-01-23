@@ -21,7 +21,7 @@
  * Efficient randomized pattern-matching algorithms. ibmjrd, vol.31, n.2, pp.249--260, (1987).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define REHASH(a, b, h) ((((h) - (a)*d) << 1) + (b))
 

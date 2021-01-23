@@ -21,7 +21,7 @@
  * Optimal canonization of all substrings of a string. Inf. Comput., vol.95, n.1, pp.76--95, (1991).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 
 void preKmp_ac(unsigned char *x, int m, int kmpNext[]) {
     int i, j;

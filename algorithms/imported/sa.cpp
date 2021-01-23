@@ -21,7 +21,7 @@
  * A new approach to text searching. Commun. ACM, vol.35, n.10, pp.74--82, ACM, New York, NY, USA, (1992).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preSA(unsigned char *x, int m, unsigned int S[]) { 

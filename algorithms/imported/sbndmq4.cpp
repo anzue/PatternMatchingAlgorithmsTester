@@ -23,7 +23,7 @@
  */
 
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define GRAM4(j) (B[y[j]]<<3)&(B[y[j-1]]<<2)&(B[y[j-2]]<<1)&B[y[j-3]]
 

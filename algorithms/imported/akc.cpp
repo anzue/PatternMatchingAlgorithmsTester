@@ -21,7 +21,7 @@
  * A New String Matching Algorithm. Int. J. Comput. Math., vol.80, pp.825--834, (2003).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 #define MIN(a,b) ((a) < (b) ? (a) : (b))

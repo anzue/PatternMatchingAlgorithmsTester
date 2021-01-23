@@ -22,7 +22,7 @@
  * Fun with Algorithms, Lecture Notes in Computer Science, vol.6099, pp.166--177, Springer-Verlag, Berlin, (2010).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_dbww(unsigned char *x, int m, unsigned char *y, int n) {

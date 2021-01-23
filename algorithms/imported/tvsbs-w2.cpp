@@ -17,7 +17,7 @@
  * download the tool at: http://www.dmi.unict.it/~faro/smart/
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
  void TVSBSpreBrBc_tvsbs_w2_tvsbs_w2(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {

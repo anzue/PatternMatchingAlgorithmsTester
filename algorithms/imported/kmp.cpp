@@ -21,7 +21,7 @@
  * Fast pattern matching in strings. SIAM J. Comput., vol.6, n.1, pp.323--350, (1977).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preKmp_kmp(unsigned char *x, int m, int kmpNext[]) {

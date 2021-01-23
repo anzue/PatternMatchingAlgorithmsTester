@@ -20,7 +20,7 @@
  * in L. Colussi. Fastest pattern matching in strings. J. Algorithms, vol.16, n.2, pp.163--189, (1994).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preRc(unsigned char *x, int m, int h[], int rcBc[MAX_SIGMA][MAX_PAT_LEN], int rcGs[]) {

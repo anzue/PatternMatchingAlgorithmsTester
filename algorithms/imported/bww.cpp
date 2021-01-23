@@ -22,7 +22,7 @@
  * Theor. Comput. Sci., vol.332, n.1-3, pp.391--404, Elsevier Science Publishers Ltd., Essex, UK, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_large_bww(unsigned char *x, int m, unsigned char *y, int n);

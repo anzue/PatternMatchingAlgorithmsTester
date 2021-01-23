@@ -21,7 +21,7 @@
  * Two Improved Single Pattern Matching Algorithms. ICAT Workshops, pp.419--422, IEEE Computer Society, Hangzhou, China, (2006).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #include "include/AUTOMATON.h"
 

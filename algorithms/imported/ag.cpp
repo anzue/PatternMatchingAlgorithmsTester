@@ -21,7 +21,7 @@
  * The Boyer-Moore-Galil string searching strategies revisited. SIAM J. Comput., vol.15, n.1, pp.98--105, (1986).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preBmBc_ag(unsigned char *x, int m, int bmBc[]) {

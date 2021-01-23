@@ -19,7 +19,7 @@
  * This is an implementation of the string matching algorithm based on DFA
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/AUTOMATON.h"
 
 int search_aut(unsigned char *x, int m, unsigned char *y, int n) {

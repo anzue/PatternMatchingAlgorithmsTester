@@ -41,7 +41,7 @@
  SUCH DAMAGE.
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void Pre_GS_fs_w6(unsigned char* x, int m, int bm_gs[])

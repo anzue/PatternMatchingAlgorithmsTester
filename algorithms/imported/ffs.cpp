@@ -22,7 +22,7 @@
  * J. Autom. Lang. Comb., vol.10, n.5/6, pp.589--608, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void Forward_Suffix_Function(unsigned char *x, int m, int bm_gs[MAX_PAT_LEN][MAX_SIGMA], int alpha) {

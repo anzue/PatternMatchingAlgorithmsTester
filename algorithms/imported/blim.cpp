@@ -23,7 +23,7 @@
  * Lecture Notes in Computer Science, vol.5369, pp.496--506, Springer-Verlag, Berlin, Gold Coast, Australia, (2008).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 

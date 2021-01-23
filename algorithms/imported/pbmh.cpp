@@ -22,7 +22,7 @@
  * Theor. Comput. Sci., vol.359, n.1, pp.329--343, Elsevier Science Publishers Ltd., Essex, UK, (2006).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_pbmh(unsigned char *x, int m, unsigned char *y, int n, int *FREQ)

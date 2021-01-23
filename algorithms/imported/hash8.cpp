@@ -21,7 +21,7 @@
  * Information Processing Letters, vol.102, n.6, pp.229--235, Elsevier North-Holland, (2007).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define RANK8 8
 

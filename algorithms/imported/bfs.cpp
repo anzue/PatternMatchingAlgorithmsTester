@@ -22,7 +22,7 @@
  * J. Autom. Lang. Comb., vol.10, n.5/6, pp.589--608, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 
 void PreBFS(unsigned char *x, int m, int bm_gs[MAX_PAT_LEN][MAX_SIGMA]) {
    int i, j, p, c, h, last, suffix_len, temp[MAX_PAT_LEN];

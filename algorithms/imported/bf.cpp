@@ -19,7 +19,7 @@
  * This is an implementation of the Brute Force algorithm
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 
 int search_bf(unsigned char *x, int m, unsigned char *y, int n) {
     int i, count, j;

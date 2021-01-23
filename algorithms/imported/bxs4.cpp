@@ -23,7 +23,7 @@
  * Q is the dimension of q-grams
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define Q 4 
 

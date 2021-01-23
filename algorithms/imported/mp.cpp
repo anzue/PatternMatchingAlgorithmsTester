@@ -20,7 +20,7 @@
  * in J. H. Morris and V. R. Pratt. A linear pattern-matching algorithm. (1970).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preMp(unsigned char *x, int m, int mpNext[]) {

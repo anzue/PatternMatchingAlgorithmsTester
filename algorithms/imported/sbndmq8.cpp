@@ -23,7 +23,7 @@
  */
 
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define F_8(j) (B[y[j]]<<7)&(B[y[j-1]]<<6)&(B[y[j-2]]<<5)&(B[y[j-3]]<<4)&(B[y[j-4]]<<3)&(B[y[j-5]]<<2)&(B[y[j-6]]<<1)&B[y[j-7]]
 

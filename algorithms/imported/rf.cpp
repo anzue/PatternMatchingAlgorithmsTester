@@ -20,7 +20,7 @@
  * in T. Lecroq. A variation on the Boyer-Moore algorithm. Theor. Comput. Sci., vol.92, n.1, pp.119--144, (1992).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #include "include/AUTOMATON.h"
 

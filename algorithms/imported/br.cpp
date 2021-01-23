@@ -22,7 +22,7 @@
  * Proceedings of the Prague Stringology Club Workshop '99, pp.16--28, ctu, (1999).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 
 void preBrBc_br(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {
    int a, b, i;

@@ -22,7 +22,7 @@
  * 17-th International Conference on Implementation and Application of Automata - CIAA 2012, pp.146--160 (2012).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 #define DSIGMA 65536

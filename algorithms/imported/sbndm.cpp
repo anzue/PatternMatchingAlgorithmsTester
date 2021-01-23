@@ -22,7 +22,7 @@
  * Lecture Notes in Computer Science, vol.2857, pp.80--94, Springer-Verlag, Berlin, (2003).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_large_sbndm(unsigned char *x, int m, unsigned char *y, int n);

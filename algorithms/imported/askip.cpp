@@ -24,7 +24,7 @@
  */
 
 #include <stddef.h>
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #include "include/log2.h"
 #define getZ(i) z[(i)]

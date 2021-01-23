@@ -22,7 +22,7 @@
  * Proceedings of the 10th International Symposium on String Processing and Information Retrieval SPIRE'03, (2003).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define w ((int)sizeof(unsigned int)*8)
 

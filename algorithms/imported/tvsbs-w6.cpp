@@ -18,7 +18,7 @@
  */
 
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void TVSBSpreBrBc_tvsbs_w6_tvsbs_w6(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {

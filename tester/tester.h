@@ -3,7 +3,7 @@
 
 #include <QList>
 #include <QString>
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "Algorithms/executablealgo.h"
 
 class Tester

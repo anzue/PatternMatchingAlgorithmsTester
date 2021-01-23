@@ -1,5 +1,5 @@
 QT += core gui
-QT += charts
+QT += charts opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -176,6 +176,7 @@ SOURCES += \
     main/mainchart.cpp
 
 HEADERS += \
+    algorithms/algos.h \
     algorithms/imported.h \
     algorithms/imported/include/AUTOMATON.h \
     algorithms/imported/include/GRAPH.h \

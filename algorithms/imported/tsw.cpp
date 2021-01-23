@@ -21,7 +21,7 @@
  * A Fast Pattern Matching Algorithm with Two Sliding Windows (TSW). J. Comput. Sci., vol.4, n.5, pp.393--401, (2008).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preBrBc_tsw(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {

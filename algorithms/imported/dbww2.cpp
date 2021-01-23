@@ -22,7 +22,7 @@
  * Fun with Algorithms, Lecture Notes in Computer Science, vol.6099, pp.166--177, Springer-Verlag, Berlin, (2010).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #define COUNTBIT(v,c)    v = v - ((v >> 1) & 0x55555555);\
                          v = (v & 0x33333333) + ((v >> 2) & 0x33333333);\

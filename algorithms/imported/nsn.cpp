@@ -20,7 +20,7 @@
  * in C. Hancart. Analyse exacte et en moyenne d'algorithmes de recherche d'un motif dans un texte. (1993).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_nsn(char *x, int m, char *y, int n) {

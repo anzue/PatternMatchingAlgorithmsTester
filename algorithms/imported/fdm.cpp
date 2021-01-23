@@ -20,7 +20,7 @@
  * in M. Crochemore and W. Rytter. Text algorithms. Oxford University Press, (1994).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 #include "include/AUTOMATON.h"
 

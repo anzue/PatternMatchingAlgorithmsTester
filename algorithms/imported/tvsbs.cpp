@@ -22,7 +22,7 @@
  * J. Indian Acad. Sci., Current Sci., vol.91, n.1, pp.47--53, (2006).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void TVSBSpreBrBc_tvsbs_tvsbs(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {

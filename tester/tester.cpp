@@ -8,14 +8,11 @@ unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 unsigned int i, ii;
 unsigned int m = 200, glob = 0;
 
-unsigned int SIGMA = 256, MINM = 2, MAXM = 200, N = TOTAL - MAX_PAT_LEN,
-             ITER = 20;
+unsigned int SIGMA = 256, MINM = 2, MAXM = 200, N = TOTAL - MAX_PAT_LEN, ITER = 20;
 
 LARGE_INTEGER start, finish, freq;
 
-vector<vector<float>>
-Tester::test(vector<ExecutableAlgo*> algorithms)
-{
+vector<vector<float>> Tester::test(vector<ExecutableAlgo*> algorithms) {
     QueryPerformanceFrequency(&freq);
     cout << "Running test : \n"
          << "SIGMA = " << SIGMA << "\n"
@@ -41,12 +38,16 @@ Tester::test(vector<ExecutableAlgo*> algorithms)
         std::cout << algorithms[i]->name << "\t\t";
     std::cout << "\n";
 
-    // for (m = MINM; m <=  MAXM;  m+= (m< 4)?2: (m < 16)?4 : (m < 64)? 4 : 8)
-    for (m = MINM; m <= MAXM; m += 4) {
+    for (QString& mstr : patternLengths) {
+        m = mstr.toInt();
+
+        if (m < MINM || m > MAXM)
+            continue;
+
         vector<int> matches(algorithms.size(), 0);
         vector<float> execTime(algorithms.size(), 0);
 
-        testInfo.push_back(QString::number(m));
+        testInfo.push_back(mstr);
 
         for (int ig = 0; ig < max_ig; ig++) {
             memcpy(T1, T, N);
@@ -68,8 +69,7 @@ Tester::test(vector<ExecutableAlgo*> algorithms)
                 }
             }
         }
-        cout << "M = " << m << "\t" << std::endl;
-
+        cout << "M = " << m << "\t";
         for (i = 0; i < algorithms.size(); ++i) {
             res[i].push_back(execTime[i] / ITER / max_ig);
             cout << execTime[i] / ITER / max_ig << "\t" << matches[i] << "\t";

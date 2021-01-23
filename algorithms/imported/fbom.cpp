@@ -22,7 +22,7 @@
  * Proceedings of the Prague Stringology Conference 2008, pp.146--160, Czech Technical University in Prague, Czech Republic, (2008).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_fbom(unsigned char *x, int m, unsigned char *y, int n) {

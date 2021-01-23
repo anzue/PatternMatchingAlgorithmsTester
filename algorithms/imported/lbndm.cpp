@@ -23,7 +23,7 @@
  * Lecture Notes in Computer Science, vol.2857, pp.80--94, Springer-Verlag, Berlin, Manaus, Brazil, (2003).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int verify_lbndm(unsigned char *y, int left, unsigned char *x, int m, int k) {

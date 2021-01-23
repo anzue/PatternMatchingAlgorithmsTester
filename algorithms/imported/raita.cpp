@@ -21,7 +21,7 @@
  * Tuning the Boyer-Moore-Horspool string searching algorithm. Softw. Pract. Exp., vol.22, n.10, pp.879--884, (1992).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preBmBc_raita(unsigned char *x, int m, int bmBc[]) {

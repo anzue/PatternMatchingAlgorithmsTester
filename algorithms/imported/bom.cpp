@@ -23,7 +23,7 @@
  */
 
 #include <stddef.h>
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/GRAPH.h"
 
 int getTransition(unsigned char *x, int p, List L[], unsigned char c) {

@@ -22,7 +22,7 @@
  * Proceedings of the 10th International Symposium on String Processing and Information Retrieval SPIRE'03, (2003).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_large_svm2(unsigned char *x, int m, unsigned char *y, int n);

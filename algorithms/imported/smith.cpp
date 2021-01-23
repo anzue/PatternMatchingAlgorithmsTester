@@ -17,7 +17,7 @@
  * download the tool at: http://www.dmi.unict.it/~faro/smart/
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preQsBc_smith(unsigned char *P, int m, int qbc[])

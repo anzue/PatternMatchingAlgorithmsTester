@@ -22,7 +22,7 @@
  * SOFSEM'99, Theory and Practice of Informatics, Lecture Notes in Computer Science, n.1725, pp.291--306, (1999).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_bom2(unsigned char *x, int m, unsigned char *y, int n) {

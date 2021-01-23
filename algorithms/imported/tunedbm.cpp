@@ -20,7 +20,7 @@
  * in A. Hume and D. M. Sunday. Fast string searching. Softw. Pract. Exp., vol.21, n.11, pp.1221--1248, (1991).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void preBmBc_tunedbm(unsigned char *x, int m, int bmBc[]) {

@@ -22,7 +22,7 @@
  * J. Autom. Lang. Comb., vol.10, n.5/6, pp.589--608, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 void Pre_GS_fs(unsigned char *x, int m, int bm_gs[]) {
@@ -43,9 +43,12 @@ void Pre_GS_fs(unsigned char *x, int m, int bm_gs[]) {
    }
 }
 
-int search_fs(unsigned char *x, int m, unsigned char *y, int n) {
+int search_fs(unsigned char *x, int m, unsigned char *y, int n, float *sum) {
    int a,i, j, k, s, count, bc[MAX_SIGMA], gs[MAX_PAT_LEN];
    char ch = x[m-1];
+
+   QueryPerformanceCounter(&start);
+
 
    /* Preprocessing */
    for (a=0; a < SIGMA; a++) bc[a]=m;
@@ -64,5 +67,8 @@ int search_fs(unsigned char *x, int m, unsigned char *y, int n) {
       if( j>m && s<n) count++;
       s += gs[m-j+1];
    }
+   QueryPerformanceCounter(&finish);
+   *sum += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+
    return count;
 }

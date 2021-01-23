@@ -22,7 +22,7 @@
  * The Second Haifa Annual International Stringology Research Workshop of the Israeli Science Foundation, (2005).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_large_bmh_sbndm(unsigned char *x, int m, unsigned char *y, int n);

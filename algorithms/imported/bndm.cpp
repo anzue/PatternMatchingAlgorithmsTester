@@ -21,7 +21,7 @@
  * A Bit-parallel Approach to Suffix Automata: Fast Extended String Matching. n.TR/DC--98--1, (1998).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 int search_large_bndm(unsigned char *x, int m, unsigned char *y, int n);
