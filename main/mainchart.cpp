@@ -163,16 +163,16 @@ void MainChart::save(QString name) {
     if (file.open(QFile::WriteOnly | QFile::Truncate)) {
         QTextStream data(&file);
         QStringList row;
-        QString separator;
+        QString separator = "| --- ";
 
-        data << "Sigma" << SIGMA << "\n";
+        // data << "Sigma" << SIGMA << "\n";
         row << "PatLength";
         for (int c = 0; c < runtimeTableResults->columnCount(); ++c) {
             row << runtimeTableResults->horizontalHeaderItem(c)->data(Qt::DisplayRole).toString();
-            separator = separator + "  ---  " + ((c < runtimeTableResults->columnCount() - 1) ? "|" : "");
+            separator = separator + " |  --- ";
         }
         data << "|  " << row.join("  |  ") << "  |\n";
-        data << "|  " << separator << "  |\n";
+        data << separator << " |\n";
 
         for (int r = 0; r < runtimeTableResults->rowCount(); ++r) {
             row.clear();
