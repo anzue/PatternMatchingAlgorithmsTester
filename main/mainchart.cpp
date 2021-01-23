@@ -42,22 +42,29 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
 
     QPushButton* saveToFile = new QPushButton("Save to file");
     saveFileName->setMaximumWidth(200);
-    connect(saveToFile, &QPushButton::released, [=]() { save(saveFileName->text()); });
+    connect(saveToFile, &QPushButton::released, [=]() {
+        save(saveFileName->text());
+        saveGraph(saveFileName->text());
+    });
 
     QCheckBox* autosave = new QCheckBox;
     autosave->setChecked(true);
     autosave->setText("Autosave");
 
     connect(refreshAll, &QPushButton::released, [=]() {
-        refreshAllAction();
+        runTests();
         if (autosave->isChecked())
             save("auto_" + QString::number(SIGMA));
     });
 
+    QPushButton* generateReportButton = new QPushButton;
+    generateReportButton->setText("Generate report");
+    connect(generateReportButton, &QPushButton::released, [=]() { generateReport("readme"); });
+
     QVBoxLayout* algorithmSelectionLayout = new QVBoxLayout;
 
     algoritms = {
-        new ExecutableAlgo("Horspool", search_h, false),
+        // new ExecutableAlgo("Horspool", search_h, false),
         new RZk_byte_v1<13>(),
         new RZk_byte_v1<14>(),
         (new RZk_byte_v1<15>())->withSelection(false),
@@ -137,8 +144,10 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     controlLayout->addWidget(saveFileName);
     controlLayout->addWidget(saveToFile);
     controlLayout->addWidget(autosave);
+    controlLayout->addWidget(generateReportButton);
 
     controlLayout->setAlignment(Qt::AlignTop);
+
     QWidget* fakeControlWidget = new QWidget;
     fakeControlWidget->setLayout(controlLayout);
     fakeControlWidget->setMaximumHeight(900);
@@ -160,12 +169,12 @@ MainChart::~MainChart() { delete ui; }
 
 void MainChart::save(QString name) {
     QFile file(name + ".md");
-    if (file.open(QFile::WriteOnly | QFile::Truncate)) {
+    if (file.open(QFile::WriteOnly | QFile::Append)) {
         QTextStream data(&file);
         QStringList row;
         QString separator = "| --- ";
 
-        // data << "Sigma" << SIGMA << "\n";
+        data << "Sigma" << SIGMA << "\n";
         row << "PatLength";
         for (int c = 0; c < runtimeTableResults->columnCount(); ++c) {
             row << runtimeTableResults->horizontalHeaderItem(c)->data(Qt::DisplayRole).toString();
@@ -188,11 +197,9 @@ void MainChart::save(QString name) {
         statusBar()->showMessage(tr("File saved successfully."), 3000);
         file.close();
     }
+}
 
-    //    QPixmap pixmap(chartView->size());
-    //    chartView->render(&pixmap);
-    //    pixmap.save(name + ".jpg");
-
+void MainChart::saveGraph(QString name) {
     QPixmap p = chartView->grab();
     QOpenGLWidget* glWidget = chartView->findChild<QOpenGLWidget*>();
     if (glWidget) {
@@ -205,7 +212,7 @@ void MainChart::save(QString name) {
     p.save(name + ".jpg", "jpg");
 }
 
-void MainChart::refreshAllAction() {
+void MainChart::runTests() {
     vector<ExecutableAlgo*> algosTmp;
     QList<QString> ver_labels;
 
@@ -285,4 +292,19 @@ void MainChart::refreshAllAction() {
     axisX->setTickCount(MIN(15, (hor_labels.rbegin()->toInt() - hor_labels.begin()->toInt()) / 4));
     axisX->setLabelFormat("%.0f");
     chart->setAxisX(axisX);
+}
+
+void MainChart::generateReport(QString name) {
+    QFile file(name + ".md");
+    file.remove();
+    file.close();
+    vector<int> sigmaValues = {8, 16, 32, 64, 96, 128, 192, 256};
+    int oldSigma = SIGMA;
+    for (int& sigma : sigmaValues) {
+        statusBar()->showMessage("Generating report for Sigma = " + sigma, 3000);
+        SIGMA = sigma;
+        runTests();
+        save(name);
+    }
+    SIGMA = oldSigma;
 }

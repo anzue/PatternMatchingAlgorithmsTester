@@ -37,7 +37,9 @@ class MainChart : public QMainWindow {
     vector<ExecutableAlgo*> algoritms;
 
   private slots:
-    void refreshAllAction();
+    void runTests();
     void save(QString name);
+    void saveGraph(QString name);
+    void generateReport(QString name = "report");
 };
 #endif // MAINCHART_H
