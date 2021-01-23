@@ -65,7 +65,8 @@ vector<vector<float>> Tester::test(vector<ExecutableAlgo*> algorithms) {
 
                 for (i = 0; i < algorithms.size(); ++i) {
                     matches[i] += algorithms[i]->search(P, (int)m, T1, (int)N, &execTime[i]);
-                    assert(matches[i] == matches[0]);
+                    assert(("Result for algo " + algorithms[i]->name + " is " + to_string(matches[i]) + "while for algo " + algorithms[0]->name + " is " + to_string(matches[0]),
+                            matches[i] == matches[0]));
                 }
             }
         }

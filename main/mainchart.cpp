@@ -169,10 +169,10 @@ void MainChart::save(QString name) {
         row << "PatLength";
         for (int c = 0; c < runtimeTableResults->columnCount(); ++c) {
             row << runtimeTableResults->horizontalHeaderItem(c)->data(Qt::DisplayRole).toString();
-            separator = separator + " --- " + ((c < runtimeTableResults->columnCount() - 1) ? "|" : "");
+            separator = separator + "  ---  " + ((c < runtimeTableResults->columnCount() - 1) ? "|" : "");
         }
-        data << row.join(" | ") << "\n";
-        data << separator << "\n";
+        data << "|  " << row.join("  |  ") << "  |\n";
+        data << "|  " << separator << "  |\n";
 
         for (int r = 0; r < runtimeTableResults->rowCount(); ++r) {
             row.clear();
@@ -183,7 +183,7 @@ void MainChart::save(QString name) {
                 else
                     row << runtimeTableResults->item(r, c)->text();
             }
-            data << row.join(" | ") << "\n";
+            data << "|  " << row.join("  |  ") << "  |\n";
         }
         statusBar()->showMessage(tr("File saved successfully."), 3000);
         file.close();
