@@ -1,6 +1,7 @@
-#include "algos.h"
 #include <stdio.h>
 #include <string.h>
+
+#include "algorithms/consts.h"
 
 #define word(a) *((unsigned short*)(a))
 
