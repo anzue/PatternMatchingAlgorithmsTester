@@ -6,44 +6,46 @@
 #include "algos.h"
 
 typedef int (*PatternMatchAlgo)(unsigned char*, int, unsigned char*, int, float*);
+typedef int (*KPatternMatchAlgo)(unsigned char*, int, unsigned char*, int, int, float*);
 
-class ExecutableAlgo {
-public:
-    std::string name = "no name";
+class Algo {
+  public:
+    std::string name;
     bool isSelected = true;
+
+    virtual int search(unsigned char* P, int M, unsigned char* T, int N, float* time) = 0;
+};
+
+class ExecutableAlgo : public Algo {
+  public:
     PatternMatchAlgo function;
 
-    ExecutableAlgo(std::string name, PatternMatchAlgo function, bool isSelected = true)
-    {
+    ExecutableAlgo(std::string name, PatternMatchAlgo function, bool isSelected = true) {
         this->name = name;
         this->isSelected = isSelected;
         this->function = function;
     }
 
-    virtual int search(unsigned char* P, int M, unsigned char* T, int N, float* time)
-    {
-        (*function)(P, M, T, N, time);
-    }
-
-    ExecutableAlgo* withSelection(bool active)
-    {
-        isSelected = active;
-        return this;
-    }
+    int search(unsigned char* P, int M, unsigned char* T, int N, float* time) { (*function)(P, M, T, N, time); }
 };
 
-template <int k>
-class RZk_byte_v1 : public ExecutableAlgo {
-public:
-    RZk_byte_v1()
-        : ExecutableAlgo("RZ_" + to_string(k), NULL, true)
-    {
+class KExecutableAlgo : public Algo {
+  public:
+    KPatternMatchAlgo function;
+    int k;
+
+    KExecutableAlgo(std::string pattern, KPatternMatchAlgo function = NULL, int k = 13, bool isSelected = true) {
+        auto pos = pattern.find("{}");
+        if (pos < pattern.size())
+            pattern.replace(pos, 2, to_string(k));
+
+        this->name = pattern;
+        this->isSelected = isSelected;
+        this->function = function;
+        this->k = k;
     }
 
-    int search(unsigned char* P, int M, unsigned char* T, int N, float* time = NULL)
-    {
-        return search_RZk_byte(P, M, T, N, k, time);
-    }
+    int search(unsigned char* P, int M, unsigned char* T, int N, float* time) { (*function)(P, M, T, N, k, time); }
 };
 
 #endif // EXECUTABLEALGO_H

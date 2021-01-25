@@ -18,7 +18,10 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    algorithms/developed/RZk_W2_byte.cpp \
+    algorithms/developed/RZk_W2_pointer.cpp \
     algorithms/developed/RZk_byte.cpp \
+    algorithms/developed/test_placeholder.cpp \
     algorithms/imported/ac.cpp \
     algorithms/imported/ag.cpp \
     algorithms/imported/akc.cpp \

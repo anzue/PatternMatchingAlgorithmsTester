@@ -12,7 +12,7 @@ unsigned int SIGMA = 256, MINM = 2, MAXM = 200, N = TOTAL - MAX_PAT_LEN, ITER = 
 
 LARGE_INTEGER start, finish, freq;
 
-vector<vector<float>> Tester::test(vector<ExecutableAlgo*> algorithms) {
+vector<vector<float>> Tester::test(vector<Algo*> algorithms) {
     QueryPerformanceFrequency(&freq);
     cout << "Running test : \n"
          << "SIGMA = " << SIGMA << "\n"
@@ -31,7 +31,7 @@ vector<vector<float>> Tester::test(vector<ExecutableAlgo*> algorithms) {
         glob = (glob * 123 + 3157) % 893;
     }
 
-    int max_ig = 10;
+    int max_ig = 5;
 
     std::cout << "Algo\t";
     for (i = 0; i < algorithms.size(); ++i)
@@ -57,7 +57,7 @@ vector<vector<float>> Tester::test(vector<ExecutableAlgo*> algorithms) {
                 glob = (glob * 123 + 3157) % 893;
             }
 
-            ITER = 4;
+            ITER = 20;
             for (ii = 0; ii < ITER; ii++) {
                 int patpos = (rand()) % (N - m - 2);
                 memcpy(T1 + patpos, P, m);
@@ -65,8 +65,13 @@ vector<vector<float>> Tester::test(vector<ExecutableAlgo*> algorithms) {
 
                 for (i = 0; i < algorithms.size(); ++i) {
                     matches[i] += algorithms[i]->search(P, (int)m, T1, (int)N, &execTime[i]);
-                    assert(("Result for algo " + algorithms[i]->name + " is " + to_string(matches[i]) + "while for algo " + algorithms[0]->name + " is " + to_string(matches[0]),
-                            matches[i] == matches[0]));
+
+                    if (matches[i] != matches[0]) {
+                        cout << "Result for algo " + algorithms[i]->name + " is " + to_string(matches[i]) + "while for algo " + algorithms[0]->name +
+                                    " is " + to_string(matches[0])
+                             << std::endl;
+                    }
+                    assert(matches[i] == matches[0]);
                 }
             }
         }

@@ -65,22 +65,38 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
 
     algoritms = {
         // new ExecutableAlgo("Horspool", search_h, false),
-        new RZk_byte_v1<13>(),
-        new RZk_byte_v1<14>(),
-        (new RZk_byte_v1<15>())->withSelection(false),
-        (new RZk_byte_v1<16>())->withSelection(false),
+        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 13, true),
+        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 14, true),
+        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 15, false),
+        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 16, false),
+
         new ExecutableAlgo("FSBNDM_W1", search_fsbndm_w1, false),
         new ExecutableAlgo("FSBNDM_W2", search_fsbndm_w2, false),
         new ExecutableAlgo("FSBNDM_W4", search_fsbndm_w4, false),
         new ExecutableAlgo("FSBNDM_W6", search_fsbndm_w6, false),
         new ExecutableAlgo("FSBNDM_W8", search_fsbndm_w8, true),
         new ExecutableAlgo("FSBNDM_31", search_fsbndmq31, false),
+
         new ExecutableAlgo("FS", search_fs, false),
         new ExecutableAlgo("FSw4", search_fs_w4, false),
         new ExecutableAlgo("FSw6", search_fs_w6, false),
         new ExecutableAlgo("FSw8", search_fs_w8, true),
         new ExecutableAlgo("FJS", search_fjs, false),
 
+        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 13, true),
+        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 14, true),
+        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 15, false),
+        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 16, false),
+
+        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 13, true),
+        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 14, true),
+        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 15, false),
+        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 16, false),
+
+        new KExecutableAlgo("test_algo_{}", search_test_algo, 13, true),
+        new KExecutableAlgo("test_algo_{}", search_test_algo, 14, true),
+        new KExecutableAlgo("test_algo_{}", search_test_algo, 15, false),
+        new KExecutableAlgo("test_algo_{}", search_test_algo, 16, false),
     };
 
     for (int i = 0; i < (int)algoritms.size(); ++i) {
@@ -105,7 +121,9 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     QComboBox* sigmaComboBox = new QComboBox;
 
     if (sigmaValues.isEmpty()) {
-        for (int i = 2; i <= 256; i += (i < 4) ? 2 : (i < 16) ? 4 : (i < 64) ? 8 : 16)
+        for (int i = 2; i <= 256; i += (i < 4) ? 2 : (i < 16) ? 4
+                                                 : (i < 64)   ? 8
+                                                              : 16)
             sigmaValues.append(QString::number(i));
     }
     sigmaComboBox->addItems(sigmaValues);
@@ -114,7 +132,9 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     connect(sigmaComboBox, QOverload<int>::of(&QComboBox::currentIndexChanged), [=](int index) { SIGMA = sigmaValues.at(index).toInt(); });
 
     if (patternLengths.isEmpty()) {
-        for (int i = 2; i <= MAX_PAT_LEN; i += (i < 16 ? 2 : i < 64 ? 4 : i < 128 ? 8 : 16))
+        for (int i = 2; i <= MAX_PAT_LEN; i += (i < 16 ? 2 : i < 64 ? 4
+                                                         : i < 128  ? 8
+                                                                    : 16))
             patternLengths.append(QString::number(i));
     }
 
@@ -174,7 +194,7 @@ void MainChart::save(QString name) {
         QStringList row;
         QString separator = "| --- ";
 
-        data << "Sigma" << SIGMA << "\n";
+        data << "  \nSigma" << SIGMA << "  \n";
         row << "PatLength";
         for (int c = 0; c < runtimeTableResults->columnCount(); ++c) {
             row << runtimeTableResults->horizontalHeaderItem(c)->data(Qt::DisplayRole).toString();
@@ -213,7 +233,7 @@ void MainChart::saveGraph(QString name) {
 }
 
 void MainChart::runTests() {
-    vector<ExecutableAlgo*> algosTmp;
+    vector<Algo*> algosTmp;
     QList<QString> ver_labels;
 
     unsigned int i, j, maxIdx;

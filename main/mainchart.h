@@ -34,7 +34,7 @@ class MainChart : public QMainWindow {
 
     Tester tester;
 
-    vector<ExecutableAlgo*> algoritms;
+    vector<Algo*> algoritms;
 
   private slots:
     void runTests();

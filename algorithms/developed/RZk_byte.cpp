@@ -5,8 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum)
-{
+int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum) {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;

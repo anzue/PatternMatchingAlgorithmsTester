@@ -25,7 +25,12 @@ int search_fs_w4(unsigned char* P, int m, unsigned char* T, int n, float* time);
 int search_fs_w6(unsigned char* P, int m, unsigned char* T, int n, float* time);
 int search_fs_w8(unsigned char* P, int m, unsigned char* T, int n, float* time);
 
-int search_fjs( unsigned char *x, int m, unsigned char *y, int n , float* time);
-int search_fs(unsigned char *x, int m, unsigned char *y, int n, float *time);
+int search_fjs(unsigned char* x, int m, unsigned char* y, int n, float* time);
+int search_fs(unsigned char* x, int m, unsigned char* y, int n, float* time);
+
+int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum);
+
+int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
 #endif // ALGOS_H
