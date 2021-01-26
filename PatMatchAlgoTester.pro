@@ -20,6 +20,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     algorithms/developed/RZk_W2_byte.cpp \
     algorithms/developed/RZk_W2_pointer.cpp \
+    algorithms/developed/RZk_W3_byte.cpp \
+    algorithms/developed/RZk_W3_pointer.cpp \
     algorithms/developed/RZk_byte.cpp \
     algorithms/developed/test_placeholder.cpp \
     algorithms/imported/ac.cpp \
@@ -174,7 +176,6 @@ SOURCES += \
     algorithms/imported/ww.cpp \
     algorithms/imported/zt.cpp \
     algorithms/imported/horspool.cpp \
-    tester/tester.cpp \
     main/main.cpp \
     main/mainchart.cpp
 
@@ -190,7 +191,6 @@ HEADERS += \
     algorithms/imported/include/timer.h \
     algorithms/consts.h \
     algorithms/executablealgo.h \
-    tester/tester.h \
     main/mainchart.h
 
 FORMS += \

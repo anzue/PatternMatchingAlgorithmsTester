@@ -5,7 +5,6 @@
 
 int searchBSDM(unsigned char* x, int m, unsigned char* y, int n);
 int search_h(unsigned char* P, int m, unsigned char* T, int n, float* time);
-int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
 int search_fsbndm_w1(unsigned char* x, int m, unsigned char* y, int n, float* time);
 int search_fsbndm_w2(unsigned char* x, int m, unsigned char* y, int n, float* time);
@@ -28,8 +27,13 @@ int search_fs_w8(unsigned char* P, int m, unsigned char* T, int n, float* time);
 int search_fjs(unsigned char* x, int m, unsigned char* y, int n, float* time);
 int search_fs(unsigned char* x, int m, unsigned char* y, int n, float* time);
 
+int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+
 int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
-int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum);
+int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+
+int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+int search_RZk_w3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
 int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 

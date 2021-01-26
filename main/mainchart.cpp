@@ -1,19 +1,32 @@
+#include <QCategoryAxis>
 #include <QHBoxLayout>
 #include <QPushButton>
+#include <QScrollArea>
 #include <QVBoxLayout>
 #include <QtCharts>
+
+#include <iomanip>
 
 #include "algorithms/consts.h"
 #include "mainchart.h"
 #include "ui_mainchart.h"
 
-using namespace QtCharts;
+const int TOTAL = 500000;
+unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
+
+unsigned int i, ii;
+unsigned int m = 200, glob = 0;
+
+unsigned int SIGMA = 256, MINM = 2, MAXM = 200, N = TOTAL - MAX_PAT_LEN, ITER = 20;
+
+LARGE_INTEGER start, finish, freq;
 
 QStringList patternLengths;
 QStringList sigmaValues;
 
+using namespace QtCharts;
+
 MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChart) {
-    tester = Tester();
     tabs = new QTabWidget;
 
     QWidget* tableTab = new QWidget;
@@ -61,8 +74,6 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     generateReportButton->setText("Generate report");
     connect(generateReportButton, &QPushButton::released, [=]() { generateReport("readme"); });
 
-    QVBoxLayout* algorithmSelectionLayout = new QVBoxLayout;
-
     algoritms = {
         // new ExecutableAlgo("Horspool", search_h, false),
         new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 13, true),
@@ -93,11 +104,23 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
         new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 15, false),
         new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 16, false),
 
+        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 13, true),
+        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 14, true),
+        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 15, false),
+        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 16, false),
+
+        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 13, true),
+        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 14, true),
+        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 15, false),
+        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 16, false),
+
         new KExecutableAlgo("test_algo_{}", search_test_algo, 13, true),
         new KExecutableAlgo("test_algo_{}", search_test_algo, 14, true),
         new KExecutableAlgo("test_algo_{}", search_test_algo, 15, false),
         new KExecutableAlgo("test_algo_{}", search_test_algo, 16, false),
     };
+
+    QVBoxLayout* algorithmSelectionLayout = new QVBoxLayout;
 
     for (int i = 0; i < (int)algoritms.size(); ++i) {
         QCheckBox* algoCheckbox = new QCheckBox;
@@ -114,9 +137,14 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
             }
         });
     }
+    QWidget* algorithmSelectionWidget = new QWidget;
+    algorithmSelectionWidget->setLayout(algorithmSelectionLayout);
+    QScrollArea* scrollArea = new QScrollArea;
+    scrollArea->setWidget(algorithmSelectionWidget);
+
     QVBoxLayout* controlLayout = new QVBoxLayout;
 
-    controlLayout->addLayout(algorithmSelectionLayout);
+    controlLayout->addWidget(scrollArea);
 
     QComboBox* sigmaComboBox = new QComboBox;
 
@@ -232,6 +260,22 @@ void MainChart::saveGraph(QString name) {
     p.save(name + ".jpg", "jpg");
 }
 
+vector<vector<float>> toRelativeResults(vector<vector<float>> defaultResult) {
+    vector<vector<float>> res(defaultResult.size(), vector<float>());
+
+    for (int patIndx = 0; patIndx < defaultResult[0].size(); ++patIndx) {
+        int minIndx = 0;
+        for (int algo_id = 0; algo_id < defaultResult.size(); ++algo_id) {
+            if (defaultResult[algo_id][patIndx] < defaultResult[minIndx][patIndx])
+                minIndx = algo_id;
+        }
+        for (int algo_id = 0; algo_id < defaultResult.size(); ++algo_id) {
+            res[algo_id].push_back(defaultResult[minIndx][patIndx] / defaultResult[algo_id][patIndx]);
+        }
+    }
+    return res;
+}
+
 void MainChart::runTests() {
     vector<Algo*> algosTmp;
     QList<QString> ver_labels;
@@ -245,8 +289,7 @@ void MainChart::runTests() {
         }
     }
 
-    auto res = tester.test(algosTmp);
-    auto hor_labels = tester.getTestInfo();
+    auto res = test(algosTmp);
 
     unsigned int algorithmsCount = res.size();
     unsigned int patternsCount = res[0].size();
@@ -278,7 +321,6 @@ void MainChart::runTests() {
     for (i = 0; i < patternsCount; ++i) {
         maxIdx = 0;
         for (j = 0; j < algorithmsCount; ++j) {
-            // runtimeTableResults->item(j, i)->setFont(simpleFont);
             if (res[j][i] < res[maxIdx][i])
                 maxIdx = j;
         }
@@ -286,7 +328,7 @@ void MainChart::runTests() {
     }
 
     runtimeTableResults->setVerticalHeaderLabels(ver_labels);
-    runtimeTableResults->setHorizontalHeaderLabels(hor_labels);
+    runtimeTableResults->setHorizontalHeaderLabels(horLabels);
     runtimeTableResults->update();
 
     chart->removeAllSeries();
@@ -294,12 +336,14 @@ void MainChart::runTests() {
     float miny = 1e9;
     float maxy = -1e9;
 
+    auto relativeResult = toRelativeResults(res);
+
     for (i = 0; i < algorithmsCount; ++i) {
         QLineSeries* series = new QLineSeries(chart);
 
         series->setName(ver_labels[i]);
         for (int j = 0; j < res[i].size(); ++j) {
-            series->append(hor_labels[j].toInt(), res[i][j]);
+            series->append(horLabels[j].toInt(), relativeResult[i][j]);
             miny = min(miny, res[i][j]);
             maxy = max(maxy, res[i][j]);
         }
@@ -307,9 +351,12 @@ void MainChart::runTests() {
     }
 
     chart->createDefaultAxes();
-    QValueAxis* axisX = new QValueAxis;
-    axisX->setRange(hor_labels.begin()->toInt(), hor_labels.rbegin()->toInt());
-    axisX->setTickCount(MIN(15, (hor_labels.rbegin()->toInt() - hor_labels.begin()->toInt()) / 4));
+    QCategoryAxis* axisX = new QCategoryAxis;
+    axisX->setRange(horLabels.begin()->toInt(), horLabels.rbegin()->toInt());
+    axisX->setTickCount(horLabels.size());
+    for (auto xlabel : horLabels)
+        axisX->append(xlabel, xlabel.toInt());
+
     axisX->setLabelFormat("%.0f");
     chart->setAxisX(axisX);
 }
@@ -318,13 +365,89 @@ void MainChart::generateReport(QString name) {
     QFile file(name + ".md");
     file.remove();
     file.close();
-    vector<int> sigmaValues = {8, 16, 32, 64, 96, 128, 192, 256};
+    vector<int> sigmaDisplayValues = {4, 8, 16, 32, 64, 96, 128, 192, 256};
     int oldSigma = SIGMA;
-    for (int& sigma : sigmaValues) {
+    for (int& sigma : sigmaDisplayValues) {
         statusBar()->showMessage("Generating report for Sigma = " + sigma, 3000);
         SIGMA = sigma;
         runTests();
         save(name);
     }
     SIGMA = oldSigma;
+}
+
+vector<vector<float>> MainChart::test(vector<Algo*> algorithms) {
+    QueryPerformanceFrequency(&freq);
+    cout << "Running test : \n"
+         << "SIGMA = " << SIGMA << "\n"
+         << "MINM = " << MINM << "\n"
+         << "MAXM = " << MAXM << "\n"
+         << std::endl;
+
+    vector<vector<float>> res(algorithms.size(), vector<float>(0));
+    horLabels.clear();
+    for (int i = 0; i < N; i++) {
+        T[i] = (rand() + glob % 320) % SIGMA;
+        glob = (glob * 11 + 30157) % 499;
+    }
+    for (int i = 0; i < m; i++) {
+        P[i] = (rand() + glob) % SIGMA;
+        glob = (glob * 123 + 3157) % 893;
+    }
+
+    int max_ig = 5;
+
+    //    std::setprecision(2);
+    //    std::cout << "Algo\t";
+    //    for (i = 0; i < algorithms.size(); ++i)
+    //        std::cout << std::setw(16) << algorithms[i]->name << " ";
+    //    std::cout << "\n";
+
+    for (QString& mstr : patternLengths) {
+        m = mstr.toInt();
+
+        if (m < MINM || m > MAXM)
+            continue;
+
+        vector<int> matches(algorithms.size(), 0);
+        vector<float> execTime(algorithms.size(), 0);
+
+        horLabels.push_back(mstr);
+
+        for (int ig = 0; ig < max_ig; ig++) {
+            memcpy(T1, T, N);
+
+            for (int i = 0; i < m; i++) {
+                P[i] = (rand() + glob) % SIGMA;
+                glob = (glob * 123 + 3157) % 893;
+            }
+
+            ITER = 20;
+            for (ii = 0; ii < ITER; ii++) {
+                int patpos = (rand()) % (N - m - 2);
+                memcpy(T1 + patpos, P, m);
+                memcpy(T1, P, m);
+
+                for (i = 0; i < algorithms.size(); ++i) {
+                    matches[i] += algorithms[i]->search(P, (int)m, T1, (int)N, &execTime[i]);
+
+                    if (matches[i] != matches[0]) {
+                        cout << "Result for algo " << algorithms[i]->name << " is " << matches[i]
+                             << " while for algo " + algorithms[0]->name + " is " + to_string(matches[0])
+                             << "\nM = " << m << ", SIGMA = " << SIGMA << std::endl;
+                    }
+                    // assert(matches[i] == matches[0]);
+                }
+            }
+        }
+        //  cout << "M = " << m << "\t";
+        for (i = 0; i < algorithms.size(); ++i) {
+            res[i].push_back(execTime[i] / ITER / max_ig);
+            //    cout << std::setw(16) << execTime[i] / ITER / max_ig << " "; //<< "\t" << matches[i] << "\t";
+        }
+        //  cout << "\n";
+    }
+    //  cout << std::endl;
+
+    return res;
 }

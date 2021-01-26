@@ -50,10 +50,18 @@ const unsigned int MAX_PAT_LEN = 520;
 
 extern unsigned int SIGMA, MINM, MAXM;
 
-extern float sumu2, sum_rzk[20], sum_bsdm;
+extern float timeu2, time_rzk[20], time_bsdm;
 extern LARGE_INTEGER start, finish, freq;
 
 extern QStringList patternLengths;
 extern QStringList sigmaValues;
+
+//#define MATCH(pos)                                       \
+//    {                                                    \
+//        cout << __FUNCTION__ << " " << pos << std::endl; \
+//        ++count;                                         \
+//    }
+
+#define MATCH(pos) ++count
 
 #endif // CONSTS_H

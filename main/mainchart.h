@@ -8,7 +8,6 @@
 #include <QtCharts>
 
 #include "algorithms/executablealgo.h"
-#include "tester/tester.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -22,6 +21,9 @@ class MainChart : public QMainWindow {
     MainChart(QWidget* parent = nullptr);
     ~MainChart();
 
+    vector<vector<float>> test(vector<Algo*> algorithms);
+    QList<QString> gethorLabels() { return horLabels; }
+
     void initChart();
 
   private:
@@ -32,9 +34,8 @@ class MainChart : public QMainWindow {
     QtCharts::QChartView* chartView;
     QtCharts::QChart* chart;
 
-    Tester tester;
-
     vector<Algo*> algoritms;
+    QList<QString> horLabels;
 
   private slots:
     void runTests();

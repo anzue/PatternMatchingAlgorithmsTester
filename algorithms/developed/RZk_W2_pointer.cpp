@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum) {
+int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
@@ -26,11 +26,14 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
     for (i = m - 1; i >= 0; --i)
         RQS[P[i]] = i + 1;
 
+    unsigned char* ndiv2 = T + n / 2;
+
     unsigned char* pos1 = T + n / 2;
     unsigned char* pos2 = T + n - m;
 
     while (pos1 >= T) {
-        while (z[word(pos1) & mask] != 0 && z[word(pos2) & mask] != 0) {
+        while (z[word(pos1) & mask] != 0 &&
+               z[word(pos2) & mask] != 0) {
             pos1 -= m;
             pos2 -= m;
         }
@@ -38,7 +41,7 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
             for (i = 0; i < m && P[i] == *(pos1 + i); ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos1 - T);
             }
             pos1 -= RQS[*(pos1 - 1)];
         } else
@@ -48,22 +51,22 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
             for (i = 0; i < m && P[i] == *(pos2 + i); ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos2 - T);
             }
             pos2 -= RQS[*(pos2 - 1)];
         } else
             pos2 -= m - 1;
     }
 
-    while (pos2 >= T + n / 2) {
+    while (pos2 > ndiv2) {
         while (z[word(pos2) & mask] != 0) {
             pos2 -= m;
         }
-        if (z[word(pos2 + 1) & mask] == 0) {
+        if (z[word(pos2 + 1) & mask] == 0 && pos2 > ndiv2) {
             for (i = 0; i < m && P[i] == *(pos2 + i); ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos2 - T);
             }
             pos2 -= RQS[*(pos2 - 1)];
         } else
@@ -71,6 +74,6 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
     }
 
     QueryPerformanceCounter(&finish);
-    *sum += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
     return count;
 }

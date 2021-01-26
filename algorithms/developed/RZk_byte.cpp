@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum) {
+int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
@@ -36,16 +36,16 @@ int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, flo
             pos += 1;
         } while (z[word(T + pos) & mask] != 0);
         pos -= 1;
-        for (i = 0; i < m && P[i] == T[pos + i]; ++i)
-            ;
+        for (i = 0; i < m && P[i] == T[pos + i]; ++i) {
+        };
         if (i == m) {
-            count++;
+            MATCH(pos);
         }
         pos += m - RQS[T[pos - 1]];
 
     } while (pos >= m);
 
     QueryPerformanceCounter(&finish);
-    *sum += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
     return count;
 }

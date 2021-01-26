@@ -43,7 +43,7 @@ void Pre_GS_fs(unsigned char *x, int m, int bm_gs[]) {
    }
 }
 
-int search_fs(unsigned char *x, int m, unsigned char *y, int n, float *sum) {
+int search_fs(unsigned char *x, int m, unsigned char *y, int n, float *time) {
    int a,i, j, k, s, count, bc[MAX_SIGMA], gs[MAX_PAT_LEN];
    char ch = x[m-1];
 
@@ -68,7 +68,7 @@ int search_fs(unsigned char *x, int m, unsigned char *y, int n, float *sum) {
       s += gs[m-j+1];
    }
    QueryPerformanceCounter(&finish);
-   *sum += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+   *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
 
    return count;
 }

@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
+int search_RZk_w3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;

@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* sum) {
+int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
@@ -26,14 +26,16 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
     for (i = m - 1; i >= 0; --i)
         RQS[P[i]] = i + 1;
 
-    int pos1 = n / 2;
+    int ndiv2 = n / 2;
+
+    int pos1 = ndiv2;
     int pos2 = n - m;
 
     while (pos1 >= 0) {
-        while (z[word(T + pos1) & mask] != 0 && z[word(T + pos2) & mask] != 0) {
+        while (z[word(T + pos1) & mask] != 0 &&
+               z[word(T + pos2) & mask] != 0) {
             pos1 -= m;
             pos2 -= m;
-            // cout << "yyyy " << pos1 << " " << pos2 << std::endl;
         }
         if (z[word(T + pos1 + 1) & mask] == 0) {
             for (i = 0; i < m && P[i] == T[pos1 + i]; ++i) {
@@ -45,7 +47,7 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
         } else
             pos1 -= m - 1;
 
-        if (z[word(T + pos2 + 1) & mask] == 0) {
+        if (z[word(T + pos2 + 1) & mask] == 0 && pos2 > ndiv2) {
             for (i = 0; i < m && P[i] == T[pos2 + i]; ++i) {
             };
             if (i == m) {
@@ -54,17 +56,13 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             pos2 -= RQS[T[pos2 - 1]];
         } else
             pos2 -= m - 1;
-
-        // cout << "aaaa " << pos1 << " " << pos2 << std::endl;
     }
 
-    while (pos2 + pos2 >= n) {
-        //  cout << "zzzz " << pos1 << " " << pos2 << std::endl;
+    while (pos2 > ndiv2) {
         while (z[word(T + pos2) & mask] != 0) {
             pos2 -= m;
-            // cout << "ssss " << pos1 << " " << pos2 << std::endl;
         }
-        if (z[word(T + pos2 + 1) & mask] == 0) {
+        if (z[word(T + pos2 + 1) & mask] == 0 && pos2 > ndiv2) {
             for (i = 0; i < m && P[i] == T[pos2 + i]; ++i) {
             };
             if (i == m) {
@@ -76,6 +74,6 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
     }
 
     QueryPerformanceCounter(&finish);
-    *sum += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
     return count;
 }
