@@ -47,7 +47,7 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
         } else
             pos1 -= m - 1;
 
-        if (z[word(pos2 + 1) & mask] == 0) {
+        if (z[word(pos2 + 1) & mask] == 0 && pos2 > ndiv2) {
             for (i = 0; i < m && P[i] == *(pos2 + i); ++i) {
             };
             if (i == m) {

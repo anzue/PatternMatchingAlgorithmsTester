@@ -15,6 +15,9 @@ class MainChart;
 }
 QT_END_NAMESPACE
 
+class ControlPanel;
+class ProgressBar;
+
 class MainChart : public QMainWindow {
     Q_OBJECT
   public:
@@ -22,25 +25,38 @@ class MainChart : public QMainWindow {
     ~MainChart();
 
     vector<vector<float>> test(vector<Algo*> algorithms);
-    QList<QString> gethorLabels() { return horLabels; }
 
     void initChart();
 
   private:
+    unsigned int MINM = 2, MAXM = 200, N = TOTAL - MAX_PAT_LEN, OUTER_ITER = 5, INNER_ITER = 5;
+
+    QStringList patternLengths;
+    QStringList sigmaValues;
+
+    QStringList getTestPatternLengths();
+
+#ifdef MATCH_DEBUGGING
+    std::map<string, vector<int>> matches_pos;
+#endif
+
     Ui::MainChart* ui;
+
+    ControlPanel* controlPanel;
+    ProgressBar* progressBar;
 
     QTableWidget* runtimeTableResults;
     QTabWidget* tabs;
     QtCharts::QChartView* chartView;
     QtCharts::QChart* chart;
 
-    vector<Algo*> algoritms;
-    QList<QString> horLabels;
-
   private slots:
     void runTests();
     void save(QString name);
     void saveGraph(QString name);
     void generateReport(QString name = "report");
+
+    friend class ControlPanel;
+    friend class ProgressBar;
 };
 #endif // MAINCHART_H

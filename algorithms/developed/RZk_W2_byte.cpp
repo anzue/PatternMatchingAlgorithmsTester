@@ -41,7 +41,7 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos1 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos1);
             }
             pos1 -= RQS[T[pos1 - 1]];
         } else
@@ -51,7 +51,7 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos2 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos2);
             }
             pos2 -= RQS[T[pos2 - 1]];
         } else
@@ -66,7 +66,7 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos2 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos2);
             }
             pos2 -= RQS[T[pos2 - 1]];
         } else

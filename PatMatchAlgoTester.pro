@@ -177,7 +177,11 @@ SOURCES += \
     algorithms/imported/zt.cpp \
     algorithms/imported/horspool.cpp \
     main/main.cpp \
-    main/mainchart.cpp
+    main/mainchart.cpp \
+    main/mainchart_save.cpp \
+    main/mainchart_test.cpp \
+    ui/controlpanel.cpp \
+    ui/progressbar.cpp
 
 HEADERS += \
     algorithms/algos.h \
@@ -191,7 +195,10 @@ HEADERS += \
     algorithms/imported/include/timer.h \
     algorithms/consts.h \
     algorithms/executablealgo.h \
-    main/mainchart.h
+    main/mainchart.h \
+    ui/controlpanel.h \
+    ui/progressbar.h \
+    variables.h
 
 FORMS += \
     main/mainchart.ui
