@@ -53,11 +53,10 @@ extern LARGE_INTEGER start, finish, freq;
 extern unsigned int SIGMA;
 extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 
-//#define MATCH_DEBUGGING
+#define MATCH_DEBUGGING
 
 #ifdef MATCH_DEBUGGING
-extern std::map<string, vector<int>>
-    matches_pos;
+extern std::map<string, vector<int>> matches_pos;
 #define MATCH(pos)                                               \
     {                                                            \
         if (matches_pos.find(__FUNCTION__) == matches_pos.end()) \
@@ -69,16 +68,13 @@ extern std::map<string, vector<int>>
 #define CLEAR_MATCHES \
     { matches_pos.clear(); }
 
-#define PRINT_MATCHES                                            \
-    {                                                            \
-        for (auto& pair : matches_pos) {                         \
-            cout << "Algo : " << setw(16) << pair.first << "  "; \
-            for (int& pos : pair.second)                         \
-                cout << pos << " ";                              \
-            cout << "\n";                                        \
-        }                                                        \
-        cout << std::endl;                                       \
-        CLEAR_MATCHES                                            \
+#define FIND_DIFF_MATCHES                                          \
+    {                                                              \
+        auto defAlgo = matches_pos.begin()->second;                \
+        for (auto& pair : matches_pos) {                           \
+            if (pair.second.size() != defAlgo.size())              \
+                PRINT_DIFF(matches_pos.begin()->first, pair.first) \
+        }                                                          \
     }
 
 #define PRINT_DIFF(ALGO1, ALGO2)                                                                                           \
@@ -87,10 +83,11 @@ extern std::map<string, vector<int>>
         vector<int> algo2 = matches_pos[ALGO2];                                                                            \
         std::sort(algo1.begin(), algo1.end());                                                                             \
         std::sort(algo2.begin(), algo2.end());                                                                             \
-        algo1.push_back(-1);                                                                                               \
-        algo2.push_back(-1);                                                                                               \
+        algo1.push_back(1000000000);                                                                                       \
+        algo2.push_back(1000000000);                                                                                       \
         int algo1_iter = 0;                                                                                                \
         int algo2_iter = 0;                                                                                                \
+        cout << "{ " << ALGO1 << " } , ( " << ALGO2 << " ) ";                                                              \
         while (algo1_iter < algo1.size() && algo2_iter < algo2.size()) {                                                   \
             if (algo1[algo1_iter] < algo2[algo2_iter]) {                                                                   \
                 cout << "{ ";                                                                                              \
@@ -120,6 +117,8 @@ extern std::map<string, vector<int>>
                     cout << "],";                                                                                          \
             }                                                                                                              \
         }                                                                                                                  \
+        algo1.pop_back();                                                                                                  \
+        algo2.pop_back();                                                                                                  \
         cout << std::endl;                                                                                                 \
     }
 
@@ -127,7 +126,7 @@ extern std::map<string, vector<int>>
 #define MATCH(pos) ++count
 
 #define CLEAR_MATCHES
-#define PRINT_MATCHES
+#define FIND_DIFF_MATCHES
 #define PRINT_DIFF(ALGO1, ALGO2)
 
 #endif // MATCH_DEBUGGING

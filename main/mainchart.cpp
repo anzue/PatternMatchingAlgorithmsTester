@@ -40,7 +40,7 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     tabs->addTab(chartView, "Graph represenation");
 
     if (patternLengths.isEmpty()) {
-        for (int i = 2; i <= MAX_PAT_LEN; i += (i < 16 ? 2 : i < 64 ? 4
+        for (int i = 4; i <= MAX_PAT_LEN; i += (i < 16 ? 2 : i < 64 ? 4
                                                          : i < 128  ? 8
                                                                     : 16))
             patternLengths.append(QString::number(i));
@@ -139,14 +139,14 @@ void MainChart::runTests() {
     float miny = 1e9;
     float maxy = -1e9;
 
-    auto relativeResult = toRelativeResults(res);
+    //auto relativeResult = toRelativeResults(res);
 
     for (i = 0; i < algorithmsCount; ++i) {
         QLineSeries* series = new QLineSeries(chart);
 
         series->setName(verLabels[i]);
         for (int j = 0; j < res[i].size(); ++j) {
-            series->append(horLabels[j].toInt(), relativeResult[i][j]);
+            series->append(horLabels[j].toInt(), res[i][j]);
             miny = min(miny, res[i][j]);
             maxy = max(maxy, res[i][j]);
         }
@@ -165,7 +165,7 @@ void MainChart::runTests() {
 }
 
 void MainChart::generateReport(QString name) {
-    QFile file(name + ".md");
+    QFile file(name);
     file.remove();
     file.close();
     vector<int> sigmaDisplayValues = {4, 8, 16, 32, 64, 96, 128, 192, 256};

@@ -14,12 +14,12 @@ ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
     algorithms = {
         // new ExecutableAlgo("Horspool", search_h, false),
         new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 13, true),
-        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 14, true),
-        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 15, false),
-        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 16, false),
+        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 14, false),
+        //   new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 15, false),
+        //   new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 16, false),
 
-        new ExecutableAlgo("FSBNDM_W1", search_fsbndm_w1, false),
-        new ExecutableAlgo("FSBNDM_W2", search_fsbndm_w2, false),
+        //   new ExecutableAlgo("FSBNDM_W1", search_fsbndm_w1, false),
+        //   new ExecutableAlgo("FSBNDM_W2", search_fsbndm_w2, false),
         new ExecutableAlgo("FSBNDM_W4", search_fsbndm_w4, false),
         new ExecutableAlgo("FSBNDM_W6", search_fsbndm_w6, false),
         new ExecutableAlgo("FSBNDM_W8", search_fsbndm_w8, true),
@@ -32,29 +32,35 @@ ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
         new ExecutableAlgo("FJS", search_fjs, false),
 
         new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 14, true),
-        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 15, false),
-        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 16, false),
+        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 14, false),
+        //  new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 15, false),
+        //  new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 16, false),
 
         new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 14, true),
-        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 15, false),
-        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 16, false),
+        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 14, false),
+        //  new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 15, false),
+        //  new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 16, false),
 
         new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 14, true),
-        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 15, false),
-        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 16, false),
+        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 14, false),
+        //  new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 15, false),
+        // new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 16, false),
 
         new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 14, true),
-        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 15, false),
-        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 16, false),
+        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 14, false),
+        //  new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 15, false),
+        // new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 16, false),
 
-        new KExecutableAlgo("test_algo_{}", search_test_algo, 13, true),
-        new KExecutableAlgo("test_algo_{}", search_test_algo, 14, true),
-        new KExecutableAlgo("test_algo_{}", search_test_algo, 15, false),
-        new KExecutableAlgo("test_algo_{}", search_test_algo, 16, false),
+        new KExecutableAlgo("Z{}_byte", search_Zk_byte, 13, true),
+        new KExecutableAlgo("Z{}_byte", search_Zk_byte, 14, false),
+
+        new KExecutableAlgo("Z{}_w2_byte", search_Zk_w2_byte, 13, true),
+        new KExecutableAlgo("Z{}_w2_byte", search_Zk_w2_byte, 14, false),
+
+        new KExecutableAlgo("test_algo_{}", search_test_algo, 13, false),
+        new KExecutableAlgo("test_algo_{}", search_test_algo, 14, false),
+        //  new KExecutableAlgo("test_algo_{}", search_test_algo, 15, false),
+        //  new KExecutableAlgo("test_algo_{}", search_test_algo, 16, false),
     };
 
     QPushButton* rerunTests = new QPushButton("Rerun tests");
@@ -63,20 +69,24 @@ ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
         parent->runTests();
     });
 
-    QLineEdit* saveFileName = new QLineEdit;
-    saveFileName->setText("savenamePattern");
-    saveFileName->setMaximumWidth(200);
+    QPushButton* saveTable = new QPushButton("Save table");
+    connect(saveTable, &QPushButton::released, [=]() {
+        QString name = QFileDialog::getSaveFileName(this, tr("Save table"), "../PatMatchAlgoTester/results", tr("MD reports (*.md)"));
 
-    QPushButton* saveToFile = new QPushButton("Save to file");
-    saveFileName->setMaximumWidth(200);
-    connect(saveToFile, &QPushButton::released, [=]() {
-        parent->save(saveFileName->text());
-        parent->saveGraph(saveFileName->text());
+        parent->save(name);
+    });
+
+    QPushButton* saveGraph = new QPushButton("Save graph");
+    connect(saveGraph, &QPushButton::released, [=]() {
+        QString name = QFileDialog::getSaveFileName(this, tr("Save graph"), "../PatMatchAlgoTester/results", tr("Images (*.jpg)"));
+        parent->saveGraph(name);
     });
 
     QPushButton* generateReportButton = new QPushButton;
     generateReportButton->setText("Generate report");
-    connect(generateReportButton, &QPushButton::released, [=]() { parent->generateReport("readme"); });
+    connect(generateReportButton, &QPushButton::released, [=]() {
+        QString name = QFileDialog::getSaveFileName(this, tr("Save File"), "../PatMatchAlgoTester/results", tr("MD reports (*.md)"));
+        parent->generateReport(name); });
 
     QComboBox* sigmaComboBox = new QComboBox;
 
@@ -135,8 +145,8 @@ ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
 
     controlLayout->addWidget(rerunTests);
 
-    controlLayout->addWidget(saveFileName);
-    controlLayout->addWidget(saveToFile);
+    controlLayout->addWidget(saveTable);
+    controlLayout->addWidget(saveGraph);
     controlLayout->addWidget(generateReportButton);
 
     controlLayout->setAlignment(Qt::AlignTop);

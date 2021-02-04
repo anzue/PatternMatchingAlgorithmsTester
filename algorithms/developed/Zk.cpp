@@ -5,8 +5,11 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
-    int i, s, count = 0, RQS[MAX_SIGMA];
+int search_Zk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
+
+    assert(m >= 4);
+
+    int i, s, count = 0, QS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
     char z[mask + 1];
@@ -17,33 +20,32 @@ int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, flo
     for (i = 0; i < m - 1; ++i) {
         z[word(P + i) & mask] = 0;
     }
-    for (i = 0; i < (1 << (k - b)); ++i) {
-        z[(i << b) | P[m - 1]] = 0;
+    for (i = 0; i < (1 << b); ++i) {
+        z[((P[m - 1] << b) | i) & mask] = 0;
     }
 
     for (i = 0; i < SIGMA; ++i)
-        RQS[i] = m + 1;
-    for (i = m - 1; i >= 0; --i)
-        RQS[P[i]] = i + 1;
+        QS[i] = m + 1;
+    for (i = 0; i < m; ++i)
+        QS[P[i]] = m - i;
 
-    int pos = n;
-    do {
+    int pos = -1;
+    while (pos < n) {
         do {
-            pos -= m;
+            pos += m - 1;
             while (z[word(T + pos) & mask] != 0) {
-                pos -= m;
+                pos += m - 1;
             }
-            pos += 1;
+            pos -= 1;
         } while (z[word(T + pos) & mask] != 0);
-        pos -= 1;
-        for (i = 0; i < m && P[i] == T[pos + i]; ++i) {
+
+        for (i = 0; i < m && P[i] == T[pos - m + 3 + i]; ++i) {
         };
         if (i == m) {
-            MATCH(pos);
+            MATCH(pos - m + 3);
         }
-        pos += m - RQS[T[pos - 1]];
-
-    } while (pos >= 0);
+        pos += QS[T[pos + 3]] - m + 2;
+    }
 
     QueryPerformanceCounter(&finish);
     *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;

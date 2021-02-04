@@ -29,16 +29,12 @@ class MainChart : public QMainWindow {
     void initChart();
 
   private:
-    unsigned int MINM = 2, MAXM = 200, N = TOTAL - MAX_PAT_LEN, OUTER_ITER = 5, INNER_ITER = 5;
+    unsigned int MINM = 2, MAXM = 200, N = TOTAL - 2 * MAX_PAT_LEN, OUTER_ITER = 3, INNER_ITER = 3;
 
     QStringList patternLengths;
     QStringList sigmaValues;
 
     QStringList getTestPatternLengths();
-
-#ifdef MATCH_DEBUGGING
-    std::map<string, vector<int>> matches_pos;
-#endif
 
     Ui::MainChart* ui;
 

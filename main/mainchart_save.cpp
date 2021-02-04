@@ -14,7 +14,7 @@
 using namespace QtCharts;
 
 void MainChart::save(QString name) {
-    QFile file(name + ".md");
+    QFile file(name);
     if (file.open(QFile::WriteOnly | QFile::Append)) {
         QTextStream data(&file);
         QStringList row;
@@ -55,5 +55,5 @@ void MainChart::saveGraph(QString name) {
         painter.drawImage(d, glWidget->grabFramebuffer());
         painter.end();
     }
-    p.save(name + ".jpg", "jpg");
+    p.save(name, "jpg");
 }

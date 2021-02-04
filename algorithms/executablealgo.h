@@ -26,7 +26,7 @@ class ExecutableAlgo : public Algo {
         this->function = function;
     }
 
-    int search(unsigned char* P, int M, unsigned char* T, int N, float* time) { (*function)(P, M, T, N, time); }
+    int search(unsigned char* P, int M, unsigned char* T, int N, float* time) { return (*function)(P, M, T, N, time); }
 };
 
 class KExecutableAlgo : public Algo {
@@ -45,7 +45,7 @@ class KExecutableAlgo : public Algo {
         this->k = k;
     }
 
-    int search(unsigned char* P, int M, unsigned char* T, int N, float* time) { (*function)(P, M, T, N, k, time); }
+    int search(unsigned char* P, int M, unsigned char* T, int N, float* time) { return (*function)(P, M, T, N, k, time); }
 };
 
 #endif // EXECUTABLEALGO_H

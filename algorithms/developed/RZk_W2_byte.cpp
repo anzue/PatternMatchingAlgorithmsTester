@@ -31,7 +31,7 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
     int pos1 = ndiv2;
     int pos2 = n - m;
 
-    while (pos1 >= 0) {
+    while (pos1 >= m) {
         while (z[word(T + pos1) & mask] != 0 &&
                z[word(T + pos2) & mask] != 0) {
             pos1 -= m;

@@ -35,6 +35,10 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
 int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 int search_RZk_w3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
+int search_Zk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+//int search_Zk_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+int search_Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
+
 int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
 #endif // ALGOS_H

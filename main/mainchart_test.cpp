@@ -7,6 +7,7 @@
 
 LARGE_INTEGER start, finish, freq;
 unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
+#define TN (T1 + m)
 
 unsigned int SIGMA = 256;
 
@@ -57,32 +58,34 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms) {
         vector<float> execTime(algorithms.size(), 0);
 
         for (ig = 0; ig < OUTER_ITER; ig++) {
-            memcpy(T1, T, N);
+            memset(T1, 0, TOTAL);
+            memcpy(TN, T, N);
 
             for (int i = 0; i < m; i++) {
                 P[i] = (rand() + glob) % SIGMA;
                 glob = (glob * 123 + 3157) % 893;
             }
 
-            //            progressBar->iterProgress->setValue(progressBar->iterProgress->value() + 1);
-            //            progressBar->iterProgress->setFormat(" Iter progress " + QString::number(ig));
-
             for (ii = 0; ii < INNER_ITER; ii++) {
 
                 int patpos = (rand()) % (N - m - 2);
-                memcpy(T1 + patpos, P, m);
-                memcpy(T1, P, m);
+                memcpy(TN + patpos, P, m);
+                memcpy(TN - m, P, m);
+                memcpy(TN + N, P, m);
                 CLEAR_MATCHES
 
                 for (i = 0; i < algorithms.size(); ++i) {
-                    matches[i] += algorithms[i]->search(P, (int)m, T1, (int)N, &execTime[i]);
+
+                    //cout << algorithms[i]->name << std::endl;
+
+                    matches[i] += algorithms[i]->search(P, (int)m, TN, (int)N, &execTime[i]);
 
                     if (matches[i] != matches[0]) {
                         cout << "Result for algo " << algorithms[i]->name << " is " << matches[i]
                              << " while for algo " + algorithms[0]->name + " is " + to_string(matches[0])
                              << "\nM = " << m << ", SIGMA = " << SIGMA << std::endl;
 
-                        PRINT_DIFF("search_RZk_w2_pointer", "search_RZk_w2_byte")
+                        FIND_DIFF_MATCHES
                     }
                     assert(matches[i] == matches[0]);
                 }

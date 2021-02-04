@@ -23,6 +23,8 @@ SOURCES += \
     algorithms/developed/RZk_W3_byte.cpp \
     algorithms/developed/RZk_W3_pointer.cpp \
     algorithms/developed/RZk_byte.cpp \
+    algorithms/developed/Zk.cpp \
+    algorithms/developed/Zk_w2.cpp \
     algorithms/developed/test_placeholder.cpp \
     algorithms/imported/ac.cpp \
     algorithms/imported/ag.cpp \
