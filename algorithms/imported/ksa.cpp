@@ -85,7 +85,7 @@ int search_ksa(const unsigned char *x, int m, const unsigned char *y, int n)
       D += D_;
       c = y[j];
       if (D & M) {
-         if (!strncmp(x+m1, y+j+1, m-m1)) {
+         if (!strncmp((char*)x+m1, (char*)y+j+1, m-m1)) {
             count++;
          }
       }

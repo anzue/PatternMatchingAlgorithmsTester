@@ -16,8 +16,6 @@
 
 #define get(i128, position) _mm_extract_epi32(i128, position)
 
-#define pack(pos) _
-
 
 
 #define pack_last(P, mod)         \
@@ -64,8 +62,9 @@
         }                                                                                                                                                 \
     }
 
-int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+int RZk_w3_simd1(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
 {
+
     // this array size must be >= 1 + MAX_PAT_LEN // 16
     __m128i packed_pattern[30];
 

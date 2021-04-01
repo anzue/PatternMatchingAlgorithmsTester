@@ -9,7 +9,7 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
-    char z[mask + 1];
+    char *z = new char[mask + 1];
 
     QueryPerformanceCounter(&start);
     memset(z, 1, mask);
@@ -31,7 +31,7 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
     unsigned char* pos1 = T + n / 2;
     unsigned char* pos2 = T + n - m;
 
-    while (pos1 >= T) {
+    while (pos1 + m >= T) {
         while (z[word(pos1) & mask] != 0 &&
                z[word(pos2) & mask] != 0) {
             pos1 -= m;
@@ -75,5 +75,7 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
 
     QueryPerformanceCounter(&finish);
     *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
-    return count;
+    delete[] z;
+
+    return count - 1;
 }

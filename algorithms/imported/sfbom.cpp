@@ -23,7 +23,8 @@
 #define FT(i,j)  LAMBDA[(i<<8) + j]
 
 int search_sfbom(unsigned char *x, int m, unsigned char *y, int n) {
-   int S[MAX_PAT_LEN], LAMBDA[SIGMA*MAX_SIGMA];
+   int *S  = new int[MAX_PAT_LEN];
+   int *LAMBDA = new int[SIGMA*MAX_SIGMA];
    int *trans[MAX_PAT_LEN];
    int i, j, p, q;
    int iMinus1, mMinus1, count;

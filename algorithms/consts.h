@@ -53,7 +53,7 @@ extern LARGE_INTEGER start, finish, freq;
 extern unsigned int SIGMA;
 extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 
-#define MATCH_DEBUGGING
+//#define MATCH_DEBUGGING
 
 #ifdef MATCH_DEBUGGING
 extern std::map<string, vector<int>> matches_pos;
@@ -68,14 +68,18 @@ extern std::map<string, vector<int>> matches_pos;
 #define CLEAR_MATCHES \
     { matches_pos.clear(); }
 
+//                PRINT_DIFF(std::next(std::next(matches_pos.begin()))->first, pair.first) \
+
 #define FIND_DIFF_MATCHES                                          \
     {                                                              \
         auto defAlgo = matches_pos.begin()->second;                \
         for (auto& pair : matches_pos) {                           \
-            if (pair.second.size() != defAlgo.size())              \
-                PRINT_DIFF(matches_pos.begin()->first, pair.first) \
-        }                                                          \
-    }
+      /*  if (pair.second.size() != defAlgo.size())    */               \
+        {                 \
+                PRINT_DIFF(matches_pos.begin()->first, pair.first)      \
+        }                                                               \
+        }                                                               \
+}
 
 #define PRINT_DIFF(ALGO1, ALGO2)                                                                                           \
     {                                                                                                                      \

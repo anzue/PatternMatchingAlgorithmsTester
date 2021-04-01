@@ -5,11 +5,13 @@
 
 #define word(a) *((unsigned short*)(T + a))
 
-int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
+
+int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+{
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
-    char z[mask + 1];
+    char* z = new char[mask + 1];
 
     QueryPerformanceCounter(&start);
     memset(z, 1, mask);
@@ -33,20 +35,18 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
     int pos2 = twondiv3;
     int pos3 = n - m;
 
-    while (pos1 >= 0) {
-        while (z[word(pos1) & mask] != 0 &&
-               z[word(pos2) & mask] != 0 &&
-               z[word(pos3) & mask] != 0) {
+    while (pos1 + m >= 0) {
+        while (z[word(pos1) & mask] != 0 && z[word(pos2) & mask] != 0 && z[word(pos3) & mask] != 0) {
             pos1 -= m;
             pos2 -= m;
             pos3 -= m;
         }
 
-        if (z[word(pos1 + 1) & mask] == 0) {
+        if (z[word(pos1 + 1) & mask] == 0 && pos1 >= 0) {
             for (i = 0; i < m && P[i] == T[pos1 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos1);
             }
             pos1 -= RQS[T[pos1 - 1]];
         } else
@@ -56,7 +56,7 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos2 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos2);
             }
             pos2 -= RQS[T[pos2 - 1]];
         } else
@@ -66,7 +66,7 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos3 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos3);
             }
             pos3 -= RQS[T[pos3 - 1]];
         } else
@@ -74,8 +74,7 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
     }
 
     while (pos2 >= ndiv3) {
-        while (z[word(pos2) & mask] != 0 &&
-               z[word(pos3) & mask] != 0) {
+        while (z[word(pos2) & mask] != 0 && z[word(pos3) & mask] != 0) {
             pos2 -= m;
             pos3 -= m;
         }
@@ -84,7 +83,7 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos2 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos2);
             }
             pos2 -= RQS[T[pos2 - 1]];
         } else
@@ -94,7 +93,7 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos3 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos3);
             }
             pos3 -= RQS[T[pos3 - 1]];
         } else
@@ -109,7 +108,7 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             for (i = 0; i < m && P[i] == T[pos3 + i]; ++i) {
             };
             if (i == m) {
-                count++;
+                MATCH(pos3);
             }
             pos3 -= RQS[T[pos3 - 1]];
         } else
@@ -118,5 +117,8 @@ int search_RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
 
     QueryPerformanceCounter(&finish);
     *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+
+    delete[] z;
+
     return count;
 }

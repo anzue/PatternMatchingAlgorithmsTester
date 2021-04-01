@@ -11,7 +11,8 @@ unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 
 unsigned int SIGMA = 256;
 
-QStringList MainChart::getTestPatternLengths() {
+QStringList MainChart::getTestPatternLengths()
+{
     QStringList res;
     for (QString& mstr : patternLengths) {
         int m = mstr.toInt();
@@ -22,7 +23,8 @@ QStringList MainChart::getTestPatternLengths() {
     return res;
 }
 
-vector<vector<float>> MainChart::test(vector<Algo*> algorithms) {
+vector<vector<float>> MainChart::test(vector<Algo*> algorithms)
+{
     QueryPerformanceFrequency(&freq);
     cout << "Running test : \n"
          << "SIGMA = " << SIGMA << "\n"
@@ -33,7 +35,7 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms) {
     vector<vector<float>> res(algorithms.size(), vector<float>(0));
     unsigned int m, glob = 0;
     for (int i = 0; i < N; i++) {
-        T[i] = (rand() + glob % 320) % SIGMA;
+        TN[i] = (rand() + glob % 320) % SIGMA;
         glob = (glob * 11 + 30157) % 499;
     }
     for (int i = 0; i < MAX_PAT_LEN; i++) {
@@ -58,27 +60,26 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms) {
         vector<float> execTime(algorithms.size(), 0);
 
         for (ig = 0; ig < OUTER_ITER; ig++) {
-            memset(T1, 0, TOTAL);
-            memcpy(TN, T, N);
+            //  memset(T1, 0, TOTAL);
+            //  memcpy(TN, T, N);
 
             for (int i = 0; i < m; i++) {
                 P[i] = (rand() + glob) % SIGMA;
                 glob = (glob * 123 + 3157) % 893;
             }
 
+            memcpy(TN - m, P, m);
+            memcpy(TN + N, P, m);
+
             for (ii = 0; ii < INNER_ITER; ii++) {
 
                 int patpos = (rand()) % (N - m - 2);
                 memcpy(TN + patpos, P, m);
-                memcpy(TN - m, P, m);
-                memcpy(TN + N, P, m);
+
                 CLEAR_MATCHES
 
                 for (i = 0; i < algorithms.size(); ++i) {
-
-                    //cout << algorithms[i]->name << std::endl;
-
-                    matches[i] += algorithms[i]->search(P, (int)m, TN, (int)N, &execTime[i]);
+                    matches[i] = algorithms[i]->search(P, (int)m, TN, (int)N, &execTime[i]);
 
                     if (matches[i] != matches[0]) {
                         cout << "Result for algo " << algorithms[i]->name << " is " << matches[i]

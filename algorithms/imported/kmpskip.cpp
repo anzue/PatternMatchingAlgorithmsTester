@@ -67,7 +67,7 @@ int search_kmpskip(unsigned char *x, int m, unsigned char *y, int n) {
    int kmpNext[MAX_PAT_LEN], list[MAX_PAT_LEN], mpNext[MAX_PAT_LEN], z[MAX_SIGMA];
 
    /* Preprocessing */
-   preMp(x, m, mpNext);
+   preMp((char*)x, m, mpNext);
    preKmp_kmpskip(x, m, kmpNext);
    memset(z, -1, SIGMA*sizeof(int));
    memset(list, -1, m*sizeof(int));
@@ -92,7 +92,7 @@ int search_kmpskip(unsigned char *x, int m, unsigned char *y, int n) {
    while (start <= n - m) {
       if (start > wall)
          wall = start;
-      k = attempt(y, x, m, start, wall);
+      k = attempt((char*)y, (char*)x, m, start, wall);
       wall = start + k;
       if (k == m) {
          OUTPUT(start);

@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_Zk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
+int search_Zk_shift2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
 
     assert(m >= 4);
 
@@ -29,22 +29,25 @@ int search_Zk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, floa
     for (i = 0; i < m; ++i)
         QS[P[i]] = m - i;
 
-    int pos = -1;
-    while (pos < n) {
-        do {
-            pos += m - 1;
-            while (z[word(T + pos) & mask] != 0) {
-                pos += m - 1;
-            }
-            pos -= 1;
-        } while (z[word(T + pos) & mask] != 0);
+    int pos = m-1;
+    int twom = m + m - 2;
 
-        for (i = 0; i < m && P[i] == T[pos - m + 3 + i]; ++i) {
-        };
-        if (i == m)  {
-            MATCH(pos - m + 3);
+    while (pos < n + m) {
+        while(z[word(T + pos) & mask] != 0 &&
+              z[word(T + pos + m - 1) & mask] != 0
+              ){
+            pos += twom;
         }
-        pos += QS[T[pos + 3]] - m + 2;
+        if(z[word(T + pos) & mask] != 0 ){
+            pos += m-1;
+        }
+
+        for (i = 0; i < m && P[i] == T[pos - m + 2 + i]; ++i) {
+        };
+        if (i == m) {
+            MATCH(pos - m + 2);
+        }
+        pos += QS[T[pos + 2]];
     }
 
     QueryPerformanceCounter(&finish);

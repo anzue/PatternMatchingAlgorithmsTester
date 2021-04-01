@@ -39,7 +39,7 @@
 
 static void bit_alloc_n(WORD_TYPE **name, int n, int bits) {
    int i;
-   name[0] = calloc(n * bit_size(bits), sizeof(WORD_TYPE));
+   name[0] = (unsigned int*)calloc(n * bit_size(bits), sizeof(WORD_TYPE));
    for (i = 1; i < n; i++) name[i] = name[0] + i*bit_size(bits);
 }
 
@@ -93,7 +93,7 @@ int search_large_bndml(unsigned char *x, int m, unsigned char *y, int n)
    bit_alloc_n(B, SIGMA, m);
    for (i = 0; i < m; i++) bit_set(B[x[m-1-i]], i);
 
-   D = bit_alloc(m);
+   D = (unsigned int*)bit_alloc(m);
    j = m-1;
    while (j < n) {
       int k = 1;

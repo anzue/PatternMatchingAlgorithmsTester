@@ -9,7 +9,7 @@ int search_Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, f
     int i, s, count = 0, QS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
-    char z[mask + 1];
+    char *z = new char[mask + 1];
 
     assert(m >= 4);
 
@@ -45,11 +45,11 @@ int search_Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, f
                 MATCH(pos1 - m + 2);
             }
             pos1 += QS[T[pos1 + 2]];
-            cout << "1" << pos1 << " " << pos2 << "\n";
+          //  cout << "1" << pos1 << " " << pos2 << "\n";
         } else
             pos1 += m - 2;
 
-        if (z[word(T + pos2 - 1) & mask] == 0) {
+        if (z[word(T + pos2 - 1) & mask] == 0 && pos2 < n) {
 
             for (i = 0; i < m && P[i] == T[pos2 - m + 2 + i]; ++i) {
             };
@@ -57,10 +57,10 @@ int search_Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, f
                 MATCH(pos2 - m + 2);
             }
             pos2 += QS[T[pos2 + 2]];
-            cout << "2 " << pos1 << " " << pos2 << "\n";
+         //   cout << "2 " << pos1 << " " << pos2 << "\n";
         } else
             pos2 += m - 2;
-        cout << pos1 << " " << n / 2 << " " << pos2 << " " << n << " " << m << std::endl;
+    //    cout << pos1 << " " << n / 2 << " " << pos2 << " " << n << " " << m << std::endl;
     }
 
     while (pos1 < n / 2) {
@@ -75,10 +75,14 @@ int search_Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, f
                 MATCH(pos1 - m + 2);
             }
             pos1 += QS[T[pos1 + 2]];
-        }
+        } else
+            pos1 += m - 2;
     }
 
     QueryPerformanceCounter(&finish);
     *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+
+    delete[] z;
+
     return count;
 }

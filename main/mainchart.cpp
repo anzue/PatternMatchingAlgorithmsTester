@@ -11,6 +11,8 @@
 #include <iomanip>
 #include <ui/controlpanel.h>
 
+#include <math.h>
+
 using namespace QtCharts;
 
 MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChart) {
@@ -111,7 +113,7 @@ void MainChart::runTests() {
                 item = new QTableWidgetItem();
                 runtimeTableResults->setItem(i, j, item);
             }
-            item->setText(QString::number(res[i][j]));
+            item->setText(QString::number(round(res[i][j] *100)/ 100));
         }
     }
 

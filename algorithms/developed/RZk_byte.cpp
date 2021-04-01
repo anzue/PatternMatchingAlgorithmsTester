@@ -9,7 +9,7 @@ int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, flo
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
-    char z[mask + 1];
+    char *z = new char[mask + 1];
 
     QueryPerformanceCounter(&start);
     memset(z, 1, mask);
@@ -47,5 +47,7 @@ int search_RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, flo
 
     QueryPerformanceCounter(&finish);
     *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    delete[] z;
+
     return count - 1;
 }
