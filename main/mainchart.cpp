@@ -170,7 +170,7 @@ void MainChart::generateReport(QString name) {
     QFile file(name);
     file.remove();
     file.close();
-    vector<int> sigmaDisplayValues = {4, 8, 16, 32, 64, 96, 128, 192, 256};
+    vector<int> sigmaDisplayValues = {8, 16, 32, 64, 96, 128, 192, 256};
     int oldSigma = SIGMA;
 
     progressBar->sigmaProgress->setValue(0);

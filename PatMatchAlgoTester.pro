@@ -1,10 +1,13 @@
 QT += core gui
-QT += charts opengl
+QT += opengl
+QT += charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++14
-QMAKE_CXXFLAGS += -fpermissive
+QMAKE_CXXFLAGS += -fpermissive -msse3 -O3 -march=native -mpopcnt
+
+
 
 # The following define makes your compiler emit warnings if you use
 # any Qt feature that has been marked deprecated (the exact warnings
@@ -20,12 +23,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     algorithms/developed/RZk_W2_byte.cpp \
     algorithms/developed/RZk_W2_pointer.cpp \
+    algorithms/developed/RZk_W3_SIMD1.cpp \
     algorithms/developed/RZk_W3_byte.cpp \
     algorithms/developed/RZk_W3_pointer.cpp \
     algorithms/developed/RZk_byte.cpp \
+    algorithms/developed/Z8.cpp \
     algorithms/developed/Zk.cpp \
+    algorithms/developed/Zk_shift2.cpp \
     algorithms/developed/Zk_w2.cpp \
     algorithms/developed/test_placeholder.cpp \
+    algorithms/developed/tmp.cpp \
     algorithms/imported/ac.cpp \
     algorithms/imported/ag.cpp \
     algorithms/imported/akc.cpp \
@@ -145,7 +152,6 @@ SOURCES += \
     algorithms/imported/sbndmq4.cpp \
     algorithms/imported/sbndmq6.cpp \
     algorithms/imported/sbndmq8.cpp \
-    algorithms/imported/sebom.cpp \
     algorithms/imported/sfbom.cpp \
     algorithms/imported/simon.cpp \
     algorithms/imported/skip.cpp \
@@ -153,7 +159,6 @@ SOURCES += \
     algorithms/imported/smoa.cpp \
     algorithms/imported/so.cpp \
     algorithms/imported/ssabs.cpp \
-    algorithms/imported/svm0.cpp \
     algorithms/imported/svm1.cpp \
     algorithms/imported/svm2.cpp \
     algorithms/imported/svm3.cpp \
@@ -175,7 +180,6 @@ SOURCES += \
     algorithms/imported/ufndmq4.cpp \
     algorithms/imported/ufndmq6.cpp \
     algorithms/imported/ufndmq8.cpp \
-    algorithms/imported/ww.cpp \
     algorithms/imported/zt.cpp \
     algorithms/imported/horspool.cpp \
     main/main.cpp \

@@ -39,7 +39,6 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             pos2 -= m;
         }
 
-      //  cout << pos1 << " \n";
         if (z[word(T + pos1 + 1) & mask] == 0) {
             for (i = 0; i < m && P[i] == T[pos1 + i]; ++i);
             if (i == m) {
@@ -47,11 +46,8 @@ int search_RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, 
             }
             pos1 -= RQS[T[pos1 - 1]];
 
-         //   cout << i << " " << int( P[i]) << " " << int(T[pos1 + i]) << " " <<  (P[i] == T[pos1 + i]) << "\n";
-         //   cout << pos1 <<" "  << i << " " << m  << " (1)\n";
         } else {
             pos1 -= m - 1;
-         //   cout << pos1 << " (2)\n";
 
         }
 

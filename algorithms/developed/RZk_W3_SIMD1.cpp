@@ -37,14 +37,6 @@
         mod > 14 ? *(P + 14) : 0, \
         mod > 14 ? *(P + 14) : 0);
 
-
-/*
- *   cout << packed_text[0] << packed_text[1] << " " << packed_pattern[(i - pos) / 16][0] << packed_pattern[(i - pos) / 16][1] << std::endl;           \
-        cout << _popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[(i - pos) / 16]))) << " " << eq << std::endl;                      \
-
- * cout << packed_text[0] << " " << bitset<32>(packed_text[1]) << " " << packed_pattern[(m) / 16][0] << " "  << bitset<32>(packed_pattern[(m) / 16][1]) << std::endl;           \
-        cout << _popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[(m) / 16]))) << " " << eq << std::endl; \*/
-
 #define check(pos)                                                                                                                                        \
     __m128i packed_text;                                                                                                                                  \
     bool eq = true;                                                                                                                                       \
@@ -82,24 +74,6 @@ int RZk_w3_simd1(unsigned char* P, int m, unsigned char* T, int n, int k, float*
     }
 
     packed_pattern[m / 16] = pack_last(P + m - m % 16, m % 16);
-
-    //            _mm_set_epi8(
-    //        mod > 0 ? P[m - mod] : 0,
-    //        mod > 1 ? P[m - mod + 1] : 0,
-    //        mod > 2 ? P[m - mod + 2] : 0,
-    //        mod > 3 ? P[m - mod + 3] : 0,
-    //        mod > 4 ? P[m - mod + 4] : 0,
-    //        mod > 5 ? P[m - mod + 5] : 0,
-    //        mod > 6 ? P[m - mod + 6] : 0,
-    //        mod > 7 ? P[m - mod + 7] : 0,
-    //        mod > 8 ? P[m - mod + 8] : 0,
-    //        mod > 9 ? P[m - mod + 9] : 0,
-    //        mod > 10 ? P[m - mod + 10] : 0,
-    //        mod > 11 ? P[m - mod + 11] : 0,
-    //        mod > 12 ? P[m - mod + 12] : 0,
-    //        mod > 13 ? P[m - mod + 13] : 0,
-    //        mod > 14 ? P[m - mod + 14] : 0,
-    //        0);
 
     memset(z, 1, mask);
 
