@@ -12,23 +12,21 @@
 ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
 
     algorithms = {
+        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 13, true),
+        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
+
         new KExecutableAlgo("test_algo_{}", search_test_algo, 13, true),
         new KExecutableAlgo("test_algo_{}", search_test_algo, 14, false),
-        //  new KExecutableAlgo("test_algo_{}", search_test_algo, 15, false),
-        //  new KExecutableAlgo("test_algo_{}", search_test_algo, 16, false),
 
         new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
         new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
 
         new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 13, true),
         new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 14, false),
-        //  new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 15, false),
-        // new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 16, false),
 
         new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 13, true),
         new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 14, false),
-        //  new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 15, false),
-        // new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 16, false),
+
 
         // new ExecutableAlgo("Horspool", search_h, false),
         new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 13, false),

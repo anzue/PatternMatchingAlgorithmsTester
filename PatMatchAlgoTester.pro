@@ -24,10 +24,12 @@ SOURCES += \
     algorithms/developed/RZk_W2_byte.cpp \
     algorithms/developed/RZk_W2_pointer.cpp \
     algorithms/developed/RZk_W3_SIMD1.cpp \
+    algorithms/developed/RZk_W3_SIMD2.cpp \
     algorithms/developed/RZk_W3_byte.cpp \
     algorithms/developed/RZk_W3_pointer.cpp \
     algorithms/developed/RZk_byte.cpp \
     algorithms/developed/Z8.cpp \
+    algorithms/developed/Z8_w2.cpp \
     algorithms/developed/Zk.cpp \
     algorithms/developed/Zk_shift2.cpp \
     algorithms/developed/Zk_w2.cpp \

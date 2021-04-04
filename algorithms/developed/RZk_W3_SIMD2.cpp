@@ -66,7 +66,7 @@
         packed_positions,             \
         _mm_setr_epi32(0, 0, val, 0));
 
-int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
 {
     // this array size must be >= 1 + MAX_PAT_LEN // 16
     __m128i packed_pattern[30];

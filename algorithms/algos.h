@@ -49,6 +49,6 @@ int search_Zk_shift2_byte(unsigned char* P, int m, unsigned char* T, int n, int 
 int search_RZk_w3_byte2(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
 int RZk_w3_simd1(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
-
+int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
 #endif // ALGOS_H

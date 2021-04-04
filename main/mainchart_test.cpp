@@ -1,9 +1,11 @@
 #include <iomanip>
+#include <algorithm>
 
 #include "algorithms/consts.h"
 #include "mainchart.h"
 #include "ui/progressbar.h"
 #include "ui_mainchart.h"
+
 
 LARGE_INTEGER start, finish, freq;
 unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
@@ -50,6 +52,12 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms)
     progressBar->mProgress->setMaximum(patternLengths.size());
     progressBar->mProgress->setValue(0);
 
+
+    vector<int> ids(algorithms.size(),0);
+    for(int i=0;i<ids.size();++i){
+        ids[i] = i;
+    }
+
     for (QString& mstr : patternLengths) {
         m = mstr.toInt();
 
@@ -76,19 +84,24 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms)
                 int patpos = (rand()) % (N - m - 2);
                 memcpy(TN + patpos, P, m);
 
-                CLEAR_MATCHES
+                CLEAR_MATCHES;
+
+                std::random_shuffle(ids.begin(),ids.end());
 
                 for (i = 0; i < algorithms.size(); ++i) {
-                    matches[i] = algorithms[i]->search(P, (int)m, TN, (int)N, &execTime[i]);
+                    int id_i = ids[i];
+                    int id_0 = ids[0];
 
-                    if (matches[i] != matches[0]) {
-                        cout << "Result for algo " << algorithms[i]->name << " is " << matches[i]
-                             << " while for algo " + algorithms[0]->name + " is " + to_string(matches[0])
+                    matches[id_i] = algorithms[id_i]->search(P, (int)m, TN, (int)N, &execTime[id_i]);
+
+                    if (matches[id_i] != matches[id_0]) {
+                        cout << "Result for algo " << algorithms[id_i]->name << " is " << matches[id_i]
+                             << " while for algo " + algorithms[id_0]->name + " is " + to_string(matches[id_0])
                              << "\nM = " << m << ", SIGMA = " << SIGMA << std::endl;
 
                         FIND_DIFF_MATCHES
                     }
-                    assert(matches[i] == matches[0]);
+                    assert(matches[id_i] == matches[id_0]);
                 }
             }
         }

@@ -8,12 +8,10 @@ int search_Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time
     assert(m >= 4);
 
     int i, s, count = 0, QS[MAX_SIGMA];
-    int mask = (1 << 8) - 1;
-    int b = 8;
     char z[256];
 
     QueryPerformanceCounter(&start);
-    memset(z, 1, mask);
+    memset(z, 1, 256);
 
     for (i = 0; i < m; ++i) {
         z[P[i]] = 0;
@@ -34,12 +32,12 @@ int search_Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time
             pos -= 1;
         } while (z[T[pos]] != 0);
 
-        for (i = 0; i < m && P[i] == T[pos - m + 2 + i]; ++i) {
+        for (i = 0; i < m && P[i] == T[pos - m + 1 + i]; ++i) {
         };
         if (i == m)  {
-            MATCH(pos - m + 2);
+            MATCH(pos - m + 1);
         }
-        pos += QS[T[pos + 2]] - m + 2;
+        pos += QS[T[pos + 1]] - m + 1;
     }
 
     QueryPerformanceCounter(&finish);
