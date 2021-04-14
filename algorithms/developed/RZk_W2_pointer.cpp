@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
+int RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
@@ -28,16 +28,26 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
 
     unsigned char* ndiv2 = T + n / 2;
 
-    unsigned char* pos1 = T + n / 2;
-    unsigned char* pos2 = T + n - m;
+    unsigned char* pos0 = T + n / 2;
+    unsigned char* pos1 = T + n - m;
 
-    while (pos1 + m >= T) {
-        while (z[word(pos1) & mask] != 0 &&
-               z[word(pos2) & mask] != 0) {
+    while (pos0 + m >= T) {
+        while (z[word(pos0) & mask] != 0 &&
+               z[word(pos1) & mask] != 0) {
+            pos0 -= m;
             pos1 -= m;
-            pos2 -= m;
         }
-        if (z[word(pos1 + 1) & mask] == 0) {
+        if (z[word(pos0 + 1) & mask] == 0) {
+            for (i = 0; i < m && P[i] == *(pos0 + i); ++i) {
+            };
+            if (i == m) {
+                MATCH(pos0 - T);
+            }
+            pos0 -= RQS[*(pos0 - 1)];
+        } else
+            pos0 -= m - 1;
+
+        if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv2) {
             for (i = 0; i < m && P[i] == *(pos1 + i); ++i) {
             };
             if (i == m) {
@@ -46,31 +56,21 @@ int search_RZk_w2_pointer(unsigned char* P, int m, unsigned char* T, int n, int 
             pos1 -= RQS[*(pos1 - 1)];
         } else
             pos1 -= m - 1;
-
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > ndiv2) {
-            for (i = 0; i < m && P[i] == *(pos2 + i); ++i) {
-            };
-            if (i == m) {
-                MATCH(pos2 - T);
-            }
-            pos2 -= RQS[*(pos2 - 1)];
-        } else
-            pos2 -= m - 1;
     }
 
-    while (pos2 > ndiv2) {
-        while (z[word(pos2) & mask] != 0) {
-            pos2 -= m;
+    while (pos1 > ndiv2) {
+        while (z[word(pos1) & mask] != 0) {
+            pos1 -= m;
         }
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > ndiv2) {
-            for (i = 0; i < m && P[i] == *(pos2 + i); ++i) {
+        if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv2) {
+            for (i = 0; i < m && P[i] == *(pos1 + i); ++i) {
             };
             if (i == m) {
-                MATCH(pos2 - T);
+                MATCH(pos1 - T);
             }
-            pos2 -= RQS[*(pos2 - 1)];
+            pos1 -= RQS[*(pos1 - 1)];
         } else
-            pos2 -= m - 1;
+            pos1 -= m - 1;
     }
 
     QueryPerformanceCounter(&finish);

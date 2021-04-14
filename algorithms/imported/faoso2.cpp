@@ -44,9 +44,9 @@ void verify_faoso2(unsigned char *y, int j, int n, unsigned char *x, int m, int 
    }
 }
 
-int search_large_faoso2(unsigned char *x, int m, unsigned char *y, int n, int q);
+int large_faoso2(unsigned char *x, int m, unsigned char *y, int n, int q);
 
-int search_faoso2(unsigned char *x, int m, unsigned char *y, int n) {
+int faoso2(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, h, mm;
    unsigned int masq;
    int i, j, u, count;
@@ -54,7 +54,7 @@ int search_faoso2(unsigned char *x, int m, unsigned char *y, int n) {
    int q=2;
 
    u = 2;
-   if(m>32-u+1) return search_large_faoso2(x,m,y,n,q);
+   if(m>32-u+1) return large_faoso2(x,m,y,n,q);
    if(m<=q) return -1;   
    
    /* Preprocessing */
@@ -122,7 +122,7 @@ void verify_faoso2_large(unsigned char *y, int j, int n, unsigned char *x, int m
    }
 }
 
-int search_large_faoso2(unsigned char *x, int m, unsigned char *y, int n, int q) {
+int large_faoso2(unsigned char *x, int m, unsigned char *y, int n, int q) {
    unsigned int B[MAX_SIGMA], D, h, mm;
    unsigned int masq;
    int i, j, u, count, p_len;

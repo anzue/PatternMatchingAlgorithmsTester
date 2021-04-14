@@ -28,15 +28,15 @@
 #define GRAM4(j) (B[y[j]]<<3)&(B[y[j-1]]<<2)&(B[y[j-2]]<<1)&B[y[j-3]]
 
 
-int search_large_sbndmq4(unsigned char *x, int m, unsigned char *y, int n) ;
+int large_sbndmq4(unsigned char *x, int m, unsigned char *y, int n) ;
 
-int search_sbndmq4(unsigned char *x, int m, unsigned char *y, int n) {
+int sbndmq4(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, q;
    int i, j, pos, mMinusq, mq, count, shift;
    q = 4;
 
    if(m<q) return -1;
-   if(m>32) return search_large_sbndmq4(x,m,y,n);
+   if(m>32) return large_sbndmq4(x,m,y,n);
 
    /* Preprocessing */
    count = 0;
@@ -79,7 +79,7 @@ int search_sbndmq4(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_sbndmq4(unsigned char *x, int m, unsigned char *y, int n) {
+int large_sbndmq4(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, q, shift;
    int i, j, pos, mMinusq, mq, count, p_len;
    q = 4;

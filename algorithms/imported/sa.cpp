@@ -33,13 +33,13 @@ void preSA(unsigned char *x, int m, unsigned int S[]) {
    } 
 } 
 
-int search_large_sa(unsigned char *x, int m, unsigned char *y, int n);
+int large_sa(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_sa(unsigned char *x, int m, unsigned char *y, int n) { 
+int sa(unsigned char *x, int m, unsigned char *y, int n) { 
    unsigned int lim, D; 
    unsigned int S[MAX_SIGMA], F;
    int j, count; 
-   if (m > WORD) return search_large_sa(x,m,y,n);
+   if (m > WORD) return large_sa(x,m,y,n);
 
    /* Preprocessing */ 
    preSA(x, m, S); 
@@ -60,7 +60,7 @@ int search_sa(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_sa(unsigned char *x, int m, unsigned char *y, int n) { 
+int large_sa(unsigned char *x, int m, unsigned char *y, int n) { 
    unsigned int lim, D,k,h,p_len; 
    unsigned int S[MAX_SIGMA], F;
    int j, count; 

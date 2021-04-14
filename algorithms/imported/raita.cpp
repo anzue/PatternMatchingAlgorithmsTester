@@ -32,7 +32,7 @@ void preBmBc_raita(unsigned char *x, int m, int bmBc[]) {
       bmBc[x[i]] = m - i - 1;
 }
 
-int search_raita(unsigned char *x, int m, unsigned char *y, int n) {
+int raita(unsigned char *x, int m, unsigned char *y, int n) {
    int j, bmBc[MAX_SIGMA], count;
    unsigned char c, firstCh, *secondCh, middleCh, lastCh;
 

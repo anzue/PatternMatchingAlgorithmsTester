@@ -67,7 +67,7 @@ void Pre_GS_fs_w4(unsigned char* x, int m, int bm_gs[])
     }
 }
 
-int search_fs_w4(unsigned char* P, int m, unsigned char* T, int n, float* time)
+int fs_w4(unsigned char* P, int m, unsigned char* T, int n, float* time)
 {
     int i, j, s1, s2, s3, s4, k1, k2, k3, k4, i1, i2, i3;
     int h, count, hbcr[MAX_SIGMA], hbcl[MAX_SIGMA], gsR[MAX_PAT_LEN], gsL[MAX_PAT_LEN];

@@ -9,63 +9,69 @@
 #include <QScrollArea>
 #include <QVBoxLayout>
 
-ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
+ControlPanel::ControlPanel(MainChart* parent)
+    : QWidget(parent)
+{
 
     algorithms = {
+        new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 13, true),
+
+        new KExecutableAlgo("RZ{}_w2_simd2", RZk_w2_mmx, 13, true),
+        new KExecutableAlgo("RZ{}_w2_simd2", RZk_w2_mmx, 14, false),
+
         new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 13, true),
         new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
 
-        new KExecutableAlgo("test_algo_{}", search_test_algo, 13, true),
-        new KExecutableAlgo("test_algo_{}", search_test_algo, 14, false),
+        new KExecutableAlgo("test_algo_{}", test_algo, 13, true),
+        new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
 
         new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
         new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w3_byte", search_RZk_w3_byte, 14, false),
+        new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 13, true),
+        new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w3_pointer", search_RZk_w3_pointer, 14, false),
+        new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 13, true),
+        new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 14, false),
 
+        // new ExecutableAlgo("Horspool", h, false),
+        new KExecutableAlgo("RZ{}_byte", RZk_byte, 13, false),
+        new KExecutableAlgo("RZ{}_byte", RZk_byte, 14, false),
+        //   new KExecutableAlgo("RZ{}_byte", RZk_byte, 15, false),
+        //   new KExecutableAlgo("RZ{}_byte", RZk_byte, 16, false),
 
-        // new ExecutableAlgo("Horspool", search_h, false),
-        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 13, false),
-        new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 14, false),
-        //   new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 15, false),
-        //   new KExecutableAlgo("RZ{}_byte", search_RZk_byte, 16, false),
+        //   new ExecutableAlgo("FSBNDM_W1", fsbndm_w1, false),
+        //   new ExecutableAlgo("FSBNDM_W2", fsbndm_w2, false),
+        new ExecutableAlgo("FSBNDM_W4", fsbndm_w4, false),
+        new ExecutableAlgo("FSBNDM_W6", fsbndm_w6, false),
+        new ExecutableAlgo("FSBNDM_W8", fsbndm_w8, false),
+        new ExecutableAlgo("FSBNDM_31", fsbndmq31, false),
 
-        //   new ExecutableAlgo("FSBNDM_W1", search_fsbndm_w1, false),
-        //   new ExecutableAlgo("FSBNDM_W2", search_fsbndm_w2, false),
-        new ExecutableAlgo("FSBNDM_W4", search_fsbndm_w4, false),
-        new ExecutableAlgo("FSBNDM_W6", search_fsbndm_w6, false),
-        new ExecutableAlgo("FSBNDM_W8", search_fsbndm_w8, false),
-        new ExecutableAlgo("FSBNDM_31", search_fsbndmq31, false),
+        new ExecutableAlgo("FS", fs, false),
+        new ExecutableAlgo("FSw4", fs_w4, false),
+        new ExecutableAlgo("FSw6", fs_w6, false),
+        new ExecutableAlgo("FSw8", fs_w8, true),
+        new ExecutableAlgo("FJS", fjs, false),
 
-        new ExecutableAlgo("FS", search_fs, false),
-        new ExecutableAlgo("FSw4", search_fs_w4, false),
-        new ExecutableAlgo("FSw6", search_fs_w6, false),
-        new ExecutableAlgo("FSw8", search_fs_w8, true),
-        new ExecutableAlgo("FJS", search_fjs, false),
+        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 13, true),
+        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 14, false),
+        //  new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 15, false),
+        //  new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 16, false),
 
-        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 14, false),
-        //  new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 15, false),
-        //  new KExecutableAlgo("RZ{}_w2_byte", search_RZk_w2_byte, 16, false),
+        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 13, true),
+        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 14, false),
+        //  new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 15, false),
+        //  new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 16, false),
 
-        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 14, false),
-        //  new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 15, false),
-        //  new KExecutableAlgo("RZ{}_w2_pointer", search_RZk_w2_pointer, 16, false),
+        new KExecutableAlgo("Z{}_byte", Zk_byte, 13, true),
+        new KExecutableAlgo("Z{}_byte", Zk_byte, 14, false),
 
-        new KExecutableAlgo("Z{}_byte", search_Zk_byte, 13, true),
-        new KExecutableAlgo("Z{}_byte", search_Zk_byte, 14, false),
+        new KExecutableAlgo("Z{}_w2_byte", Zk_w2_byte, 13, true),
+        new KExecutableAlgo("Z{}_w2_byte", Zk_w2_byte, 14, false),
 
-        new KExecutableAlgo("Z{}_w2_byte", search_Zk_w2_byte, 13, true),
-        new KExecutableAlgo("Z{}_w2_byte", search_Zk_w2_byte, 14, false),
+        new ExecutableAlgo("Z8", Z8_byte, false),
 
-        new ExecutableAlgo("Z8", search_Z8_byte, true),
-
-      //  new KExecutableAlgo("Z{}_shift2", search_Zk_shift2_byte, 13, true),
+        //  new KExecutableAlgo("Z{}_shift2", Zk_shift2_byte, 13, true),
 
     };
 
@@ -144,15 +150,13 @@ ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
     outerItersComboBox->setMinimum(5);
     outerItersComboBox->setMaximum(500);
     outerItersComboBox->setValue(5);
-    connect(outerItersComboBox, QOverload<int>::of(&QSpinBox::valueChanged), [=](int value) { parent->OUTER_ITER = value;  });
-
+    connect(outerItersComboBox, QOverload<int>::of(&QSpinBox::valueChanged), [=](int value) { parent->OUTER_ITER = value; });
 
     QSpinBox* innerItersComboBox = new QSpinBox;
     innerItersComboBox->setMinimum(1);
     innerItersComboBox->setMaximum(20);
     innerItersComboBox->setValue(3);
-    connect(innerItersComboBox, QOverload<int>::of(&QSpinBox::valueChanged), [=](int value) { parent->INNER_ITER = value;  });
-
+    connect(innerItersComboBox, QOverload<int>::of(&QSpinBox::valueChanged), [=](int value) { parent->INNER_ITER = value; });
 
     controlLayout->addWidget(new QLabel("Alphabet Size"));
     controlLayout->addWidget(sigmaComboBox);
@@ -181,7 +185,8 @@ ControlPanel::ControlPanel(MainChart* parent) : QWidget(parent) {
     this->setMaximumWidth(400);
 }
 
-vector<Algo*> ControlPanel::getActiveAlgorithms() {
+vector<Algo*> ControlPanel::getActiveAlgorithms()
+{
     vector<Algo*> tmp;
     for (auto& algo : algorithms)
         if (algo->isSelected)

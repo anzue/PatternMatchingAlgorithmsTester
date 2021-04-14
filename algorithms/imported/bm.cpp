@@ -65,7 +65,7 @@ void preBmGs_bm(unsigned char *x, int m, int bmGs[]) {
 }
  
  
-int search_bm(unsigned char *x, int m, unsigned char *y, int n) {
+int bm(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, bmGs[MAX_PAT_LEN], bmBc[MAX_SIGMA], count;
  
    /* Preprocessing */

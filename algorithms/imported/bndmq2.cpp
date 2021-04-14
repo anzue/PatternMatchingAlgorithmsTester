@@ -29,14 +29,14 @@
 #define GRAM2(i) (B[y[i+1]]<<1)&B[y[i]]
 
 
-int search_large_bndmq2(unsigned char *x, int m, unsigned char *y, int n);
+int large_bndmq2(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_bndmq2(unsigned char *x, int m, unsigned char *y, int n) {
+int bndmq2(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, B[MAX_SIGMA], M, s;
    int i,j,q, count, first;
    q = 2;
    if(m<q) return -1;
-   if(m>WORD) return search_large_bndmq2(x,m,y,n);
+   if(m>WORD) return large_bndmq2(x,m,y,n);
 
    /* Preprocessing */
    for (i=0; i<SIGMA; i++) B[i] = 0;
@@ -77,7 +77,7 @@ int search_bndmq2(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_bndmq2(unsigned char *x, int m, unsigned char *y, int n) {
+int large_bndmq2(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, B[MAX_SIGMA], M, s;
    int i,j,q, count, first, p_len, k;
    q = 2;

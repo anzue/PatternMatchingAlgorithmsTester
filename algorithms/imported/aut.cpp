@@ -22,7 +22,7 @@
 #include "algorithms/consts.h"
 #include "include/AUTOMATON.h"
 
-int search_aut(unsigned char *x, int m, unsigned char *y, int n) {
+int aut(unsigned char *x, int m, unsigned char *y, int n) {
    int j, state, count;
    int *ttransSMA;
    count = 0;

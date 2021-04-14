@@ -34,7 +34,7 @@ void preMp(unsigned char *x, int m, int mpNext[]) {
    }
 }
 
-int search_mp(unsigned char *x, int m, unsigned char *y, int n) {
+int mp(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, mpNext[MAX_PAT_LEN], count;
 
    /* Preprocessing */

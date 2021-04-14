@@ -34,7 +34,7 @@ void TVSBSpreBrBc_tvsbs_w4_tvsbs_w4(unsigned char *x, int m, int brBc[MAX_SIGMA]
       brBc[x[m - 1]][a] = 1;
 }
 
- int search_tvsbs_w4(unsigned char *x, int m, unsigned char *y, int n){
+ int tvsbs_w4(unsigned char *x, int m, unsigned char *y, int n){
    int count,i,s1,s2,s3,s4,j =0;
    int BrBcR[MAX_SIGMA][MAX_SIGMA], BrBcL[MAX_SIGMA][MAX_SIGMA];
    unsigned char firstch, lastch;

@@ -25,7 +25,7 @@
 #include "include/main.h"
 #define RANK5 5
 
-int search_hash5(unsigned char *x, int m, unsigned char *y, int n) {
+int hash5(unsigned char *x, int m, unsigned char *y, int n) {
    int count,i, j,sh, shift[WSIZE], sh1, mMinus1, mMinus4;
    unsigned int h;
    if(m<5) return -1;

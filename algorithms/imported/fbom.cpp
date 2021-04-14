@@ -25,7 +25,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_fbom(unsigned char *x, int m, unsigned char *y, int n) {
+int fbom(unsigned char *x, int m, unsigned char *y, int n) {
    int S[MAX_PAT_LEN], FT[MAX_SIGMA][MAX_SIGMA];
    int *trans[MAX_PAT_LEN];
    int i, j, p, q;

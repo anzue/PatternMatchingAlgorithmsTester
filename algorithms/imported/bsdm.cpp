@@ -26,7 +26,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_bsdm_tmp(unsigned char *x, int m, unsigned char *y, int n) {
+int bsdm_tmp(unsigned char *x, int m, unsigned char *y, int n) {
     unsigned int B[MAX_SIGMA];
 	int i, j, k, count;
     unsigned int s,d;

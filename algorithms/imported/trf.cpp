@@ -93,7 +93,7 @@ void buildSuffixAutomaton4TRF(unsigned char *x, int m,
 
 
 
-int search_trf(unsigned char *x, int m, unsigned char *y, int n) {
+int trf(unsigned char *x, int m, unsigned char *y, int n) {
    int period, i, j, shift, u, periodOfU, disp, init, count, state, mu, *mpNext;
    int *ttrans, *tlength, *tposition, *tsuffix, *tshift;
    unsigned char *tterminal;

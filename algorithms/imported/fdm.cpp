@@ -24,7 +24,7 @@
 #include "include/main.h"
 #include "include/AUTOMATON.h"
 
-int search_fdm(unsigned char *x, int m, unsigned char *y, int n) {
+int fdm(unsigned char *x, int m, unsigned char *y, int n) {
    int j, init, ell, state, count;
    int *ttrans, *tlength, *tsuffix;
    unsigned char *tterminal;

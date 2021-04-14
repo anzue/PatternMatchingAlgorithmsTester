@@ -27,13 +27,13 @@
 #include "include/main.h"
 
 
-int search_large_fsbndm(unsigned char *x, int m, unsigned char *y, int n);
+int large_fsbndm(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_fsbndm(unsigned char *x, int m, unsigned char *y, int n) {
+int fsbndm(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, pos, mMinus1, count;
    
-   if(m>31) return search_large_fsbndm(x,m,y,n);
+   if(m>31) return large_fsbndm(x,m,y,n);
 
    /* Preprocessing */
    count = 0;
@@ -67,7 +67,7 @@ int search_fsbndm(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_fsbndm(unsigned char *x, int m, unsigned char *y, int n) {
+int large_fsbndm(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, pos, mMinus1, count, p_len, k,s;
    

@@ -48,7 +48,7 @@ void preKmp_fjs(unsigned char* x, int m, int kmpNexy[]) {
     }
 }
 
-int search_fjs(unsigned char* x, int m, unsigned char* y, int n, float* time) {
+int fjs(unsigned char* x, int m, unsigned char* y, int n, float* time) {
     int i, s, count, qsbc[MAX_SIGMA], kmp[MAX_PAT_LEN];
 
     QueryPerformanceCounter(&start);

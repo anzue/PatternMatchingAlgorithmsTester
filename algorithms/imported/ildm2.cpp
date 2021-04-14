@@ -37,7 +37,7 @@
 #define setSMA(p, c, q) ttransSMA[(p)*SIGMA+(c)] = (q)
 #define getSMA(p, c) ttransSMA[(p)*SIGMA+(c)]
 
-int search_ildm2(unsigned char *x, int m, unsigned char *y, int n) {
+int ildm2(unsigned char *x, int m, unsigned char *y, int n) {
    int k,i,j, R, L, r, ell, end, count, l, m2;
    int *ttrans, *tlength, *tsuffix;
    int *ttransSMA;

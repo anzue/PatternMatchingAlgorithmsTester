@@ -25,7 +25,7 @@
 #include "include/main.h"
 #define RANK3 3
 
-int search_hash3(unsigned char *x, int m, unsigned char *y, int n) {
+int hash3(unsigned char *x, int m, unsigned char *y, int n) {
    int count, j, i, sh, sh1, mMinus1, mMinus2, shift[WSIZE];
    unsigned char h;
    if(m<3) return -1;

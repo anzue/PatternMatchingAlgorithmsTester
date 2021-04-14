@@ -63,7 +63,7 @@ void preBmGs_agAG(unsigned char *x, int m, int bmGs[], int suff[]) {
 
 
 
-int search_ag(unsigned char *x, int m, unsigned char *y, int n) {
+int ag(unsigned char *x, int m, unsigned char *y, int n) {
     int i, j, k, s, shift, count;
     int bmGs[MAX_PAT_LEN], skip[MAX_PAT_LEN], suff[MAX_PAT_LEN], bmBc[MAX_SIGMA];
   

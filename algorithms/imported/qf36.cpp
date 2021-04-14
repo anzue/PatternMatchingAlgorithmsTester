@@ -32,7 +32,7 @@
 #define AMASK (ASIZE-1)
 #define BSIZE 262144	/* = 2**18 */
 
-int search_qf36(unsigned char *x, int m, unsigned char *y, int n)
+int qf36(unsigned char *x, int m, unsigned char *y, int n)
 {
 	int count = 0;
 	int i, j, k, mq1=m-Q+1, B[ASIZE];

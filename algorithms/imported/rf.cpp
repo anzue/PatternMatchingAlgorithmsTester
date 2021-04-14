@@ -72,7 +72,7 @@ void buildSuffixAutomaton(unsigned char *x, int m, int *ttrans, int *tlength, in
    }
 }
 
-int search_rf(unsigned char *x, int m, unsigned char *y, int n) {
+int rf(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, shift, period, init, state, count;
    int *ttrans, *tlength, *tsuffix;
    unsigned char *tterminal;

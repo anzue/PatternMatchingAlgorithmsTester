@@ -37,7 +37,7 @@ void ADD_LIST(GList **l, int e)  {
    *l = t;
 }
 
-int search_graspm(unsigned char *p, int m, unsigned char *t, int n) {
+int graspm(unsigned char *p, int m, unsigned char *t, int n) {
    GList *pos, *z[MAX_SIGMA];
    int i,j,k,count,first, hbc[MAX_SIGMA];
 

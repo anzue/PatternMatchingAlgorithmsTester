@@ -66,7 +66,7 @@ void preBmGs_tbm(unsigned char *x, int m, int bmGs[]) {
       bmGs[m - 1 - suff[i]] = m - 1 - i;
 }
   
-int search_tbm(unsigned char *x, int m, unsigned char *y, int n) {
+int tbm(unsigned char *x, int m, unsigned char *y, int n) {
    int bcShift, i, j, shift, u, v, turboShift, count,
        bmGs[MAX_PAT_LEN], bmBc[MAX_SIGMA];
 

@@ -39,15 +39,15 @@ void verify_aoso4_aoso4(unsigned char *y, int j, int n, unsigned char *x, int m,
         D &= ~(1<<s);
     }
 }
-int search_large_aoso4_aoso4(unsigned char *x, int m, unsigned char *y, int n, int q);
+int large_aoso4_aoso4(unsigned char *x, int m, unsigned char *y, int n, int q);
 
-int search_aoso4(unsigned char *x, int m, unsigned char *y, int n) {
+int aoso4(unsigned char *x, int m, unsigned char *y, int n) {
     unsigned int B[MAX_SIGMA], D, h, mm, tmp, not_mm;
     int i, j, count;
     int q=4;
 
     if(m<=q) return -1;   
-    if(m>32) return search_large_aoso4_aoso4(x,m,y,n,q);
+    if(m>32) return large_aoso4_aoso4(x,m,y,n,q);
 
     /* Preprocessing */
     for (i = 0; i < SIGMA; ++i) B[i] = ~0;
@@ -94,7 +94,7 @@ void verify_aoso4_large_aoso4(unsigned char *y, int j, int n, unsigned char *x, 
     }
 }
 
-int search_large_aoso4_aoso4(unsigned char *x, int m, unsigned char *y, int n, int q) {
+int large_aoso4_aoso4(unsigned char *x, int m, unsigned char *y, int n, int q) {
     unsigned int B[MAX_SIGMA], D, h, mm, tmp;
     int i, j, count, p_len;
     p_len = m;

@@ -21,7 +21,7 @@
 
 #include "algorithms/consts.h"
 
-int search_bf(unsigned char *x, int m, unsigned char *y, int n) {
+int bf(unsigned char *x, int m, unsigned char *y, int n) {
     int i, count, j;
     /* Searching */
     count = 0;

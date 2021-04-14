@@ -29,7 +29,7 @@
 #define Q 2 
 #define F 1 
 
-int search_fsbndmq21(unsigned char *x, int m, unsigned char *y, int n) {
+int fsbndmq21(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, pos, mm, sh, m1, count;
    if(m<Q) return -1;

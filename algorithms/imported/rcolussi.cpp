@@ -93,7 +93,7 @@ void preRc(unsigned char *x, int m, int h[], int rcBc[MAX_SIGMA][MAX_PAT_LEN], i
 }
  
  
-int search_rcolussi(unsigned char *x, int m, unsigned char *y, int n) {
+int rcolussi(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, s, rcBc[MAX_SIGMA][MAX_PAT_LEN], rcGs[MAX_PAT_LEN], h[MAX_PAT_LEN], count;
  
    /* Preprocessing */

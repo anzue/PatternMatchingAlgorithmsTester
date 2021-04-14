@@ -25,7 +25,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_bom2(unsigned char *x, int m, unsigned char *y, int n) {
+int bom2(unsigned char *x, int m, unsigned char *y, int n) {
    int S[MAX_PAT_LEN];
    int *trans[MAX_PAT_LEN];
    int i, j, p, q;

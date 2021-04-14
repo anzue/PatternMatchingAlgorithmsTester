@@ -62,7 +62,7 @@ int attempt(char *y, char *x, int m, int start, int wall) {
    return(k);
 }
 
-int search_kmpskip(unsigned char *x, int m, unsigned char *y, int n) {
+int kmpskip(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, k, kmpStart, per, start, wall, count;
    int kmpNext[MAX_PAT_LEN], list[MAX_PAT_LEN], mpNext[MAX_PAT_LEN], z[MAX_SIGMA];
 

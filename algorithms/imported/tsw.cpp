@@ -37,7 +37,7 @@ void preBrBc_tsw(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {
       brBc[x[m - 1]][a] = 1;
 }
 
-int search_tsw(unsigned char *x, int m, unsigned char *y, int n) {
+int tsw(unsigned char *x, int m, unsigned char *y, int n) {
    int j, brBc_left[MAX_SIGMA][MAX_SIGMA], brBc_right[MAX_SIGMA][MAX_SIGMA];
    int i, a,b;
    int count;

@@ -25,13 +25,13 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_large_svm1(unsigned char *x, int m, unsigned char *y, int n);
+int large_svm1(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_svm1(unsigned char *x, int m, unsigned char *y, int n) {
+int svm1(unsigned char *x, int m, unsigned char *y, int n) {
    int count, s, j;
    unsigned int tmp, h, sv, cv[MAX_SIGMA], ONE;
 
-   if(m>32) return   search_large_svm1(x,m,y,n);
+   if(m>32) return   large_svm1(x,m,y,n);
 
    /* Preprocessing */
    ONE = 1;
@@ -74,7 +74,7 @@ int search_svm1(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_svm1(unsigned char *x, int m, unsigned char *y, int n) {
+int large_svm1(unsigned char *x, int m, unsigned char *y, int n) {
    int count, s, j, first, k, p_len;
    unsigned int tmp, h, sv, cv[MAX_SIGMA], ONE;
    p_len = m;

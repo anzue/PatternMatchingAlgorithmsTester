@@ -26,16 +26,16 @@
 #include "include/main.h"
 #define GRAM8(i) ((B[y[i-7]]<<7)|(B[y[i-6]]<<6)|(B[y[i-5]]<<5)|(B[y[i-4]]<<4)|(B[y[i-3]]<<3)|(B[y[i-2]]<<2)|(B[y[i-1]]<<1)|B[y[i]])
 
-int search_large_ufndmq8(unsigned char *x, int m, unsigned char *y, int n);
+int large_ufndmq8(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_ufndmq8(unsigned char *x, int m, unsigned char *y, int n) {
+int ufndmq8(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, F, mm, mask, B[MAX_SIGMA], S;
    int i, j, k, mq, q;
    int count = 0;
    q = 8;
    if (m<q) return -1;
 
-   if(m+q > WORD) return search_large_ufndmq8(x,m,y,n);
+   if(m+q > WORD) return large_ufndmq8(x,m,y,n);
 
    /* Preprocessing */
    S = ~((unsigned char)127 << m);
@@ -79,7 +79,7 @@ int search_ufndmq8(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_ufndmq8(unsigned char *x, int m, unsigned char *y, int n) {
+int large_ufndmq8(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, F, mm, mask, B[MAX_SIGMA], S;
    int i, j, k, mq, q, p_len;
    int count = 0;

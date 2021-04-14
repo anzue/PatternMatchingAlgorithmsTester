@@ -3,7 +3,7 @@
 
 #include "algorithms/consts.h"
 
-int search_Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time) {
+int Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time) {
 
     assert(m >= 4);
 
@@ -28,8 +28,10 @@ int search_Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time
             pos += m - 1;
             while (z[T[pos]] != 0) {
                 pos += m - 1;
+                //cout <<1 << " " << pos << " " << m + n << std::endl;
             }
             pos -= 1;
+          //  cout << 2 << " "<< pos << " " << m + n << std::endl;
         } while (z[T[pos]] != 0);
 
         for (i = 0; i < m && P[i] == T[pos - m + 1 + i]; ++i) {
@@ -38,6 +40,7 @@ int search_Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time
             MATCH(pos - m + 1);
         }
         pos += QS[T[pos + 1]] - m + 1;
+      //  cout <<3 << " "<< pos << " " << m + n << std::endl;
     }
 
     QueryPerformanceCounter(&finish);

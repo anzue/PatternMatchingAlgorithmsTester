@@ -27,15 +27,15 @@
 #include "include/main.h"
 #define F_8(j) (B[y[j]]<<7)&(B[y[j-1]]<<6)&(B[y[j-2]]<<5)&(B[y[j-3]]<<4)&(B[y[j-4]]<<3)&(B[y[j-5]]<<2)&(B[y[j-6]]<<1)&B[y[j-7]]
 
-int search_large_sbndmq8(unsigned char *x, int m, unsigned char *y, int n);
+int large_sbndmq8(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_sbndmq8(unsigned char *x, int m, unsigned char *y, int n) {
+int sbndmq8(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, q, shift;
    int i, j, pos, mMinusq, mq, count;
    q = 8;
 
    if(m<q) return -1;
-   if(m>32) return search_large_sbndmq8(x,m,y,n);
+   if(m>32) return large_sbndmq8(x,m,y,n);
 
    /* Preprocessing */
    count = 0;
@@ -78,7 +78,7 @@ int search_sbndmq8(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_sbndmq8(unsigned char *x, int m, unsigned char *y, int n) {
+int large_sbndmq8(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, q, shift;
    int i, j, pos, mMinusq, mq, count, p_len;
    q = 8;

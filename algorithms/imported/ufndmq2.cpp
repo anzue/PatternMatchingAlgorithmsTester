@@ -26,15 +26,15 @@
 #include "include/main.h"
 #define GRAM2(i) ( (B[y[i-1]]<<1) | B[y[i]] )
 
-int search_large_ufndmq2(unsigned char *x, int m, unsigned char *y, int n);
+int large_ufndmq2(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_ufndmq2(unsigned char *x, int m, unsigned char *y, int n) {
+int ufndmq2(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, F, mm, mask, B[MAX_SIGMA], S;
    int i, j, k, mq, q;
    int count = 0;
    q = 2;
    if(m<q) return -1;
-   if(m+q > WORD) return search_large_ufndmq2(x,m,y,n);
+   if(m+q > WORD) return large_ufndmq2(x,m,y,n);
 
    /* Preprocessing */
    S = ~((unsigned int)1 << m);
@@ -78,7 +78,7 @@ int search_ufndmq2(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_ufndmq2(unsigned char *x, int m, unsigned char *y, int n)
+int large_ufndmq2(unsigned char *x, int m, unsigned char *y, int n)
 {
    unsigned int D, F, mm, mask, B[MAX_SIGMA], S;
    int i, j, k, mq, q, p_len;

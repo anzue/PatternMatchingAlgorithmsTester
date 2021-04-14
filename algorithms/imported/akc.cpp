@@ -304,7 +304,7 @@ int getBcGS(unsigned char a, int i, Pair1 *bcGsPtr, Pair2 *bcGsVal) {
 }
 
 
-int search_akc(unsigned char *x, int m, unsigned char *y, int n) {
+int akc(unsigned char *x, int m, unsigned char *y, int n) {
     int i, j, k, h, ell, lsp, bmBc[MAX_SIGMA], *clink, *pref, *skip, *slink, *suff, count;
     Pair1 bcGsPtr[MAX_SIGMA];
     Pair2 *bcGsVal;

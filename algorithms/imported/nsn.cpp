@@ -23,7 +23,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_nsn(char *x, int m, char *y, int n) {
+int nsn(char *x, int m, char *y, int n) {
    int j, k, ell, count;
   
    /* Preprocessing */

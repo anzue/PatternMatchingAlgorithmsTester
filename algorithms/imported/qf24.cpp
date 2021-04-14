@@ -36,7 +36,7 @@
 #define CHAR_SET (CHAR_MAX-CHAR_MIN+1)
 
 
-int search_qf24(unsigned char *x, int m, unsigned char *y, int n)
+int qf24(unsigned char *x, int m, unsigned char *y, int n)
 {
 	int count = 0;
 	int i, j, k, mq1=m-Q+1, B[ASIZE];

@@ -45,7 +45,7 @@
 #include "include/main.h"
 
 
-int search_sbndm_w2(unsigned char *x, int m, unsigned char *y, int n) {
+int sbndm_w2(unsigned char *x, int m, unsigned char *y, int n) {
    int B[MAX_SIGMA], W[MAX_SIGMA], hbcr[MAX_SIGMA], hbcl[MAX_SIGMA], PR[MAX_SIGMA];
    int i, j, s1,s2, h, f,d, z,first, count, stop;
    int plen = m;

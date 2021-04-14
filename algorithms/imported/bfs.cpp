@@ -60,7 +60,7 @@ void PreBFS(unsigned char *x, int m, int bm_gs[MAX_PAT_LEN][MAX_SIGMA]) {
    }
 }
 
-int search_bfs(unsigned char *x, int m, unsigned char *y, int n)
+int bfs(unsigned char *x, int m, unsigned char *y, int n)
 {
    int i, j, k, s, count, gs[MAX_PAT_LEN][MAX_SIGMA], bc[MAX_SIGMA];
    int *last, first;

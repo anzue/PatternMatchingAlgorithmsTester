@@ -73,7 +73,7 @@ void preBmGs_zt(unsigned char *x, int m, int bmGs[]) {
       ztBc[x[i - 1]][x[i]] = m - 1 - i;
 }
 
-int search_zt(unsigned char *x, int m, unsigned char *y, int n) {
+int zt(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, ztBc[MAX_SIGMA][MAX_SIGMA], bmGs[MAX_PAT_LEN], count;
 
    /* Preprocessing */

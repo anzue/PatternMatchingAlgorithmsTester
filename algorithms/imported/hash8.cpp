@@ -25,7 +25,7 @@
 #include "include/main.h"
 #define RANK8 8
 
-int search_hash8(unsigned char *x, int m, unsigned char *y, int n) {
+int hash8(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, sh, shift[WSIZE], sh1, mMinus1, mMinus7, count;
    unsigned int h;
    if(m<8) return -1;

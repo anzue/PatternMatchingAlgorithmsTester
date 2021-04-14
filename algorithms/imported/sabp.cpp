@@ -41,12 +41,12 @@ int mylog2(int unsigned n) {
    return ell;
 }
 
-int search_large_sabp(unsigned char *x, int m, unsigned char *y, int n);
+int large_sabp(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_sabp(unsigned char *x, int m, unsigned char *y, int n) {
+int sabp(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, z, count;
    unsigned int b, D, Delta, mask, mask2, T[MAX_SIGMA];
-   if(m>30) return search_large_sabp(x,m,y,n);   
+   if(m>30) return large_sabp(x,m,y,n);   
 
    /* Preprocessing */
    z = WORD;
@@ -96,7 +96,7 @@ int search_sabp(unsigned char *x, int m, unsigned char *y, int n) {
    return count;
 }
 
-int search_large_sabp(unsigned char *x, int m, unsigned char *y, int n) {
+int large_sabp(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, z, k, count, first, p_len;
    unsigned int b, D, Delta, mask, mask2, T[MAX_SIGMA];
    p_len = m;

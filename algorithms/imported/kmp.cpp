@@ -41,7 +41,7 @@ void preKmp_kmp(unsigned char *x, int m, int kmpNext[]) {
 }
 
 
-int search_kmp(unsigned char *x, int m, unsigned char *y, int n) {
+int kmp(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, kmpNext[MAX_PAT_LEN], count;
 
    /* Preprocessing */

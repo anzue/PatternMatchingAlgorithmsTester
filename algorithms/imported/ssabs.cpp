@@ -28,7 +28,7 @@ void preQsBc_ssabs(unsigned char *P, int m, int qbc[])
 }
 
  ////////////Searching Phase///////////////////////////////////////
- int search_ssabs(unsigned char *x, int m, unsigned char *y, int n){
+ int ssabs(unsigned char *x, int m, unsigned char *y, int n){
    int count,i,j =0;
    int qsBc[MAX_SIGMA];
    unsigned char firstCh, lastCh;

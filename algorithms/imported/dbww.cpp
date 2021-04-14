@@ -25,7 +25,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_dbww(unsigned char *x, int m, unsigned char *y, int n) {
+int dbww(unsigned char *x, int m, unsigned char *y, int n) {
    int i, k, left, l, end, count, p_len, j1, j2;
    unsigned int B[MAX_SIGMA] = {0}, C[MAX_SIGMA] = {0}, M, D, H, c;
    unsigned int suf;

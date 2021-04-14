@@ -25,15 +25,15 @@
 #include "include/main.h"
 
 
-int search_large_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n);
+int large_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
+int sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
    int j,i, last, first, hbc[MAX_SIGMA];
    unsigned int D, B[MAX_SIGMA], s;
    int mM1 = m-1;
    int mM2 = m-2;
    int count = 0, restore[MAX_PAT_LEN+1], shift;
-   if(m>32) return search_large_sbndm_bmh(x,m,y,n);   
+   if(m>32) return large_sbndm_bmh(x,m,y,n);   
 
    /* preprocessing */
    for (i=0; i<SIGMA; i++)  B[i] = 0;
@@ -83,7 +83,7 @@ int search_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
+int large_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
    int j,i, last, first, p_len, k, hbc[MAX_SIGMA];
    unsigned int D, B[MAX_SIGMA], s;
    int mM1 = m-1;

@@ -25,7 +25,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_pbmh(unsigned char *x, int m, unsigned char *y, int n, int *FREQ)
+int pbmh(unsigned char *x, int m, unsigned char *y, int n, int *FREQ)
 {
    int i, j, s, tmp, count, hbc[MAX_SIGMA], v[MAX_PAT_LEN];
 

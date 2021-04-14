@@ -29,7 +29,7 @@
 
 #define MAXWSIZE (MAX_PAT_LEN + WORD)
 
-int search_blim(unsigned char* x, int m, unsigned char* y, int n)
+int blim(unsigned char* x, int m, unsigned char* y, int n)
 {
    int i,j,k,count;
    unsigned int   wsize = WORD - 1 + m;

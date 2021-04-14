@@ -38,7 +38,7 @@ void preBrBc_br(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {
 }
 
 
-int search_br(unsigned char *x, int m, unsigned char *y, int n) {
+int br(unsigned char *x, int m, unsigned char *y, int n) {
    int j, brBc[MAX_SIGMA][MAX_SIGMA];
    int i;
    int count;

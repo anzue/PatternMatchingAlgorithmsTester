@@ -25,13 +25,13 @@
 #include "include/main.h"
 
 
-int search_large_sbndm2(unsigned char *x, int m, unsigned char *y, int n);
+int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
+int sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D;
    int i, j, pos, mMinus1, m2, count, shift;
    if(m<2) return -1;
-   if(m>32) return search_large_sbndm2(x,m,y,n);
+   if(m>32) return large_sbndm2(x,m,y,n);
 
    /* Preprocessing */
    mMinus1 = m - 1;
@@ -74,7 +74,7 @@ int search_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
+int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D;
    int i, j, pos, mMinus1, m2, count, p_len, shift;
 

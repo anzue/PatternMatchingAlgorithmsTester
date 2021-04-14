@@ -26,7 +26,7 @@
 #include "include/AUTOMATON.h"
 
 
-int search_ildm1(unsigned char *x, int m, unsigned char *y, int n) {
+int ildm1(unsigned char *x, int m, unsigned char *y, int n) {
    int k,i,j, R, L, r, ell, end, count, l;
    int *ttrans, *tlength, *tsuffix;
    int *ttransSMA;

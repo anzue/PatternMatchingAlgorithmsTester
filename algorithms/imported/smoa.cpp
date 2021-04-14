@@ -52,7 +52,7 @@ void nextMaximalSuffix(char *x, int m,
  
  
 /* String matching on ordered alphabets algorithm. */
-int search_smoa(char *x, int m, char *y, int n) {
+int smoa(char *x, int m, char *y, int n) {
    int i, ip, j, jp, k, p, count;
  
    count = 0;

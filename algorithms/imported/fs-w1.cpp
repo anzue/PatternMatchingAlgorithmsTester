@@ -62,7 +62,7 @@ void Pre_GS_fs_w1(unsigned char *x, int m, int bm_gs[]) {
    }
 }
 
-int search_fs_w1(unsigned char *P, int m, unsigned char *T, int n)
+int fs_w1(unsigned char *P, int m, unsigned char *T, int n)
 {
    int i,j,s1,s2,k,h,count,hbcr[MAX_SIGMA],hbcl[MAX_SIGMA],gsR[MAX_PAT_LEN],gsL[MAX_PAT_LEN];
    unsigned char c,Pr[MAX_PAT_LEN],P2[MAX_PAT_LEN];

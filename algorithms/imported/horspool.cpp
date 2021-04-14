@@ -1,6 +1,6 @@
 #include "algorithms/consts.h"
 
-int search_h(unsigned char *P, int m, unsigned char *T, int n, float* time) {
+int h(unsigned char *P, int m, unsigned char *T, int n, float* time) {
     int i, s, count, hbc[MAX_SIGMA];
     QueryPerformanceCounter(&start);
     for (i=0;i<SIGMA;i++)   hbc[i]=m;

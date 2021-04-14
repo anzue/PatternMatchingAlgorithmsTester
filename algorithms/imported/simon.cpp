@@ -82,7 +82,7 @@ int preSimon(char *x, int m, List L[]) {
 }
 
 
-int search_simon(char *x, int m, char *y, int n) {
+int simon(char *x, int m, char *y, int n) {
    int j, ell, state, count;
    List L[MAX_PAT_LEN];
  

@@ -25,14 +25,14 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_large_bww(unsigned char *x, int m, unsigned char *y, int n);
+int large_bww(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_bww(unsigned char *x, int m, unsigned char *y, int n) {
+int bww(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, k, left, r, ell, end, count;
    unsigned int B[MAX_SIGMA], C[MAX_SIGMA], s, t, R, L;
    unsigned int pre, cur;
  
-   if(m>30) return search_large_bww(x,m,y,n);
+   if(m>30) return large_bww(x,m,y,n);
 
    /* Preprocessing */
    /* Left to right automaton */
@@ -98,7 +98,7 @@ int search_bww(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_bww(unsigned char *x, int m, unsigned char *y, int n) {
+int large_bww(unsigned char *x, int m, unsigned char *y, int n) {
    int i, k, left, r, ell, end, count, p_len, first, j;
    unsigned int B[MAX_SIGMA], C[MAX_SIGMA], s, t, R, L;
    unsigned int pre, cur;

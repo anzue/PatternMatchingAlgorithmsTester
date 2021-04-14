@@ -36,7 +36,7 @@ void preBmBc_smith(unsigned char *x, int m, int bmBc[]) {
       bmBc[x[i]] = m - i - 1;
 }
 
-int search_smith(unsigned char *x, int m, unsigned char *y, int n) {
+int smith(unsigned char *x, int m, unsigned char *y, int n) {
    int j, bmBc[MAX_SIGMA], qsBc[MAX_SIGMA], count;
 
    /* Preprocessing */

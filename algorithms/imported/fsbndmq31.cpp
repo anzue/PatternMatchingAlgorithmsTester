@@ -29,7 +29,7 @@
 #define Q 3
 #define F 1
 
-int search_fsbndmq31(unsigned char* x, int m, unsigned char* y, int n, float* time)
+int fsbndmq31(unsigned char* x, int m, unsigned char* y, int n, float* time)
 {
     unsigned int B[MAX_SIGMA], D, set;
     int i, j, pos, mm, sh, m1, count;

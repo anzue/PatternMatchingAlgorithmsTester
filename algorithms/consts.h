@@ -57,6 +57,7 @@ extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 
 #ifdef MATCH_DEBUGGING
 extern std::map<string, vector<int>> matches_pos;
+//  cout << __FUNCTION__ << " " << pos << "\n";
 #define MATCH(pos)                                               \
     {                                                            \
         if (matches_pos.find(__FUNCTION__) == matches_pos.end()) \
@@ -65,21 +66,21 @@ extern std::map<string, vector<int>> matches_pos;
         ++count;                                                 \
     }
 
-#define CLEAR_MATCHES \
-    { matches_pos.clear(); }
-
-//                PRINT_DIFF(std::next(std::next(matches_pos.begin()))->first, pair.first) \
+#define CLEAR_MATCHES        \
+    {                        \
+        matches_pos.clear(); \
+    }
 
 #define FIND_DIFF_MATCHES                                          \
     {                                                              \
         auto defAlgo = matches_pos.begin()->second;                \
         for (auto& pair : matches_pos) {                           \
-      /*  if (pair.second.size() != defAlgo.size())    */               \
-        {                 \
-                PRINT_DIFF(matches_pos.begin()->first, pair.first)      \
-        }                                                               \
-        }                                                               \
-}
+            /*  if (pair.second.size() != defAlgo.size())    */    \
+            {                                                      \
+                PRINT_DIFF(matches_pos.begin()->first, pair.first) \
+            }                                                      \
+        }                                                          \
+    }
 
 #define PRINT_DIFF(ALGO1, ALGO2)                                                                                           \
     {                                                                                                                      \

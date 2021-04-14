@@ -43,13 +43,13 @@ static void bit_alloc_n(WORD_TYPE **name, int n, int bits) {
    for (i = 1; i < n; i++) name[i] = name[0] + i*bit_size(bits);
 }
 
-int search_large_bndml(unsigned char *x, int m, unsigned char *y, int n);
+int large_bndml(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_bndml(unsigned char *x, int m, unsigned char *y, int n) {
+int bndml(unsigned char *x, int m, unsigned char *y, int n) {
    int B[MAX_SIGMA];
    int i, j, s, D, last, count;
 
-   if (m > 32) return search_large_bndml(x,m,y,n);
+   if (m > 32) return large_bndml(x,m,y,n);
 
    /* Preprocessing */
    for(i=0; i<SIGMA; i++) B[i]=0;
@@ -83,7 +83,7 @@ int search_bndml(unsigned char *x, int m, unsigned char *y, int n) {
  * The present implementation uses the multiword implementation of the BNDM algorithm
  */
 
-int search_large_bndml(unsigned char *x, int m, unsigned char *y, int n)
+int large_bndml(unsigned char *x, int m, unsigned char *y, int n)
 {
    int i, j;
    WORD_TYPE *D, H, M;

@@ -30,7 +30,7 @@ void Pre_Horspool(unsigned char *P, int m, int hbc[]) {
 }
 
 
-int search_hor(unsigned char *P, int m, unsigned char *T, int n) {
+int hor(unsigned char *P, int m, unsigned char *T, int n) {
    int i, s, count, hbc[MAX_SIGMA];
    Pre_Horspool(P, m, hbc);
 

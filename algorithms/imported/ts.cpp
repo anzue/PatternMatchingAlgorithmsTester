@@ -25,7 +25,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_ts(unsigned char* x, int m, unsigned char * y, int n) {
+int ts(unsigned char* x, int m, unsigned char * y, int n) {
    int s, j, i, k, h, dim, count;
 
    /* Searching */

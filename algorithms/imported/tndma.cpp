@@ -25,13 +25,13 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_large_tndma(unsigned char *x, int m, unsigned char *y, int n);
+int large_tndma(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_tndma(unsigned char *x, int m, unsigned char *y, int n) {
+int tndma(unsigned char *x, int m, unsigned char *y, int n) {
    int i,j,s,last, restore[MAX_PAT_LEN+1];
    unsigned int d, B[MAX_SIGMA];
    int count = 0;
-   if(m>32) return search_large_tndma(x,m,y,n);
+   if(m>32) return large_tndma(x,m,y,n);
 
    /* Preprocessing */
    for(i=0; i<SIGMA; i++) B[i]=0;
@@ -95,7 +95,7 @@ int search_tndma(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_tndma(unsigned char *x, int m, unsigned char *y, int n)
+int large_tndma(unsigned char *x, int m, unsigned char *y, int n)
 {
    int i,j,s,last, restore[MAX_PAT_LEN+1], p_len, k;
    unsigned int D, B[MAX_SIGMA];

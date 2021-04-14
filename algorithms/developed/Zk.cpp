@@ -5,7 +5,7 @@
 
 #define word(a) *((unsigned short*)(a))
 
-int search_Zk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
+int Zk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* time) {
 
     assert(m >= 4);
 

@@ -49,7 +49,7 @@ void Forward_Suffix_Function(unsigned char *x, int m, int bm_gs[MAX_PAT_LEN][MAX
    }
 }
 
-int search_ffs(unsigned char *x, int m, unsigned char *y, int n) {
+int ffs(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, k, s, count, gs[MAX_PAT_LEN][MAX_SIGMA], bc[MAX_SIGMA];
    char ch = x[m-1];
 

@@ -44,14 +44,14 @@ static const unsigned char lowest_bit_in_byte[] = {
    4, 0, 1, 0, 2, 0, 1, 0, 3, 0, 1, 0, 2, 0, 1, 0 };
 
 
-int search_large_svm4(unsigned char *x, int m, unsigned char *y, int n);
+int large_svm4(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_svm4(unsigned char *x, int m, unsigned char *y, int n) {
+int svm4(unsigned char *x, int m, unsigned char *y, int n) {
    int count = 0;
    int s;
    int j;
    unsigned int tmp, h, sv = 0, cv[MAX_SIGMA];
-   if(m>32) return search_large_svm4(x,m,y,n);
+   if(m>32) return large_svm4(x,m,y,n);
 
    /* Preprocessing */
    tmp = (~0);
@@ -92,7 +92,7 @@ int search_svm4(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_svm4(unsigned char *x, int m, unsigned char *y, int n) {
+int large_svm4(unsigned char *x, int m, unsigned char *y, int n) {
    int count = 0;
    int s;
    int j, p_len, first, k;

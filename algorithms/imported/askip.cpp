@@ -95,7 +95,7 @@ Node addNode(Automaton automaton, Node art, Node node, unsigned char c) {
    return(childNode);
 }
 
-int search_askip(unsigned char *x, int m, unsigned char *y, int n) {
+int askip(unsigned char *x, int m, unsigned char *y, int n) {
    Automaton automaton;
    int i, j, ell, pos, size, shift, q, count;
    ListOfIntegers cell, *z;

@@ -29,7 +29,7 @@
 #define HS(x,i) (x[i]<<2) + x[i+1]
 #define Q 2
 
-int search_bsdm2(unsigned char *x, int m, unsigned char *y, int n) {
+int bsdm2(unsigned char *x, int m, unsigned char *y, int n) {
     unsigned int B[DSIGMA];
 	int i, j, k, count;
     unsigned int s,d;

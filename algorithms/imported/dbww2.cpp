@@ -28,7 +28,7 @@
                          v = (v & 0x33333333) + ((v >> 2) & 0x33333333);\
                          c = ((v + (v >> 4) & 0xF0F0F0F) * 0x1010101) >> 24\
 
-int search_dbww2(unsigned char *x, int m, unsigned char *y, int n) {
+int dbww2(unsigned char *x, int m, unsigned char *y, int n) {
    int i, k, left, l, end, count, p_len, j1, j2;
    unsigned int B[MAX_SIGMA] = {0}, C[MAX_SIGMA] = {0}, M, D, H, c;
    unsigned int suf;

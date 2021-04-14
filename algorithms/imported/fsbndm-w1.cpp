@@ -45,7 +45,7 @@
 
 #include "../algos.h"
 
-int search_fsbndm_w1(unsigned char* x, int m, unsigned char* y, int n, float* time) {
+int fsbndm_w1(unsigned char* x, int m, unsigned char* y, int n, float* time) {
     unsigned int B[MAX_SIGMA], d, set, hbc[MAX_SIGMA];
     int i, j, pos, mm1, mp1, count;
 

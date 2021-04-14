@@ -40,7 +40,7 @@ void preKmp_ac(unsigned char *x, int m, int kmpNext[]) {
 }
 
 
-int search_ac(unsigned char *x, int m, unsigned char *y, int n) {
+int ac(unsigned char *x, int m, unsigned char *y, int n) {
     int i, j, k, ell, kmpNext[MAX_PAT_LEN], count;
 
     /* Preprocessing */

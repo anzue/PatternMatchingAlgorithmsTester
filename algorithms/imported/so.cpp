@@ -37,13 +37,13 @@ int preSo(unsigned char *x, int m, unsigned int S[]) {
    return(lim); 
 } 
 
-int search_large_so(unsigned char *x, int m, unsigned char *y, int n);
+int large_so(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_so(unsigned char *x, int m, unsigned char *y, int n) { 
+int so(unsigned char *x, int m, unsigned char *y, int n) { 
    unsigned int lim, D; 
    unsigned int S[MAX_SIGMA];
    int j, count; 
-   if (m > WORD) return search_large_so(x,m,y,n);
+   if (m > WORD) return large_so(x,m,y,n);
 
    /* Preprocessing */ 
    lim = preSo(x, m, S); 
@@ -64,7 +64,7 @@ int search_so(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_so(unsigned char *x, int m, unsigned char *y, int n) { 
+int large_so(unsigned char *x, int m, unsigned char *y, int n) { 
    unsigned int lim, D,k,h,p_len; 
    unsigned int S[MAX_SIGMA];
    int j, count; 

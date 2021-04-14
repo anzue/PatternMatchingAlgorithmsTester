@@ -29,7 +29,7 @@ void preQsBc_qs(unsigned char *P, int m, int qbc[]) {
    for(i=0;i<m;i++) qbc[P[i]]=m-i;
 }
 
-int search_qs(unsigned char *P, int m, unsigned char *T, int n) {
+int qs(unsigned char *P, int m, unsigned char *T, int n) {
    int i, s, count, qsbc[MAX_SIGMA];
    
    /* Preoprocessing */

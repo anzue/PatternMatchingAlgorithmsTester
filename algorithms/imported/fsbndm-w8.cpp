@@ -44,7 +44,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int search_fsbndm_w8(unsigned char *x, int m, unsigned char *y, int n, float * time) {
+int fsbndm_w8(unsigned char *x, int m, unsigned char *y, int n, float * time) {
    unsigned int B[MAX_SIGMA],W[MAX_SIGMA], d, set, hbcr[MAX_SIGMA], hbcl[MAX_SIGMA];
    int i, j,s1,s2,s3,s4,s5,s6,s7,s8, pos, mm1, mp1, count;	
 

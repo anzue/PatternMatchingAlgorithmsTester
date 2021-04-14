@@ -26,12 +26,12 @@
 #define neg(K) (~K)
 
 
-int search_large_fndm(unsigned char *x, int m, unsigned char *y, int n);
+int large_fndm(unsigned char *x, int m, unsigned char *y, int n);
 
-int search_fndm(unsigned char *x, int m, unsigned char *y, int n) {
+int fndm(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, B[MAX_SIGMA], NEG0, NEG0m1;
    int i,j,k,count, first;
-   if(m>32) return search_large_fndm(x,m,y,n);
+   if(m>32) return large_fndm(x,m,y,n);
 
    /* Preprocessing */
    for(i=0; i<SIGMA; i++) B[i] = neg(0);
@@ -64,7 +64,7 @@ int search_fndm(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int search_large_fndm(unsigned char *x, int m, unsigned char *y, int n) {
+int large_fndm(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int D, B[MAX_SIGMA], NEG0, NEG0m1;
    int i,j,k,count, first, p_len;
 

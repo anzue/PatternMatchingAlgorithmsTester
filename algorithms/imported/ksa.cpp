@@ -28,7 +28,7 @@
 #define WORD_TYPE unsigned int
 #define WORD_BITS (sizeof(WORD_TYPE)*CHAR_BIT)
 
-int search_ksa(const unsigned char *x, int m, const unsigned char *y, int n)
+int ksa(const unsigned char *x, int m, const unsigned char *y, int n)
 {
    int i, j, k, m1;
    int beg, end;

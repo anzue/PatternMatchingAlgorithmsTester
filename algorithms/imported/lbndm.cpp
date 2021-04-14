@@ -39,7 +39,7 @@ int verify_lbndm(unsigned char *y, int left, unsigned char *x, int m, int k) {
    return count;
 }
 
-int search_lbndm(unsigned char *x, int m, unsigned char *y, int n)
+int lbndm(unsigned char *x, int m, unsigned char *y, int n)
 {
    unsigned int B[MAX_SIGMA] = {0};
    unsigned int M;

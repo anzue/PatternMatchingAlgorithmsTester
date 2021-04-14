@@ -27,7 +27,7 @@
 #include "include/main.h"
 #define Q 3 
 
-int search_bxs3(unsigned char *x, int m, unsigned char *y, int n) {
+int bxs3(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, first, k, mm, sh, m1, count;
    if(m<Q) return -1;

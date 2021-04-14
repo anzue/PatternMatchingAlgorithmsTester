@@ -31,7 +31,7 @@ void preBmBc_tunedbm(unsigned char *x, int m, int bmBc[]) {
       bmBc[x[i]] = m - i - 1;
 }
 
-int search_tunedbm(unsigned char *x, int m, unsigned char *y, int n) {
+int tunedbm(unsigned char *x, int m, unsigned char *y, int n) {
    int j, k, shift, bmBc[MAX_SIGMA], count;
  
    /* Preprocessing */

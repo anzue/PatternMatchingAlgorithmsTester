@@ -33,7 +33,7 @@
       brBc[x[m - 1]][a] = 1;
  }
 
- int search_tvsbs_w2(unsigned char *x, int m, unsigned char *y, int n){
+ int tvsbs_w2(unsigned char *x, int m, unsigned char *y, int n){
    int count,i,s1,s2,j =0;
    int BrBcR[MAX_SIGMA][MAX_SIGMA], BrBcL[MAX_SIGMA][MAX_SIGMA];
    unsigned char firstch, lastch;

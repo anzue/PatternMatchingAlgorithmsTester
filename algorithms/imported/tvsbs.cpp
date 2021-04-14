@@ -39,7 +39,7 @@ void TVSBSpreBrBc_tvsbs_tvsbs(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_S
 }
 
 
-int search_tvsbs(unsigned char *x, int m, unsigned char *y, int n){
+int tvsbs(unsigned char *x, int m, unsigned char *y, int n){
    int count,i,j =0;
    int BrBc[MAX_SIGMA][MAX_SIGMA];
    unsigned char firstCh, lastCh;

@@ -66,7 +66,7 @@
         packed_positions,             \
         _mm_setr_epi32(0, 0, val, 0));
 
-int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+int test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
 {
     // this array size must be >= 1 + MAX_PAT_LEN // 16
     __m128i packed_pattern[30];
@@ -103,75 +103,75 @@ int search_test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, fl
     int ndiv3 = n / 3;
     int twondiv3 = 2 * n / 3;
 
-    int pos1 = ndiv3;
-    int pos2 = twondiv3;
-    int pos3 = n - m;
+    int pos0 = ndiv3;
+    int pos1 = twondiv3;
+    int pos2 = n - m;
 
     __m128i fill_m = _mm_set1_epi32(m - 1);
-    __m128i packed_positions = _mm_setr_epi32(pos1, pos2, pos3, 0);
+    __m128i packed_positions = _mm_setr_epi32(pos0, pos1, pos2, 0);
 
     while (get(packed_positions, 0) + m >= 0) {
-  //      packed_positions = _mm_setr_epi32(pos1, pos2, pos3, 0);
+  //      packed_positions = _mm_setr_epi32(pos0, pos1, pos2, 0);
         while (z[word(get(packed_positions, 0)) & mask] != 0
             && z[word(get(packed_positions, 1)) & mask] != 0
             && z[word(get(packed_positions, 2)) & mask] != 0) {
             packed_positions = _mm_sub_epi32(packed_positions, fill_m);
         }
 
-        pos1 = get(packed_positions, 0);
-        pos2 = get(packed_positions, 1);
-        pos3 = get(packed_positions, 2);
+        pos0 = get(packed_positions, 0);
+        pos1 = get(packed_positions, 1);
+        pos2 = get(packed_positions, 2);
 
-        if (z[word(pos1 + 1) & mask] == 0 && pos1 >= 0) {
-            check(pos1);
-            sub0(RQS[T[pos1 - 1]]);
+        if (z[word(pos0 + 1) & mask] == 0 && pos0 >= 0) {
+            check(pos0);
+            sub0(RQS[T[pos0 - 1]]);
         } else
             sub0(m - 1);
 
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > ndiv3) {
-            check(pos2);
-            sub1(RQS[T[pos2 - 1]]);
+        if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv3) {
+            check(pos1);
+            sub1(RQS[T[pos1 - 1]]);
         } else
             sub1(m - 1);
 
-        if (z[word(pos3 + 1) & mask] == 0 && pos3 > twondiv3) {
-            check(pos3);
-            sub2(RQS[T[pos3 - 1]]);
+        if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
+            check(pos2);
+            sub2(RQS[T[pos2 - 1]]);
         } else
             sub2(m - 1);
     }
 
-    pos2 = get(packed_positions, 1);
-    pos3 = get(packed_positions, 2);
+    pos1 = get(packed_positions, 1);
+    pos2 = get(packed_positions, 2);
 
-    while (pos2 >= ndiv3) {
-        while (z[word(pos2) & mask] != 0 && z[word(pos3) & mask] != 0) {
+    while (pos1 >= ndiv3) {
+        while (z[word(pos1) & mask] != 0 && z[word(pos2) & mask] != 0) {
+            pos1 -= m;
             pos2 -= m;
-            pos3 -= m;
         }
 
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > ndiv3) {
+        if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv3) {
+            check(pos1);
+            pos1 -= RQS[T[pos1 - 1]];
+        } else
+            pos1 -= m - 1;
+
+        if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
             check(pos2);
             pos2 -= RQS[T[pos2 - 1]];
         } else
             pos2 -= m - 1;
-
-        if (z[word(pos3 + 1) & mask] == 0 && pos3 > twondiv3) {
-            check(pos3);
-            pos3 -= RQS[T[pos3 - 1]];
-        } else
-            pos3 -= m - 1;
     }
 
-    while (pos3 >= twondiv3) {
-        while (z[word(pos3) & mask] != 0) {
-            pos3 -= m;
+    while (pos2 >= twondiv3) {
+        while (z[word(pos2) & mask] != 0) {
+            pos2 -= m;
         }
-        if (z[word(pos3 + 1) & mask] == 0 && pos3 > twondiv3) {
-            check(pos3);
-            pos3 -= RQS[T[pos3 - 1]];
+        if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
+            check(pos2);
+            pos2 -= RQS[T[pos2 - 1]];
         } else
-            pos3 -= m - 1;
+            pos2 -= m - 1;
     }
 
     QueryPerformanceCounter(&finish);

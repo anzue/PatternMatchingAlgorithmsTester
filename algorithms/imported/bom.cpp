@@ -74,7 +74,7 @@ void oracle(unsigned char *x, int m, char T[], List L[]) {
 }
 
 
-int search_bom(unsigned char *x, int m, unsigned char *y, int n) {
+int bom(unsigned char *x, int m, unsigned char *y, int n) {
    char T[MAX_PAT_LEN + 1];
    List L[MAX_PAT_LEN + 1];
    int i, j, p, period, q, shift, count;

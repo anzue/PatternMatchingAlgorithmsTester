@@ -26,7 +26,7 @@
 #include "include/log2.h"
 
 
-int search_large_faoso4(unsigned char *x, int m, unsigned char *y, int n, int q);
+int large_faoso4(unsigned char *x, int m, unsigned char *y, int n, int q);
 
 void verify_faoso4(unsigned char *y, int j, int n, unsigned char *x, int m, int q, int u, unsigned int D, unsigned int mm, int *count) {
    int s, c, mq, v, z, i, k;
@@ -47,7 +47,7 @@ void verify_faoso4(unsigned char *y, int j, int n, unsigned char *x, int m, int 
    }
 }
 
-int search_faoso4(unsigned char *x, int m, unsigned char *y, int n) {
+int faoso4(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, h, mm;
    unsigned int masq;
    int i, j, u, count;
@@ -55,7 +55,7 @@ int search_faoso4(unsigned char *x, int m, unsigned char *y, int n) {
    int q=4;
 
    u = 2;
-   if(m>32-u+1) return search_large_faoso4(x,m,y,n,q);
+   if(m>32-u+1) return large_faoso4(x,m,y,n,q);
    if(m<=q) return -1;   
    
    /* Preprocessing */
@@ -124,7 +124,7 @@ void verify_faoso4_large(unsigned char *y, int j, int n, unsigned char *x, int m
 }
 
 
-int search_large_faoso4(unsigned char *x, int m, unsigned char *y, int n, int q) {
+int large_faoso4(unsigned char *x, int m, unsigned char *y, int n, int q) {
    unsigned int B[MAX_SIGMA], D, h, mm;
    unsigned int masq;
    int i, j, u, count, p_len;

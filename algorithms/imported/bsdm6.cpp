@@ -29,7 +29,7 @@
 #define HS(x,i) (x[i]<<5) + (x[i+1]<<4) +  (x[i+2]<<3) + (x[i+3]<<2) + (x[i+4]<<1) + x[i+5]
 #define Q 6
 
-int search_bsdm6(unsigned char *x, int m, unsigned char *y, int n) {
+int bsdm6(unsigned char *x, int m, unsigned char *y, int n) {
 	unsigned int B[DSIGMA];
 	int i, j, k, count;
     unsigned int s,d;
