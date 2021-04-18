@@ -14,19 +14,18 @@ ControlPanel::ControlPanel(MainChart* parent)
 {
 
     algorithms = {
-        new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 13, true),
 
-        new KExecutableAlgo("RZ{}_w2_simd2", RZk_w2_mmx, 13, true),
-        new KExecutableAlgo("RZ{}_w2_simd2", RZk_w2_mmx, 14, false),
+        new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 13, false),
+        new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 13, true),
-        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
+        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 13, true),
+        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 14, false),
 
-        new KExecutableAlgo("test_algo_{}", test_algo, 13, true),
-        new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
+        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 13, true),
+        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
-        new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
+        new KExecutableAlgo("RZ{}_w2_simd2", RZk_w2_simd3, 13, true),
+
 
         new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 13, true),
         new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, false),
@@ -34,11 +33,30 @@ ControlPanel::ControlPanel(MainChart* parent)
         new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 13, true),
         new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 14, false),
 
-        // new ExecutableAlgo("Horspool", h, false),
+
+        new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
+        new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
+
+        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 13, true),
+        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
+
+        new KExecutableAlgo("RZ{}_w3_simd3", RZk_w3_simd3, 13, true),
+
+        new KExecutableAlgo("RZ{}_w3_simd2_range_cmp", RZk_w3_simd2_range_cmp, 13, true),
+
+        new KExecutableAlgo("RZ{}_w3_simd3_range_cmp", RZk_w3_simd3_range_cmp, 13, true),
+
+        new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 13, true),
+
+        new KExecutableAlgo("RZ{}_w4_simd3", RZk_w4_simd3, 13, true),
+        new KExecutableAlgo("RZ{}_w4_simd3_pointer", RZk_w4_simd3_pointer, 13, false),
+
+
+      //  new KExecutableAlgo("test_algo_{}", test_algo, 13, true),
+      //  new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
+
         new KExecutableAlgo("RZ{}_byte", RZk_byte, 13, false),
         new KExecutableAlgo("RZ{}_byte", RZk_byte, 14, false),
-        //   new KExecutableAlgo("RZ{}_byte", RZk_byte, 15, false),
-        //   new KExecutableAlgo("RZ{}_byte", RZk_byte, 16, false),
 
         //   new ExecutableAlgo("FSBNDM_W1", fsbndm_w1, false),
         //   new ExecutableAlgo("FSBNDM_W2", fsbndm_w2, false),
@@ -52,16 +70,6 @@ ControlPanel::ControlPanel(MainChart* parent)
         new ExecutableAlgo("FSw6", fs_w6, false),
         new ExecutableAlgo("FSw8", fs_w8, true),
         new ExecutableAlgo("FJS", fjs, false),
-
-        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 14, false),
-        //  new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 15, false),
-        //  new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 16, false),
-
-        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 14, false),
-        //  new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 15, false),
-        //  new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 16, false),
 
         new KExecutableAlgo("Z{}_byte", Zk_byte, 13, true),
         new KExecutableAlgo("Z{}_byte", Zk_byte, 14, false),

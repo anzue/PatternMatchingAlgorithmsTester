@@ -20,13 +20,19 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     algorithms/developed/RZk_W2_MMX.cpp \
+    algorithms/developed/RZk_W2_SIMD3.cpp \
     algorithms/developed/RZk_W2_byte.cpp \
     algorithms/developed/RZk_W2_pointer.cpp \
     algorithms/developed/RZk_W3_SIMD1.cpp \
     algorithms/developed/RZk_W3_SIMD2.cpp \
+    algorithms/developed/RZk_W3_SIMD2_range_cmp.cpp \
+    algorithms/developed/RZk_W3_SIMD3.cpp \
+    algorithms/developed/RZk_W3_SIMD3_range_cmp.cpp \
     algorithms/developed/RZk_W3_byte.cpp \
     algorithms/developed/RZk_W3_pointer.cpp \
     algorithms/developed/RZk_W4_SIMD2.cpp \
+    algorithms/developed/RZk_W4_SIMD3.cpp \
+    algorithms/developed/RZk_W4_SIMD3_pointer.cpp \
     algorithms/developed/RZk_byte.cpp \
     algorithms/developed/Z8.cpp \
     algorithms/developed/Z8_w2.cpp \

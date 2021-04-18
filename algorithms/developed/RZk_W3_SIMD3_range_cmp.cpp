@@ -8,19 +8,18 @@
 
 #define word(a) *((unsigned short*)(T + a))
 
-int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+int RZk_w3_simd3_range_cmp(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
 {
     // this array size must be >= 1 + MAX_PAT_LEN // 16
     __m128i packed_pattern[30];
-    __m128i packed_text;
-    bool eq;
+    unsigned int found;
+    int _j;
 
     int i, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
     char z[mask + 1];
     int mm1 = m - 1;
-
     QueryPerformanceCounter(&start);
 
     pack_pattern_i128();
@@ -41,14 +40,14 @@ int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float*
     int ndiv3 = n / 3;
     int twondiv3 = 2 * n / 3;
 
-    int pos0 = ndiv3;
-    int pos1 = twondiv3;
+    int pos0 = ndiv3 - 1;
+    int pos1 = twondiv3 - 1;
     int pos2 = n - m;
 
     __m128i fill_m = _mm_set1_epi32(m - 1);
     __m128i packed_positions = _mm_setr_epi32(pos0, pos1, pos2, 0);
 
-    while (get0_i128(packed_positions) + m >= 0) {
+    while (get0_i128(packed_positions) >= 0) {
         while (z[word(get0_i128(packed_positions)) & mask] != 0
             && z[word(get1_i128(packed_positions)) & mask] != 0
             && z[word(get2_i128(packed_positions)) & mask] != 0) {
@@ -59,54 +58,57 @@ int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float*
         pos1 = get1_i128(packed_positions);
         pos2 = get2_i128(packed_positions);
 
-        if (z[word(pos0 + 1) & mask] == 0 && pos0 >= 0) {
-            check_i128(pos0);
-            sub0_i128(RQS[T[pos0 - 1]]);
+        if (z[word(pos0 + 1) & mask] == 0) {
+            check_cmp_i128(pos0, 0);
+            sub0_i128(alpha_i128);
         } else
             sub0_i128(mm1);
 
-        if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv3) {
-            check_i128(pos1);
-            sub1_i128(RQS[T[pos1 - 1]]);
+        if (z[word(pos1 + 1) & mask] == 0) {
+            check_cmp_i128(pos1, ndiv3);
+            sub1_i128(alpha_i128);
         } else
             sub1_i128(mm1);
 
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
-            check_i128(pos2);
-            sub2_i128(RQS[T[pos2 - 1]]);
+        if (z[word(pos2 + 1) & mask] == 0) {
+            check_cmp_i128(pos2, twondiv3);
+            sub2_i128(alpha_i128);
         } else
             sub2_i128(mm1);
     }
 
-    pos1 = get1_i128(packed_positions);
-    pos2 = get2_i128(packed_positions);
+    packed_positions = _mm_srli_si128(packed_positions, 4);
 
-    while (pos1 >= ndiv3) {
-        while (z[word(pos1) & mask] != 0 && z[word(pos2) & mask] != 0) {
-            pos1 -= m;
-            pos2 -= m;
+    while (get0_i128(packed_positions) >= ndiv3) {
+        while (z[word(get0_i128(packed_positions)) & mask] != 0 && z[word(get1_i128(packed_positions)) & mask] != 0) {
+            packed_positions = _mm_sub_epi32(packed_positions, fill_m);
         }
 
-        if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv3) {
-            check_i128(pos1);
-            pos1 -= RQS[T[pos1 - 1]];
-        } else
-            pos1 -= mm1;
+        pos1 = get0_i128(packed_positions);
+        pos2 = get1_i128(packed_positions);
 
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
-            check_i128(pos2);
-            pos2 -= RQS[T[pos2 - 1]];
+        if (z[word(pos1 + 1) & mask] == 0) {
+            check_cmp_i128(pos1, ndiv3);
+            sub0_i128(alpha_i128);
         } else
-            pos2 -= mm1;
+            sub0_i128(mm1);
+
+        if (z[word(pos2 + 1) & mask] == 0) {
+            check_cmp_i128(pos2, twondiv3);
+            sub1_i128(alpha_i128);
+        } else
+            sub1_i128(mm1);
     }
+
+    pos2 = get1_i128(packed_positions);
 
     while (pos2 >= twondiv3) {
         while (z[word(pos2) & mask] != 0) {
             pos2 -= m;
         }
-        if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
-            check_i128(pos2);
-            pos2 -= RQS[T[pos2 - 1]];
+        if (z[word(pos2 + 1) & mask] == 0) {
+            check_cmp_i128(pos2, twondiv3);
+            pos2 -= alpha_i128;
         } else
             pos2 -= mm1;
     }

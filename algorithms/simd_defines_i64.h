@@ -16,6 +16,14 @@
         packed_positions,            \
         _mm_setr_pi32(0, val));
 
+#define unpack_i64(val, x, y)           \
+    {                                   \
+        int tmp[2];                     \
+        memcpy(tmp, &val, sizeof(val)); \
+        x = tmp[0];                     \
+        y = tmp[1];                     \
+    }
+
 #define print_i64(i64)                                \
     {                                                 \
         int tmp[2];                                   \

@@ -8,7 +8,7 @@
 
 #define word(a) *((unsigned short*)(T + a))
 
-int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+int RZk_w3_simd3(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
 {
     // this array size must be >= 1 + MAX_PAT_LEN // 16
     __m128i packed_pattern[30];
@@ -18,8 +18,8 @@ int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float*
     int i, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
     int b = 8;
+    int mm1 = m-1;
     char z[mask + 1];
-    int mm1 = m - 1;
 
     QueryPerformanceCounter(&start);
 
@@ -78,27 +78,30 @@ int RZk_w3_simd2(unsigned char* P, int m, unsigned char* T, int n, int k, float*
             sub2_i128(mm1);
     }
 
-    pos1 = get1_i128(packed_positions);
-    pos2 = get2_i128(packed_positions);
+    packed_positions = _mm_srli_si128(packed_positions, 4);
 
-    while (pos1 >= ndiv3) {
-        while (z[word(pos1) & mask] != 0 && z[word(pos2) & mask] != 0) {
-            pos1 -= m;
-            pos2 -= m;
+    while (get0_i128(packed_positions) >= ndiv3) {
+        while (z[word(get0_i128(packed_positions)) & mask] != 0 && z[word(get1_i128(packed_positions)) & mask] != 0) {
+            packed_positions = _mm_sub_epi32(packed_positions, fill_m);
         }
+
+        pos1 = get0_i128(packed_positions);
+        pos2 = get1_i128(packed_positions);
 
         if (z[word(pos1 + 1) & mask] == 0 && pos1 > ndiv3) {
             check_i128(pos1);
-            pos1 -= RQS[T[pos1 - 1]];
+            sub0_i128(RQS[T[pos1 - 1]]);
         } else
-            pos1 -= mm1;
+            sub0_i128(mm1);
 
         if (z[word(pos2 + 1) & mask] == 0 && pos2 > twondiv3) {
             check_i128(pos2);
-            pos2 -= RQS[T[pos2 - 1]];
+            sub1_i128(RQS[T[pos2 - 1]]);
         } else
-            pos2 -= mm1;
+            sub1_i128(mm1);
     }
+
+    pos2 = get1_i128(packed_positions);
 
     while (pos2 >= twondiv3) {
         while (z[word(pos2) & mask] != 0) {

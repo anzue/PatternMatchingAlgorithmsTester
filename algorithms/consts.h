@@ -66,6 +66,11 @@ extern std::map<string, vector<int>> matches_pos;
         ++count;                                                 \
     }
 
+#define MULTIMATCH(pos, key, lim)                        \
+    for (int _id = 0; _id < 32; ++_id)                   \
+        if ((key & (1 << _id)) != 0 && pos + _id >= lim) \
+            MATCH(pos + _id);
+
 #define CLEAR_MATCHES        \
     {                        \
         matches_pos.clear(); \
@@ -75,8 +80,7 @@ extern std::map<string, vector<int>> matches_pos;
     {                                                              \
         auto defAlgo = matches_pos.begin()->second;                \
         for (auto& pair : matches_pos) {                           \
-            /*  if (pair.second.size() != defAlgo.size())    */    \
-            {                                                      \
+            /* if (pair.second.size() != defAlgo.size())*/ {       \
                 PRINT_DIFF(matches_pos.begin()->first, pair.first) \
             }                                                      \
         }                                                          \
@@ -129,6 +133,9 @@ extern std::map<string, vector<int>> matches_pos;
 
 #else
 #define MATCH(pos) ++count
+
+#define MULTIMATCH(pos, key, lim) \
+    count += (lim <= pos) ? __builtin_popcount(key) : (lim - (pos) <= 16 ? __builtin_popcount(key >> ((lim) - (pos))) : 0)
 
 #define CLEAR_MATCHES
 #define FIND_DIFF_MATCHES

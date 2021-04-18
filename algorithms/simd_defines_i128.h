@@ -70,4 +70,37 @@
         }                                                                                                        \
     }
 
+#define check_i128_ptr(T_ptr)                                                                                            \
+    eq = true;                                                                                                           \
+    cout << "Check " << T_ptr - T << "\n";                                                                               \
+    for (i = 15; eq && i < m; i += 16) {                                                                                 \
+        packed_text = _mm_loadu_si128((__m128i*)(T_ptr + i - 15));                                                       \
+        eq &= (_popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[i / 16]))) == 16);                 \
+        cout << i << " " << _mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[i / 16])) << " " << eq << "\n"; \
+        for (int j = i - 15; j <= i; ++j)                                                                                \
+            cout << (int)T_ptr[j] << " " << (int)P[j] << "\n";                                                           \
+    }                                                                                                                    \
+    if (eq) {                                                                                                            \
+        packed_text = pack_last_i128(T_ptr + m - m % 16, m % 16);                                                        \
+        eq &= (_popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[m / 16]))) == 16);                 \
+        if (eq) {                                                                                                        \
+            MATCH(T_ptr - T);                                                                                            \
+        }                                                                                                                \
+    }                                                                                                                    \
+    cout << eq << "\n";
+
+#define alpha_i128 16
+
+#define SIMDcompare_i128(x, y) \
+    _mm_movemask_epi8(_mm_cmpeq_epi8(_mm_loadu_si128(x), _mm_set1_epi8(y)))
+
+#define check_cmp_i128(pos, lim)                                                \
+    found = UINT_MAX;                                                           \
+    for (_j = 0; _j < m; ++_j) {                                                \
+        found = found & SIMDcompare_i128((__m128i*)(T + pos + _j - 15), P[_j]); \
+        if (found == 0)                                                         \
+            break;                                                              \
+    }                                                                           \
+    MULTIMATCH(pos - 15, found, lim);
+
 #endif // SIMD_DEFINES_I128_H

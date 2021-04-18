@@ -1,14 +1,14 @@
-#include "algorithms/consts.h"
-#include "algorithms/simd_defines_i128.h"
-#include "algorithms/simd_defines_i64.h"
 #include <bitset>
 #include <intrin.h>
 #include <stdio.h>
 #include <string.h>
 
+#include "algorithms/consts.h"
+#include "algorithms/simd_defines_i128.h"
+
 #define word(a) *((unsigned short*)(a))
 
-int RZk_w2_mmx(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
+int RZk_w2_simd3(unsigned char* P, int m, unsigned char* T, int n, int k, float* time)
 {
     int i, s, count = 0, RQS[MAX_SIGMA];
     int mask = (1 << k) - 1;
@@ -38,44 +38,34 @@ int RZk_w2_mmx(unsigned char* P, int m, unsigned char* T, int n, int k, float* t
     for (i = m - 1; i >= 0; --i)
         RQS[P[i]] = i + 1;
 
-    __m64 fill_m = _mm_set1_pi32(m);
-    __m64 packed_positions = _mm_setr_pi32(ndiv2, n - m);
+    __m128i fill_m = _mm_set1_epi32(m);
+    __m128i packed_positions = _mm_setr_epi32(ndiv2, n - m, 0, 0);
 
-    pos0 = ndiv2; //
-    pos1 = n - m; //
+    while (get0_i128(packed_positions) + m >= 0) {
 
-    print_i64(packed_positions);
-
-    while (pos0 + m >= 0) {
-        packed_positions = _mm_sub_pi32(packed_positions, fill_m);
-        unpack_i64(packed_positions, pos0, pos1);
-        while (z[word(T + get0_i64(packed_positions)) & mask] != 0
-            && z[word(T + get1_i64(packed_positions)) & mask] != 0) {
-            packed_positions = _mm_sub_pi32(packed_positions, fill_m);
-            // print_i64(packed_positions);
+        while (z[word(T + get0_i128(packed_positions)) & mask] != 0
+            && z[word(T + get1_i128(packed_positions)) & mask] != 0) {
+            packed_positions = _mm_sub_epi32(packed_positions, fill_m);
         }
 
-        pos0 = get0_i64(packed_positions);
-        pos1 = get1_i64(packed_positions);
-        //cout << pos0 << " " << pos1 << std::endl;
-        // print_i64(packed_positions);
-
+        pos0 = get0_i128(packed_positions);
+        pos1 = get1_i128(packed_positions);
         if (z[word(T + pos0 + 1) & mask] == 0) {
             check_i128(pos0);
-            sub0_i64(RQS[T[pos0 - 1]]);
+            sub0_i128(RQS[T[pos0 - 1]]);
         } else {
-            sub0_i64(m - 1);
+            sub0_i128(m - 1);
         }
 
         if (z[word(T + pos1 + 1) & mask] == 0 && pos1 > ndiv2) {
             check_i128(pos1);
-            sub1_i64(RQS[T[pos1 - 1]]);
+            sub1_i128(RQS[T[pos1 - 1]]);
         } else {
-            sub1_i64(m - 1);
+            sub1_i128(m - 1);
         }
     }
 
-    pos1 = get1_i64(packed_positions);
+    pos1 = get1_i128(packed_positions);
 
     while (pos1 > ndiv2) {
         while (z[word(T + pos1) & mask] != 0) {
@@ -90,5 +80,5 @@ int RZk_w2_mmx(unsigned char* P, int m, unsigned char* T, int n, int k, float* t
 
     QueryPerformanceCounter(&finish);
     *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
-    return 1 - 1;
+    return count - 1;
 }
