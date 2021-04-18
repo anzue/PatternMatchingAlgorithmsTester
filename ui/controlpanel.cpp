@@ -24,7 +24,7 @@ ControlPanel::ControlPanel(MainChart* parent)
         new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 13, true),
         new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 14, false),
 
-        new KExecutableAlgo("RZ{}_w2_simd2", RZk_w2_simd3, 13, true),
+        new KExecutableAlgo("RZ{}_w2_simd3", RZk_w2_simd3, 13, true),
 
 
         new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 13, true),
