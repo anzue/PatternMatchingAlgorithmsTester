@@ -15,8 +15,11 @@ ControlPanel::ControlPanel(MainChart* parent)
 
     algorithms = {
 
-        new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 13, false),
-        new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 14, false),
+        // new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 13, false),
+        // new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 14, false),
+
+        new KExecutableAlgo("RZ{}_byte", RZk_byte, 13, true),
+        new KExecutableAlgo("RZ{}_byte", RZk_byte, 14, false),
 
         new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 13, true),
         new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 14, false),
@@ -26,13 +29,11 @@ ControlPanel::ControlPanel(MainChart* parent)
 
         new KExecutableAlgo("RZ{}_w2_simd3", RZk_w2_simd3, 13, true),
 
-
         new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 13, true),
         new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, false),
 
         new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 13, true),
         new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 14, false),
-
 
         new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
         new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
@@ -51,12 +52,8 @@ ControlPanel::ControlPanel(MainChart* parent)
         new KExecutableAlgo("RZ{}_w4_simd3", RZk_w4_simd3, 13, true),
         new KExecutableAlgo("RZ{}_w4_simd3_pointer", RZk_w4_simd3_pointer, 13, false),
 
-
-      //  new KExecutableAlgo("test_algo_{}", test_algo, 13, true),
-      //  new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
-
-        new KExecutableAlgo("RZ{}_byte", RZk_byte, 13, false),
-        new KExecutableAlgo("RZ{}_byte", RZk_byte, 14, false),
+        new KExecutableAlgo("test_algo_{}", test_algo, 13, false),
+        //  new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
 
         //   new ExecutableAlgo("FSBNDM_W1", fsbndm_w1, false),
         //   new ExecutableAlgo("FSBNDM_W2", fsbndm_w2, false),
@@ -69,7 +66,7 @@ ControlPanel::ControlPanel(MainChart* parent)
         new ExecutableAlgo("FSw4", fs_w4, false),
         new ExecutableAlgo("FSw6", fs_w6, false),
         new ExecutableAlgo("FSw8", fs_w8, true),
-        new ExecutableAlgo("FJS", fjs, false),
+        new ExecutableAlgo("FJS", fjs, true),
 
         new KExecutableAlgo("Z{}_byte", Zk_byte, 13, true),
         new KExecutableAlgo("Z{}_byte", Zk_byte, 14, false),
@@ -145,13 +142,13 @@ ControlPanel::ControlPanel(MainChart* parent)
     QComboBox* minmComboBox = new QComboBox;
     minmComboBox->addItems(parent->patternLengths);
     connect(minmComboBox, QOverload<int>::of(&QComboBox::currentIndexChanged), [=](int index) { parent->MINM = parent->patternLengths.at(index).toInt(); });
-    minmComboBox->setCurrentText("40");
+    minmComboBox->setCurrentText("48");
     minmComboBox->setFixedWidth(50);
 
     QComboBox* maxmComboBox = new QComboBox;
     maxmComboBox->addItems(parent->patternLengths);
     connect(maxmComboBox, QOverload<int>::of(&QComboBox::currentIndexChanged), [=](int index) { parent->MAXM = parent->patternLengths.at(index).toInt(); });
-    maxmComboBox->setCurrentText("400");
+    maxmComboBox->setCurrentText("416");
     maxmComboBox->setFixedWidth(50);
 
     QSpinBox* outerItersComboBox = new QSpinBox;
@@ -162,8 +159,8 @@ ControlPanel::ControlPanel(MainChart* parent)
 
     QSpinBox* innerItersComboBox = new QSpinBox;
     innerItersComboBox->setMinimum(1);
-    innerItersComboBox->setMaximum(20);
-    innerItersComboBox->setValue(3);
+    innerItersComboBox->setMaximum(1000);
+    innerItersComboBox->setValue(10);
     connect(innerItersComboBox, QOverload<int>::of(&QSpinBox::valueChanged), [=](int value) { parent->INNER_ITER = value; });
 
     controlLayout->addWidget(new QLabel("Alphabet Size"));

@@ -42,9 +42,9 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     tabs->addTab(chartView, "Graph represenation");
 
     if (patternLengths.isEmpty()) {
-        for (int i = 4; i <= MAX_PAT_LEN; i += (i < 16 ? 2 : i < 64 ? 4
-                                                         : i < 128  ? 8
-                                                                    : 16))
+        for (int i = 4; i <= MAX_PAT_LEN; i += (i < 16 ? 4 : i < 64 ? 8
+                                                         : i < 128  ? 16
+                                                                    : 32))
             patternLengths.append(QString::number(i));
     }
 

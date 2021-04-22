@@ -19,7 +19,7 @@ int RZk_w3_simd2_range_cmp(unsigned char* P, int m, unsigned char* T, int n, int
     int mask = (1 << k) - 1;
     int b = 8;
     char z[mask + 1];
-    int mm1 = m-1;
+    int mm1 = m - 1;
     QueryPerformanceCounter(&start);
 
     pack_pattern_i128();
@@ -36,6 +36,11 @@ int RZk_w3_simd2_range_cmp(unsigned char* P, int m, unsigned char* T, int n, int
         RQS[i] = m + 1;
     for (i = m - 1; i >= 0; --i)
         RQS[P[i]] = i + 1;
+
+    for (int i = 0; i < SIGMA; ++i) {
+        if (RQS[i] < alpha_i128)
+            RQS[i] = alpha_i128;
+    }
 
     int ndiv3 = n / 3;
     int twondiv3 = 2 * n / 3;
@@ -90,13 +95,13 @@ int RZk_w3_simd2_range_cmp(unsigned char* P, int m, unsigned char* T, int n, int
             check_cmp_i128(pos1, ndiv3);
             pos1 -= alpha_i128;
         } else
-            pos1 -=mm1;
+            pos1 -= mm1;
 
         if (z[word(pos2 + 1) & mask] == 0) {
             check_cmp_i128(pos2, twondiv3);
             pos2 -= alpha_i128;
         } else
-            pos2 -=mm1;
+            pos2 -= mm1;
     }
 
     while (pos2 >= twondiv3) {
