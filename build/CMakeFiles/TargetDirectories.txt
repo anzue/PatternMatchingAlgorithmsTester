@@ -1,0 +1,3 @@
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles/rebuild_cache.dir
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles/edit_cache.dir
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles/PatternMatchingSIMDAMD.dir
