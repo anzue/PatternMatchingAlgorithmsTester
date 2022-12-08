@@ -1,3 +1,6 @@
+#include <immintrin.h>
+#include <limits.h>
+
 #ifndef SIMD_DEFINES_I128_H
 #define SIMD_DEFINES_I128_H
 
@@ -60,11 +63,11 @@
     eq = true;                                                                                                   \
     for (i = pos + 15; eq && i < pos + m; i += 16) {                                                             \
         packed_text = _mm_loadu_si128((__m128i*)&T[i - 15]);                                                     \
-        eq &= (_popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[(i - pos) / 16]))) == 16); \
+        eq &= (__builtin_popcount(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[(i - pos) / 16]))) == 16); \
     }                                                                                                            \
     if (eq) {                                                                                                    \
         packed_text = pack_last_i128(T + pos + m - m % 16, m % 16);                                              \
-        eq &= (_popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[(m) / 16]))) == 16);       \
+        eq &= (__builtin_popcount(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[(m) / 16]))) == 16);       \
         if (eq) {                                                                                                \
             MATCH(pos);                                                                                          \
         }                                                                                                        \
@@ -75,14 +78,14 @@
     cout << "Check " << T_ptr - T << "\n";                                                                               \
     for (i = 15; eq && i < m; i += 16) {                                                                                 \
         packed_text = _mm_loadu_si128((__m128i*)(T_ptr + i - 15));                                                       \
-        eq &= (_popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[i / 16]))) == 16);                 \
+        eq &= (__builtin_popcount(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[i / 16]))) == 16);                 \
         cout << i << " " << _mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[i / 16])) << " " << eq << "\n"; \
         for (int j = i - 15; j <= i; ++j)                                                                                \
             cout << (int)T_ptr[j] << " " << (int)P[j] << "\n";                                                           \
     }                                                                                                                    \
     if (eq) {                                                                                                            \
         packed_text = pack_last_i128(T_ptr + m - m % 16, m % 16);                                                        \
-        eq &= (_popcnt32(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[m / 16]))) == 16);                 \
+        eq &= (__builtin_popcount(_mm_movemask_epi8(_mm_cmpeq_epi8(packed_text, packed_pattern[m / 16]))) == 16);                 \
         if (eq) {                                                                                                        \
             MATCH(T_ptr - T);                                                                                            \
         }                                                                                                                \

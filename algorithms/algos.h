@@ -66,6 +66,4 @@ int RZk_w3_simd3(unsigned char* P, int m, unsigned char* T, int n, int k, float*
 int RZk_w3_simd3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 int RZk_w4_simd3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, float* time);
 
-
-
 #endif // ALGOS_H

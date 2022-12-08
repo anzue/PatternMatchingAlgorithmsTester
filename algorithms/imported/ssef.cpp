@@ -23,7 +23,7 @@
  */
 
 #include <emmintrin.h>
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 typedef union{

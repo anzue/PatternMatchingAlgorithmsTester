@@ -1,9 +1,7 @@
 #ifndef CONSTS_H
 #define CONSTS_H
 
-#include <QStringList>
 #include <algorithm>
-#include <conio.h>
 #include <cstdio>
 #include <iostream>
 #include <malloc.h>
@@ -16,7 +14,7 @@
 #include <sys/timeb.h>
 #include <time.h>
 #include <vector>
-#include <windows.h>
+#include <cassert>
 
 using namespace std;
 
@@ -49,11 +47,13 @@ using namespace std;
 #define MAX_PAT_LEN 520
 #define TOTAL 500000
 
-extern LARGE_INTEGER start, finish, freq;
 extern unsigned int SIGMA;
 extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 
 //#define MATCH_DEBUGGING
+
+#define START_TIMER  clock_t start_timer, finish_timer; start_timer = clock();
+#define FINISH_TIMER finish_timer = clock(); *time += (finish_timer - start_timer)/CLOCKS_PER_SEC;
 
 #ifdef MATCH_DEBUGGING
 extern std::map<string, vector<int>> matches_pos;

@@ -2,7 +2,6 @@
 #include "algorithms/simd_defines_i128.h"
 
 #include <bitset>
-#include <intrin.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -20,7 +19,7 @@ int RZk_w4_simd3(unsigned char* P, int m, unsigned char* T, int n, int k, float*
     int b = 8;
     char z[mask + 1];
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
 
     pack_pattern_i128();
 
@@ -155,8 +154,7 @@ int RZk_w4_simd3(unsigned char* P, int m, unsigned char* T, int n, int k, float*
             pos3 -= m - 1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     return count;
 }

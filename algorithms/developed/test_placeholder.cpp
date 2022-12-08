@@ -1,5 +1,4 @@
 #include <bitset>
-#include <intrin.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -20,7 +19,7 @@ int test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* ti
     int b = 8;
     char z[mask + 1];
     int mm1 = m - 1;
-    QueryPerformanceCounter(&start);
+    START_TIMER
 
     pack_pattern_i128();
     memset(z, 1, mask);
@@ -115,8 +114,7 @@ int test_algo(unsigned char* P, int m, unsigned char* T, int n, int k, float* ti
             pos2 -= mm1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     return count;
 }

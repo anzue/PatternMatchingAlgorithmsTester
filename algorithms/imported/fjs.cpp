@@ -51,7 +51,7 @@ void preKmp_fjs(unsigned char* x, int m, int kmpNexy[]) {
 int fjs(unsigned char* x, int m, unsigned char* y, int n, float* time) {
     int i, s, count, qsbc[MAX_SIGMA], kmp[MAX_PAT_LEN];
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
 
     /* Preprocessing */
     preQsBc_fjs(x, m, qsbc);
@@ -73,7 +73,6 @@ int fjs(unsigned char* x, int m, unsigned char* y, int n, float* time) {
         s += (i - kmp[i]);
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
     return count;
 }

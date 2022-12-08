@@ -17,7 +17,7 @@
  * download the tool at: http://www.dmi.unict.it/~faro/smart/
  */
 
-#include <Algorithms/algos.h>
+#include <algorithms/algos.h>
 
 #ifndef AUTOMATON
 #define AUTOMATON

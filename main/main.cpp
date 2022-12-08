@@ -1,14 +1,20 @@
-#include "mainchart.h"
+#include <iostream>
+#include <iomanip>
 
-#include <QApplication>
+#include "test.h"
+#include "algoexecutor.h"
 
-#ifdef MATCH_DEBUGGING
-std::map<string, vector<int>> matches_pos;
-#endif
+using namespace std;
 
-int main(int argc, char* argv[]) {
-    QApplication a(argc, argv);
-    MainChart w;
-    w.show();
-    return a.exec();
+int main(){    
+    vector<Algo*> algos = get_algos();
+    vector<vector<float> > test_res = test(algos, 32, 10000, 32, 128);
+    cout << fixed << setprecision(4);
+
+    for(int i=0;i< test_res.size(); ++i){
+        //   cout << algos[i]->name << " \t";
+        for(int j=0;j< test_res[i].size(); ++j){
+            cout << test_res[i][j] << " ";
+        } cout <<"\n";
+    }
 }

@@ -5,6 +5,6 @@
 #include <string.h>
 #include <cstdlib>
 
-#include <Algorithms/consts.h>
+#include <algorithms/consts.h>
 
 #endif // MAIN_H
