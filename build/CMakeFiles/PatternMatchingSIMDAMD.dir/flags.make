@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/. -I/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main -I/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms
 
-CXX_FLAGS = -std=gnu++2a
+CXX_FLAGS = -g -std=gnu++2a
 

@@ -87,42 +87,14 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ac.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ag.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/akc.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso2.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/log2.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso4.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/log2.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso6.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/log2.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/askip.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/log2.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aut.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o
+ ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bf.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bfs.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o
  ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/blim.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
+ /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bfs.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o
+ ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bm.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o
  ../algorithms/consts.h
@@ -149,6 +121,8 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bndmq6.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o
+ ../algorithms/algos.h
+ ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bom.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/GRAPH.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o
@@ -156,6 +130,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bom2.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o
+ ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/br.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o
  ../algorithms/consts.h
@@ -188,38 +163,6 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o
  ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm8.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bww.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs1.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs2.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs3.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs4.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs6.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs8.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o
  ../algorithms/consts.h
@@ -351,92 +294,11 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o
  ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq61.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq62.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq64.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq81.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq82.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq84.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq86.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/graspm.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash3.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash5.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash8.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hor.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/horspool.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o
- ../algorithms/algos.h
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm1.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o
- ../algorithms/algos.h
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm2.cpp
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o
+ ../algorithms/algos.h
+ ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kbndm.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmp.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmpskip.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kr.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ksa.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/lbndm.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o
  ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
@@ -449,242 +311,6 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o
  ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/pbmh.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf23.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf24.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf26.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf28.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf33.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf34.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf36.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf42.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf43.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf44.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf62.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf63.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qs.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/raita.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rcolussi.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o
- ../algorithms/algos.h
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rf.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sa.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sabp.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-bmh.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w6.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq6.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq8.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sfbom.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o
- ../algorithms/algos.h
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/simon.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o
- ../algorithms/algos.h
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/skip.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smith.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smoa.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/so.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ssabs.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm0.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm1.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm3.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tbm.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndm.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndma.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o
- ../algorithms/algos.h
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/trf.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ts.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tsw.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tunedbm.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w6.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w8.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tw.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq6.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o
- ../algorithms/consts.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
- /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq8.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o
  ../algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/main.h
@@ -694,6 +320,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/consts.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.h
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/algoexecutor.h
+ /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/json.hpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/main.cpp
  /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/test.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o

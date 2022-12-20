@@ -87,41 +87,13 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o: ../algori
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o: ../algorithms/executablealgo.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o: ../algorithms/executablealgo.h
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o: ../algorithms/imported/ac.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o: ../algorithms/imported/ag.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o: ../algorithms/imported/akc.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o: ../algorithms/imported/aoso2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o: ../algorithms/imported/include/log2.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o: ../algorithms/imported/aoso4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o: ../algorithms/imported/include/log2.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o: ../algorithms/imported/aoso6.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o: ../algorithms/imported/include/log2.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o: ../algorithms/imported/askip.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o: ../algorithms/imported/include/log2.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o: ../algorithms/imported/aut.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o: ../algorithms/imported/bf.cpp
 
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o: ../algorithms/imported/bfs.cpp
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o: ../algorithms/imported/blim.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o: ../algorithms/imported/include/main.h
-
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o: ../algorithms/imported/bm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o: ../algorithms/consts.h
@@ -148,6 +120,8 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o: ../algor
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o: ../algorithms/imported/bndmq6.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o: ../algorithms/imported/include/main.h
 
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o: ../algorithms/algos.h
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o: ../algorithms/imported/bom.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o: ../algorithms/imported/include/GRAPH.h
 
@@ -155,6 +129,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o: ../algorit
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o: ../algorithms/imported/bom2.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o: ../algorithms/imported/include/main.h
 
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o: ../algorithms/imported/br.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o: ../algorithms/consts.h
@@ -188,38 +163,6 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o: ../algori
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o: ../algorithms/imported/bsdm8.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o: ../algorithms/imported/bww.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o: ../algorithms/imported/bxs.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o: ../algorithms/imported/bxs1.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o: ../algorithms/imported/bxs2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o: ../algorithms/imported/bxs3.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o: ../algorithms/imported/bxs4.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o: ../algorithms/imported/bxs6.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o: ../algorithms/imported/bxs8.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o: ../algorithms/imported/include/main.h
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o: ../algorithms/imported/dbww.cpp
@@ -351,91 +294,10 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o: ../al
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o: ../algorithms/imported/fsbndmq61.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o: ../algorithms/imported/include/main.h
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o: ../algorithms/imported/fsbndmq62.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o: ../algorithms/imported/fsbndmq64.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o: ../algorithms/imported/fsbndmq81.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o: ../algorithms/imported/fsbndmq82.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o: ../algorithms/imported/fsbndmq84.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o: ../algorithms/imported/fsbndmq86.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o: ../algorithms/imported/graspm.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o: ../algorithms/imported/hash3.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o: ../algorithms/imported/hash5.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o: ../algorithms/imported/hash8.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o: ../algorithms/imported/hor.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o: ../algorithms/imported/horspool.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: ../algorithms/algos.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: ../algorithms/imported/ildm1.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: ../algorithms/imported/include/main.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: ../algorithms/algos.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: ../algorithms/imported/ildm2.cpp
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: ../algorithms/imported/include/main.h
-
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o: ../algorithms/algos.h
+CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o: ../algorithms/imported/include/AUTOMATON.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o: ../algorithms/imported/kbndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o: ../algorithms/imported/kmp.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o: ../algorithms/imported/kmpskip.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o: ../algorithms/imported/kr.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o: ../algorithms/imported/ksa.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o: ../algorithms/imported/lbndm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o: ../algorithms/imported/include/main.h
@@ -449,242 +311,6 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o: ../algorit
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o: ../algorithms/imported/include/main.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o: ../algorithms/imported/pbmh.cpp
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o: ../algorithms/imported/qf23.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o: ../algorithms/imported/qf24.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o: ../algorithms/imported/qf26.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o: ../algorithms/imported/qf28.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o: ../algorithms/imported/qf33.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o: ../algorithms/imported/qf34.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o: ../algorithms/imported/qf36.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o: ../algorithms/imported/qf42.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o: ../algorithms/imported/qf43.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o: ../algorithms/imported/qf44.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o: ../algorithms/imported/qf62.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o: ../algorithms/imported/qf63.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o: ../algorithms/imported/qs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o: ../algorithms/imported/raita.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o: ../algorithms/imported/rcolussi.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: ../algorithms/algos.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: ../algorithms/imported/rf.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o: ../algorithms/imported/sa.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o: ../algorithms/imported/sabp.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o: ../algorithms/imported/sbndm-bmh.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o: ../algorithms/imported/sbndm-w2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o: ../algorithms/imported/sbndm-w4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o: ../algorithms/imported/sbndm-w6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o: ../algorithms/imported/sbndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o: ../algorithms/imported/sbndm2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o: ../algorithms/imported/sbndmq2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o: ../algorithms/imported/sbndmq4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o: ../algorithms/imported/sbndmq6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o: ../algorithms/imported/sbndmq8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o: ../algorithms/imported/sfbom.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: ../algorithms/algos.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: ../algorithms/imported/simon.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: ../algorithms/algos.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: ../algorithms/imported/skip.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o: ../algorithms/imported/smith.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o: ../algorithms/imported/smoa.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o: ../algorithms/imported/so.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o: ../algorithms/imported/ssabs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o: ../algorithms/imported/svm0.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o: ../algorithms/imported/svm1.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o: ../algorithms/imported/svm2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o: ../algorithms/imported/svm3.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o: ../algorithms/imported/svm4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o: ../algorithms/imported/tbm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o: ../algorithms/imported/tndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o: ../algorithms/imported/tndma.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: ../algorithms/algos.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: ../algorithms/imported/include/AUTOMATON.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: ../algorithms/imported/trf.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o: ../algorithms/imported/ts.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o: ../algorithms/imported/tsw.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o: ../algorithms/imported/tunedbm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o: ../algorithms/imported/tvsbs-w2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o: ../algorithms/imported/tvsbs-w4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o: ../algorithms/imported/tvsbs-w6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o: ../algorithms/imported/tvsbs-w8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o: ../algorithms/imported/tvsbs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o: ../algorithms/imported/tw.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o: ../algorithms/imported/ufndmq2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o: ../algorithms/imported/ufndmq4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o: ../algorithms/imported/ufndmq6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o: ../algorithms/consts.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o: ../algorithms/imported/include/main.h
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o: ../algorithms/imported/ufndmq8.cpp
-
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o: ../algorithms/imported/include/main.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o: ../algorithms/imported/zt.cpp
@@ -693,6 +319,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../algorithms/algos.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../algorithms/consts.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../algorithms/executablealgo.h
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../main/algoexecutor.h
+CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../main/json.hpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../main/main.cpp
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/main.cpp.o: ../main/test.h
 

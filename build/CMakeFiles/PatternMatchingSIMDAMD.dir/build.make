@@ -388,113 +388,9 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/include/AUTOMATON.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.s
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o: ../algorithms/imported/ac.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ac.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ac.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ac.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o: ../algorithms/imported/ag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ag.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ag.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ag.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o: ../algorithms/imported/akc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/akc.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/akc.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/akc.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o: ../algorithms/imported/aoso2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o: ../algorithms/imported/aoso4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o: ../algorithms/imported/aoso6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso6.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aoso6.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o: ../algorithms/imported/askip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/askip.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/askip.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/askip.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o: ../algorithms/imported/aut.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aut.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aut.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/aut.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.s
-
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o: ../algorithms/imported/bf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bf.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.i: cmake_force
@@ -507,7 +403,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o: ../algorithms/imported/bfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bfs.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.i: cmake_force
@@ -518,22 +414,9 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bfs.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.s
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o: ../algorithms/imported/blim.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/blim.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/blim.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/blim.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.s
-
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o: ../algorithms/imported/bm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.i: cmake_force
@@ -546,7 +429,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o: ../algorithms/imported/bmh-sbndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bmh-sbndm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.i: cmake_force
@@ -559,7 +442,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o: ../algorithms/imported/bndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bndm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.i: cmake_force
@@ -572,7 +455,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.o: ../algorithms/imported/bndml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bndml.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.i: cmake_force
@@ -585,7 +468,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndml.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.o: ../algorithms/imported/bndmq2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bndmq2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.i: cmake_force
@@ -598,7 +481,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq2.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.o: ../algorithms/imported/bndmq4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bndmq4.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.i: cmake_force
@@ -611,7 +494,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq4.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o: ../algorithms/imported/bndmq6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bndmq6.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.i: cmake_force
@@ -624,7 +507,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndmq6.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o: ../algorithms/imported/bom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bom.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.i: cmake_force
@@ -637,7 +520,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o: ../algorithms/imported/bom2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bom2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.i: cmake_force
@@ -650,7 +533,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bom2.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o: ../algorithms/imported/br.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/br.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.i: cmake_force
@@ -663,7 +546,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/br.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o: ../algorithms/imported/bsdm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.i: cmake_force
@@ -676,7 +559,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.o: ../algorithms/imported/bsdm2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.i: cmake_force
@@ -689,7 +572,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm2.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.o: ../algorithms/imported/bsdm3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm3.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.i: cmake_force
@@ -702,7 +585,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm3.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.o: ../algorithms/imported/bsdm4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm4.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.i: cmake_force
@@ -715,7 +598,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm4.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.o: ../algorithms/imported/bsdm5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm5.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.i: cmake_force
@@ -728,7 +611,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm5.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o: ../algorithms/imported/bsdm6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm6.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.i: cmake_force
@@ -741,7 +624,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o: ../algorithms/imported/bsdm7.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm7.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.i: cmake_force
@@ -754,7 +637,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o: ../algorithms/imported/bsdm8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm8.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.i: cmake_force
@@ -765,113 +648,9 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bsdm8.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.s
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o: ../algorithms/imported/bww.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bww.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bww.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bww.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o: ../algorithms/imported/bxs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o: ../algorithms/imported/bxs1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs1.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs1.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs1.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o: ../algorithms/imported/bxs2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o: ../algorithms/imported/bxs3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs3.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs3.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs3.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o: ../algorithms/imported/bxs4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o: ../algorithms/imported/bxs6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs6.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs6.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o: ../algorithms/imported/bxs8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs8.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/bxs8.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.s
-
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o: ../algorithms/imported/dbww.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/dbww.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.i: cmake_force
@@ -884,7 +663,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o: ../algorithms/imported/dbww2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/dbww2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.i: cmake_force
@@ -897,7 +676,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o: ../algorithms/imported/ebom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ebom.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.i: cmake_force
@@ -910,7 +689,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.o: ../algorithms/imported/faoso2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/faoso2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.i: cmake_force
@@ -923,7 +702,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso2.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.o: ../algorithms/imported/faoso4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/faoso4.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.i: cmake_force
@@ -936,7 +715,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso4.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.o: ../algorithms/imported/faoso6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/faoso6.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.i: cmake_force
@@ -949,7 +728,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/faoso6.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.o: ../algorithms/imported/fbom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fbom.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.i: cmake_force
@@ -962,7 +741,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fbom.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.o: ../algorithms/imported/fdm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fdm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.i: cmake_force
@@ -975,7 +754,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fdm.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.o: ../algorithms/imported/ffs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ffs.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.i: cmake_force
@@ -988,7 +767,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ffs.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.o: ../algorithms/imported/fjs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fjs.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.i: cmake_force
@@ -1001,7 +780,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fjs.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.o: ../algorithms/imported/fndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fndm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.i: cmake_force
@@ -1014,7 +793,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fndm.cpp.s: cmake_forc
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.o: ../algorithms/imported/fs-w1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fs-w1.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.i: cmake_force
@@ -1027,7 +806,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w1.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.o: ../algorithms/imported/fs-w2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fs-w2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.i: cmake_force
@@ -1040,7 +819,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w2.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.o: ../algorithms/imported/fs-w4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fs-w4.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.i: cmake_force
@@ -1053,7 +832,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w4.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.o: ../algorithms/imported/fs-w6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fs-w6.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.i: cmake_force
@@ -1066,7 +845,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w6.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.o: ../algorithms/imported/fs-w8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fs-w8.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.i: cmake_force
@@ -1079,7 +858,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs-w8.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.o: ../algorithms/imported/fs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fs.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.i: cmake_force
@@ -1092,7 +871,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fs.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.o: ../algorithms/imported/fsbndm-w1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndm-w1.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.i: cmake_force
@@ -1105,7 +884,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w1.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.o: ../algorithms/imported/fsbndm-w2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndm-w2.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.i: cmake_force
@@ -1118,7 +897,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w2.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.o: ../algorithms/imported/fsbndm-w4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndm-w4.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.i: cmake_force
@@ -1131,7 +910,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w4.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.o: ../algorithms/imported/fsbndm-w6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndm-w6.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.i: cmake_force
@@ -1144,7 +923,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w6.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.o: ../algorithms/imported/fsbndm-w8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndm-w8.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.i: cmake_force
@@ -1157,7 +936,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm-w8.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.o: ../algorithms/imported/fsbndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndm.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.i: cmake_force
@@ -1170,7 +949,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndm.cpp.s: cmake_fo
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.o: ../algorithms/imported/fsbndmq20.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq20.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.i: cmake_force
@@ -1183,7 +962,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq20.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.o: ../algorithms/imported/fsbndmq21.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq21.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.i: cmake_force
@@ -1196,7 +975,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq21.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.o: ../algorithms/imported/fsbndmq31.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq31.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.i: cmake_force
@@ -1209,7 +988,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq31.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.o: ../algorithms/imported/fsbndmq32.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq32.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.i: cmake_force
@@ -1222,7 +1001,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq32.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.o: ../algorithms/imported/fsbndmq41.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq41.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.i: cmake_force
@@ -1235,7 +1014,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq41.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o: ../algorithms/imported/fsbndmq42.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq42.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.i: cmake_force
@@ -1248,7 +1027,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o: ../algorithms/imported/fsbndmq43.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq43.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.i: cmake_force
@@ -1261,7 +1040,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.s: cmake
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o: ../algorithms/imported/fsbndmq61.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq61.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.i: cmake_force
@@ -1272,269 +1051,9 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq61.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.s
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o: ../algorithms/imported/fsbndmq62.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq62.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq62.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq62.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o: ../algorithms/imported/fsbndmq64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq64.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq64.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq64.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o: ../algorithms/imported/fsbndmq81.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq81.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq81.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq81.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o: ../algorithms/imported/fsbndmq82.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq82.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq82.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq82.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o: ../algorithms/imported/fsbndmq84.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq84.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq84.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq84.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o: ../algorithms/imported/fsbndmq86.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq86.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq86.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/fsbndmq86.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o: ../algorithms/imported/graspm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/graspm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/graspm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/graspm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o: ../algorithms/imported/hash3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash3.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash3.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash3.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o: ../algorithms/imported/hash5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash5.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash5.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash5.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o: ../algorithms/imported/hash8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash8.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hash8.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o: ../algorithms/imported/hor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hor.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hor.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/hor.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o: ../algorithms/imported/horspool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/horspool.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/horspool.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/horspool.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o: ../algorithms/imported/ildm1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm1.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm1.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm1.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o: ../algorithms/imported/ildm2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ildm2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o: ../algorithms/imported/kbndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kbndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kbndm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kbndm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o: ../algorithms/imported/kmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmp.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmp.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmp.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o: ../algorithms/imported/kmpskip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmpskip.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmpskip.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kmpskip.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o: ../algorithms/imported/kr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kr.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kr.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/kr.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o: ../algorithms/imported/ksa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ksa.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ksa.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ksa.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o: ../algorithms/imported/lbndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/lbndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/lbndm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/lbndm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.s
-
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o: ../algorithms/imported/mp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/mp.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.i: cmake_force
@@ -1547,7 +1066,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o: ../algorithms/imported/nsn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/nsn.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.i: cmake_force
@@ -1560,7 +1079,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o: ../algorithms/imported/pbmh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/pbmh.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.i: cmake_force
@@ -1571,750 +1090,9 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/pbmh.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.s
 
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o: ../algorithms/imported/qf23.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf23.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf23.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf23.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o: ../algorithms/imported/qf24.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf24.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf24.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf24.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o: ../algorithms/imported/qf26.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf26.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf26.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf26.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o: ../algorithms/imported/qf28.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf28.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf28.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf28.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o: ../algorithms/imported/qf33.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf33.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf33.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf33.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o: ../algorithms/imported/qf34.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf34.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf34.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf34.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o: ../algorithms/imported/qf36.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf36.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf36.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf36.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o: ../algorithms/imported/qf42.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf42.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf42.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf42.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o: ../algorithms/imported/qf43.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf43.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf43.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf43.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o: ../algorithms/imported/qf44.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf44.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf44.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf44.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o: ../algorithms/imported/qf62.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf62.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf62.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf62.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o: ../algorithms/imported/qf63.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf63.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf63.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qf63.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o: ../algorithms/imported/qs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qs.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/qs.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o: ../algorithms/imported/raita.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/raita.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/raita.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/raita.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o: ../algorithms/imported/rcolussi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rcolussi.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rcolussi.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rcolussi.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o: ../algorithms/imported/rf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rf.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rf.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/rf.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o: ../algorithms/imported/sa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sa.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sa.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sa.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o: ../algorithms/imported/sabp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sabp.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sabp.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sabp.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o: ../algorithms/imported/sbndm-bmh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-bmh.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-bmh.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-bmh.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o: ../algorithms/imported/sbndm-w2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o: ../algorithms/imported/sbndm-w4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o: ../algorithms/imported/sbndm-w6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w6.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm-w6.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o: ../algorithms/imported/sbndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o: ../algorithms/imported/sbndm2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndm2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o: ../algorithms/imported/sbndmq2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o: ../algorithms/imported/sbndmq4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o: ../algorithms/imported/sbndmq6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq6.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq6.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o: ../algorithms/imported/sbndmq8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq8.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sbndmq8.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o: ../algorithms/imported/sfbom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sfbom.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sfbom.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/sfbom.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o: ../algorithms/imported/simon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/simon.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/simon.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/simon.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o: ../algorithms/imported/skip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/skip.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/skip.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/skip.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o: ../algorithms/imported/smith.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smith.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smith.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smith.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o: ../algorithms/imported/smoa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smoa.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smoa.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/smoa.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o: ../algorithms/imported/so.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/so.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/so.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/so.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o: ../algorithms/imported/ssabs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ssabs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ssabs.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ssabs.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o: ../algorithms/imported/svm0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm0.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm0.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm0.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o: ../algorithms/imported/svm1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm1.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm1.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm1.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o: ../algorithms/imported/svm2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o: ../algorithms/imported/svm3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm3.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm3.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm3.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o: ../algorithms/imported/svm4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/svm4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o: ../algorithms/imported/tbm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tbm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tbm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tbm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o: ../algorithms/imported/tndm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o: ../algorithms/imported/tndma.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndma.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndma.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tndma.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o: ../algorithms/imported/trf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/trf.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/trf.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/trf.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o: ../algorithms/imported/ts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ts.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ts.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ts.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o: ../algorithms/imported/tsw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tsw.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tsw.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tsw.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o: ../algorithms/imported/tunedbm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tunedbm.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tunedbm.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tunedbm.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o: ../algorithms/imported/tvsbs-w2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o: ../algorithms/imported/tvsbs-w4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o: ../algorithms/imported/tvsbs-w6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w6.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w6.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o: ../algorithms/imported/tvsbs-w8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w8.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs-w8.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o: ../algorithms/imported/tvsbs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tvsbs.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o: ../algorithms/imported/tw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tw.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tw.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/tw.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o: ../algorithms/imported/ufndmq2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq2.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq2.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq2.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o: ../algorithms/imported/ufndmq4.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq4.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq4.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq4.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o: ../algorithms/imported/ufndmq6.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq6.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq6.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq6.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.s
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o: ../algorithms/imported/ufndmq8.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq8.cpp
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq8.cpp > CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.i
-
-CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/ufndmq8.cpp -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.s
-
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o: ../algorithms/imported/zt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/imported/zt.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.i: cmake_force
@@ -2327,7 +1105,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o: ../algorithms/consts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/consts.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.i: cmake_force
@@ -2340,7 +1118,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.s: cmake_force
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o: ../algorithms/executablealgo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.i: cmake_force
@@ -2353,7 +1131,7 @@ CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.s: cmake_for
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o: CMakeFiles/PatternMatchingSIMDAMD.dir/flags.make
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o: ../main/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o -c /home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/test.cpp
 
 CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.i: cmake_force
@@ -2390,17 +1168,8 @@ PatternMatchingSIMDAMD_OBJECTS = \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/developed/Zk_shift2.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/developed/Zk_w2.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o" \
@@ -2419,14 +1188,6 @@ PatternMatchingSIMDAMD_OBJECTS = \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o" \
@@ -2458,86 +1219,9 @@ PatternMatchingSIMDAMD_OBJECTS = \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o" \
-"CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o" \
 "CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o" \
@@ -2570,17 +1254,8 @@ PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/develop
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/developed/Zk_shift2.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/developed/Zk_w2.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/include/AUTOMATON.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ac.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ag.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/akc.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aoso6.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/askip.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/aut.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bf.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bfs.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/blim.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bm.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bmh-sbndm.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bndm.cpp.o
@@ -2599,14 +1274,6 @@ PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/importe
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm6.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm7.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bsdm8.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bww.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs1.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs3.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs6.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/bxs8.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/dbww2.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ebom.cpp.o
@@ -2638,93 +1305,16 @@ PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/importe
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq42.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq43.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq61.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq62.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq64.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq81.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq82.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq84.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/fsbndmq86.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/graspm.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash3.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash5.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hash8.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/hor.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/horspool.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm1.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ildm2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kbndm.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmp.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kmpskip.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/kr.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ksa.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/lbndm.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/mp.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/nsn.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/pbmh.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf23.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf24.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf26.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf28.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf33.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf34.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf36.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf42.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf43.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf44.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf62.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qf63.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/qs.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/raita.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rcolussi.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/rf.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sa.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sabp.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-bmh.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm-w6.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndm2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq6.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sbndmq8.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/sfbom.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/simon.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/skip.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smith.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/smoa.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/so.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ssabs.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm0.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm1.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm3.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/svm4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tbm.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndm.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tndma.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/trf.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ts.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tsw.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tunedbm.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w6.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs-w8.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tvsbs.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/tw.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq2.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq4.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq6.cpp.o
-PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/ufndmq8.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/imported/zt.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/consts.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/algorithms/executablealgo.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/main/test.cpp.o
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/build.make
 PatternMatchingSIMDAMD: CMakeFiles/PatternMatchingSIMDAMD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Linking CXX executable PatternMatchingSIMDAMD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable PatternMatchingSIMDAMD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PatternMatchingSIMDAMD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/algos.h
-consts.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/consts.h
-
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/consts.h
+../algorithms/consts.h
 algorithm
 -
 cstdio
@@ -40,31 +36,61 @@ vector
 cassert
 -
 
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.h
+../algorithms/simd_defines_i128.h
+immintrin.h
+-
+limits.h
+-
+
+../algorithms/simd_defines_i64.h
+
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/RZk_W2_MMX.cpp
+algorithms/consts.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/consts.h
+algorithms/simd_defines_i128.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/simd_defines_i128.h
+algorithms/simd_defines_i64.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/simd_defines_i64.h
+bitset
+-
+stdio.h
+-
 string.h
 -
-algos.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/algos.h
 
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/algoexecutor.h
-../algorithms/executablealgo.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/RZk_W2_SIMD3.cpp
+bitset
+-
+stdio.h
+-
+string.h
+-
+algorithms/consts.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/consts.h
+algorithms/simd_defines_i128.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/simd_defines_i128.h
 
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/main.cpp
-iostream
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/RZk_W3_SIMD1.cpp
+algorithms/consts.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/consts.h
+bitset
 -
-iomanip
+stdio.h
 -
-test.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/test.h
-algoexecutor.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/algoexecutor.h
+string.h
+-
+algorithms/simd_defines_i128.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/simd_defines_i128.h
 
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/test.h
-algoexecutor.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/main/algoexecutor.h
-vector
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/RZk_W3_SIMD2.cpp
+bitset
 -
-../algorithms/executablealgo.h
-/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/executablealgo.h
+stdio.h
+-
+string.h
+-
+algorithms/consts.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/consts.h
+algorithms/simd_defines_i128.h
+/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/algorithms/developed/algorithms/simd_defines_i128.h
 
