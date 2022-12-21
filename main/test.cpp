@@ -27,22 +27,21 @@ int ids[MAX_ALGO_COUNT];
 using std::vector;
 
 int get_rand_int(int max) {
-    return (rand() * RAND_MAX + rand()) % max;
+    return ((rand() * RAND_MAX + rand()) % max + max) % max;
 }
 
 
-vector<vector <float> >  test(vector<Algo *> algorithms, int SIGMA, int N, int MINM, int MAXM, int OUTER_ITER , int INNER_ITER ){
+vector<vector <float> >  test(vector<Algo *> algorithms, vector<int> patternLengths, int SIGMA, int N, int OUTER_ITER , int INNER_ITER ){
     // QueryPerformanceFrequency(&freq);
     cout << "Running test : "
-         << "SIGMA = " << SIGMA << " "
-         << "MINM = " << MINM << " "
-         << "MAXM = " << MAXM << " "
-         << std::endl;
+         << "SIGMA = " << SIGMA << "\n";
+
+    ::SIGMA = SIGMA;
 
     vector<vector<float>> res(algorithms.size(), vector<float>(0));
-    unsigned int m, glob = 0;
-    for (int i = 0; i < N; i++) {
-        TN[i] = (rand() + glob % 320) % SIGMA;
+    unsigned int  glob = 0;
+    for (int i = 0; i < N + 2* min(patternLengths.back(), 512); i++) {
+        T1[i] = (rand() + glob % 320) % SIGMA;
         glob = (glob * 11 + 30157) % 499;
     }
     for (int i = 0; i < MAX_PAT_LEN; i++) {
@@ -52,14 +51,11 @@ vector<vector <float> >  test(vector<Algo *> algorithms, int SIGMA, int N, int M
 
     unsigned int ii, ig, i;
 
-    vector<int> patternLengths = {2,4,8, 16, 32, 64, 128, 256};
-
     for (int i = 0; i < algorithms.size(); ++i) {
         ids[i] = i;
     }
 
     for (int &m: patternLengths) {
-        if( m < MINM || m > MAXM) continue;
         memset(execTime, 0, sizeof(float) * algorithms.size());
 
         for (ig = 0; ig < OUTER_ITER; ig++) {
@@ -90,7 +86,7 @@ vector<vector <float> >  test(vector<Algo *> algorithms, int SIGMA, int N, int M
                     int id_i = ids[i];
                     try  {
                         if (algorithms[id_i]->is_applicable(SIGMA, m)) {
-                            cout << "Running " << algorithms[id_i]->name << " for patlen = " << m << " and sigma = " << SIGMA << std::endl;
+                           // cout << "Running " << algorithms[id_i]->name << " for patlen = " << m << " and sigma = " << SIGMA << std::endl;
                             matches[id_i] = algorithms[id_i]->search(P, (int) m, TN, (int) N, &execTime[id_i]);
                             if (consensus_result == -11) {
                                 consensus_result = matches[id_i];
@@ -105,7 +101,8 @@ vector<vector <float> >  test(vector<Algo *> algorithms, int SIGMA, int N, int M
                             }
                         } else {
                             matches[id_i] = -11;
-                        } } catch(...) {
+                        } 
+                    } catch(...) {
                         cout << "Error (((";
                     }
                     //  assert(matches[id_i] == matches[id_0]);

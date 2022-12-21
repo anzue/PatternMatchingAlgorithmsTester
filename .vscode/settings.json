@@ -49,6 +49,15 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "bitset": "cpp"
+        "bitset": "cpp",
+        "any": "cpp",
+        "chrono": "cpp",
+        "codecvt": "cpp",
+        "cstring": "cpp",
+        "forward_list": "cpp",
+        "ratio": "cpp",
+        "fstream": "cpp",
+        "cinttypes": "cpp",
+        "valarray": "cpp"
     }
 }

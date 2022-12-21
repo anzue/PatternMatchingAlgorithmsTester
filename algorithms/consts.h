@@ -45,7 +45,7 @@ using namespace std;
 
 #define MAX_SIGMA 256
 #define MAX_PAT_LEN 520
-#define TOTAL 500000
+#define TOTAL 1000000
 
 extern unsigned int SIGMA;
 extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
@@ -53,7 +53,9 @@ extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 //#define MATCH_DEBUGGING
 
 #define START_TIMER  clock_t start_timer, finish_timer; start_timer = clock();
-#define FINISH_TIMER finish_timer = clock(); *time += (finish_timer - start_timer)/CLOCKS_PER_SEC;
+#define FINISH_TIMER \
+                    finish_timer = clock(); *time += 1.*(double)(finish_timer - start_timer)  /*/CLOCKS_PER_SEC*/; \
+                    \
 
 #ifdef MATCH_DEBUGGING
 extern std::map<string, vector<int>> matches_pos;

@@ -58,6 +58,7 @@
     }                                                                     \
     packed_pattern[m / 16] = pack_last_i128(P + m - m % 16, m % 16);
 
+// eq &= ((_mm_cmpistro (packed_text, packed_pattern[(i - pos) / 16], _SIDD_UBYTE_OPS))& 2); \
 // todo maybe use _mm_sad_epu8
 #define check_i128(pos)                                                                                          \
     eq = true;                                                                                                   \
@@ -72,6 +73,7 @@
             MATCH(pos);                                                                                          \
         }                                                                                                        \
     }
+#define check_i128_tmp(pos) for (i = 0; i < m && P[i] == T[pos + i]; ++i) {};if (i == m) {MATCH(pos);}
 
 #define check_i128_ptr(T_ptr)                                                                                            \
     eq = true;                                                                                                           \

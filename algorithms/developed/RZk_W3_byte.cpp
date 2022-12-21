@@ -15,7 +15,7 @@ int RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
 
     START_TIMER
     memset(z, 1, mask);
-
+    
     for (i = 0; i < m - 1; ++i) {
         z[(*(unsigned short*)(P + i)) & mask] = 0;
     }
