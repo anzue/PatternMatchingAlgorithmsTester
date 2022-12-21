@@ -1,0 +1,59 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.18"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PatternMatchingSIMDAMD",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PatternMatchingSIMDAMD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PatternMatchingSIMDAMD-Debug-25162005ef98695ec03a.json",
+					"name" : "PatternMatchingSIMDAMD",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/build",
+		"source" : "/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}
