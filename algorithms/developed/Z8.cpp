@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <cassert>
 
 #include "algorithms/consts.h"
 
@@ -10,7 +11,7 @@ int Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time) {
     int i, s, count = 0, QS[MAX_SIGMA];
     char z[256];
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
     memset(z, 1, 256);
 
     for (i = 0; i < m; ++i) {
@@ -43,8 +44,7 @@ int Z8_byte(unsigned char* P, int m, unsigned char* T, int n, float* time) {
       //  cout <<3 << " "<< pos << " " << m + n << std::endl;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     return count - 1;
 }

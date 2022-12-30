@@ -42,7 +42,7 @@ int bmh_sbndm(unsigned char *x, int m, unsigned char *y, int n) {
    for (i=0; i<SIGMA; i++)
       B[i] = 0;
    for (i=0; i<m; i++) 
-      B[x[m-i-1]] |= (unsigned int)1 << (i+WORD-m);
+      B[x[m-i-1]] |= (unsigned int)1 << (i+WORD_-m);
    for(i=0; i<m; i++) 
       y[n+i]=x[i];
    D = B[x[m-1]]; j=1; shift=1;
@@ -94,7 +94,7 @@ int large_bmh_sbndm(unsigned char *x, int m, unsigned char *y, int n) {
    for (i=0; i<SIGMA; i++)
       B[i] = 0;
    for (i=0; i<m; i++) 
-      B[x[m-i-1]] |= (unsigned int)1 << (i+WORD-m);
+      B[x[m-i-1]] |= (unsigned int)1 << (i+WORD_-m);
    for(i=0; i<m; i++) 
       y[n+i]=x[i];
    D = B[x[m-1]]; j=1; shift=1;

@@ -25,21 +25,21 @@
 #include "include/main.h"
 
 #define CHAR_BIT 8
-#define WORD_TYPE unsigned int
-#define WORD_BITS (sizeof(WORD_TYPE)*CHAR_BIT)
-#define bit_size(bits) (((bits)+WORD_BITS-1)/WORD_BITS)
-#define   bit_byte(bit) ((bit) / WORD_BITS)
-#define   bit_mask(bit) (1L << ((bit) % WORD_BITS))
-#define bit_alloc(bits) calloc(bit_size(bits), sizeof(WORD_TYPE))
+#define WORD__TYPE unsigned int
+#define WORD__BITS (sizeof(WORD__TYPE)*CHAR_BIT)
+#define bit_size(bits) (((bits)+WORD__BITS-1)/WORD__BITS)
+#define   bit_byte(bit) ((bit) / WORD__BITS)
+#define   bit_mask(bit) (1L << ((bit) % WORD__BITS))
+#define bit_alloc(bits) calloc(bit_size(bits), sizeof(WORD__TYPE))
 #define   bit_set(name, bit) ((name)[bit_byte(bit)] |= bit_mask(bit))
 #define   bit_clear(name, bit) ((name)[bit_byte(bit)] &= ~bit_mask(bit))
 #define   bit_test(name, bit) ((name)[bit_byte(bit)] & bit_mask(bit))
-#define bit_zero(name, bits) memset(name, 0, bit_size(bits) * sizeof(WORD_TYPE))
-#define SHIFT_BNDM(a, b, n) ((a << (n)) | (b >> (WORD_BITS-(n))))
+#define bit_zero(name, bits) memset(name, 0, bit_size(bits) * sizeof(WORD__TYPE))
+#define SHIFT_BNDM(a, b, n) ((a << (n)) | (b >> (WORD__BITS-(n))))
 
-static void bit_alloc_n(WORD_TYPE **name, int n, int bits) {
+static void bit_alloc_n(WORD__TYPE **name, int n, int bits) {
    int i;
-   name[0] = (unsigned int*)calloc(n * bit_size(bits), sizeof(WORD_TYPE));
+   name[0] = (unsigned int*)calloc(n * bit_size(bits), sizeof(WORD__TYPE));
    for (i = 1; i < n; i++) name[i] = name[0] + i*bit_size(bits);
 }
 
@@ -86,8 +86,8 @@ int bndml(unsigned char *x, int m, unsigned char *y, int n) {
 int large_bndml(unsigned char *x, int m, unsigned char *y, int n)
 {
    int i, j;
-   WORD_TYPE *D, H, M;
-   WORD_TYPE *B[MAX_SIGMA];
+   WORD__TYPE *D, H, M;
+   WORD__TYPE *B[MAX_SIGMA];
    int count = 0;
 
    bit_alloc_n(B, SIGMA, m);

@@ -27,12 +27,12 @@
 #include "include/main.h"
 
 
-#define MAXWSIZE (MAX_PAT_LEN + WORD)
+#define MAXWSIZE (MAX_PAT_LEN + WORD_)
 
 int blim(unsigned char* x, int m, unsigned char* y, int n)
 {
    int i,j,k,count;
-   unsigned int   wsize = WORD - 1 + m;
+   unsigned int   wsize = WORD_ - 1 + m;
    unsigned long* M = (unsigned long*)malloc(sizeof(unsigned long)*SIGMA * MAXWSIZE);
    unsigned long  tmp, F;
    unsigned int   ScanOrder[MAX_PAT_LEN];
@@ -43,7 +43,7 @@ int blim(unsigned char* x, int m, unsigned char* y, int n)
 
    /* Preprocessing */
    memset(M,0xff,sizeof(unsigned long)*SIGMA*wsize);
-    for(i=0;i<WORD;i++){
+    for(i=0;i<WORD_;i++){
       tmp = 1 << i;
       for(j=0;j<m;j++){
          for(k=0;k<SIGMA;k++) M[((i+j)*SIGMA) + k] &= ~tmp;
@@ -74,7 +74,7 @@ int blim(unsigned char* x, int m, unsigned char* y, int n)
          F &= M[MScanOrder[j]+y[i+ScanOrder[j]]]; 
       }
       if (F) {
-         for(j=0;j<WORD;j++)
+         for(j=0;j<WORD_;j++)
             if (F & (1<<j)) 
                if(i+j<=n-m) OUTPUT(i+j);
       }

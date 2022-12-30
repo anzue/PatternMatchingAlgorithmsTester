@@ -1,0 +1,412 @@
+[
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\main\\main.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\main\\main.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\main\\main.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_byte.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_byte.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_byte.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W2_byte.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_byte.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_byte.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W2_MMX.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_MMX.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_MMX.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W2_pointer.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_pointer.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_pointer.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W2_SIMD3.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_SIMD3.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W2_SIMD3.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_byte.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_byte.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_byte.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_byte_copy.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_byte_copy.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_byte_copy.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_pointer.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_pointer.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_pointer.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_SIMD1.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD1.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD1.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_SIMD2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_w3_simd2_range_cmp.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_w3_simd2_range_cmp.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_w3_simd2_range_cmp.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_SIMD3.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD3.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD3.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W3_SIMD3_range_cmp.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD3_range_cmp.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W3_SIMD3_range_cmp.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W4_SIMD2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W4_SIMD2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W4_SIMD2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W4_SIMD3.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W4_SIMD3.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W4_SIMD3.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\RZk_W4_SIMD3_pointer.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W4_SIMD3_pointer.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\RZk_W4_SIMD3_pointer.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\test_placeholder.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\test_placeholder.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\test_placeholder.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\Z8.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Z8.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Z8.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\Z8_w2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Z8_w2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Z8_w2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\Zk.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Zk.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Zk.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\Zk_shift2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Zk_shift2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Zk_shift2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\developed\\Zk_w2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Zk_w2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\developed\\Zk_w2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\include\\AUTOMATON.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\include\\AUTOMATON.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\include\\AUTOMATON.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bf.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bf.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bf.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bfs.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bfs.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bfs.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bmh-sbndm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bmh-sbndm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bmh-sbndm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bndm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bndml.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndml.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndml.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bndmq2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndmq2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndmq2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bndmq4.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndmq4.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndmq4.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bndmq6.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndmq6.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bndmq6.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bom.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bom.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bom.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bom2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bom2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bom2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\br.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\br.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\br.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm3.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm3.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm3.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm4.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm4.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm4.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm5.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm5.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm5.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm6.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm6.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm6.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm7.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm7.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm7.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\bsdm8.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm8.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\bsdm8.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\dbww.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\dbww.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\dbww.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\dbww2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\dbww2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\dbww2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\ebom.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\ebom.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\ebom.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\faoso2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\faoso2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\faoso2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\faoso4.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\faoso4.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\faoso4.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\faoso6.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\faoso6.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\faoso6.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fbom.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fbom.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fbom.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fdm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fdm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fdm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\ffs.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\ffs.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\ffs.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fjs.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fjs.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fjs.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fndm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fndm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fndm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fs-w1.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w1.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w1.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fs-w2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fs-w4.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w4.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w4.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fs-w6.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w6.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w6.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fs-w8.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w8.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs-w8.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fs.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fs.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndm-w1.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w1.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w1.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndm-w2.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w2.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w2.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndm-w4.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w4.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w4.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndm-w6.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w6.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w6.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndm-w8.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w8.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm-w8.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndm.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndm.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq20.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq20.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq20.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq21.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq21.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq21.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq31.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq31.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq31.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq32.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq32.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq32.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq41.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq41.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq41.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq42.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq42.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq42.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq43.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq43.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq43.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\fsbndmq61.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq61.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\fsbndmq61.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\mp.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\mp.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\mp.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\nsn.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\nsn.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\nsn.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\pbmh.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\pbmh.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\pbmh.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\imported\\zt.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\zt.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\imported\\zt.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\consts.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\consts.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\consts.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\algorithms\\executablealgo.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\executablealgo.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\algorithms\\executablealgo.cpp"
+},
+{
+  "directory": "C:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/build",
+  "command": "C:\\MinGW\\bin\\g++.exe -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/. -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/main -IC:/Users/zuievant/Projects/PatternMatchingAlgorithmsTester/algorithms  -march=native -msse2 -O3 -O3 -DNDEBUG -std=gnu++1z -o CMakeFiles\\PatternMatchingSIMDAMD.dir\\main\\test.cpp.obj -c C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\main\\test.cpp",
+  "file": "C:\\Users\\zuievant\\Projects\\PatternMatchingAlgorithmsTester\\main\\test.cpp"
+}
+]

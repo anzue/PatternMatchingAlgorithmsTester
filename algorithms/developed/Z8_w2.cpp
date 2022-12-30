@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <cassert>
 
 #include "algorithms/consts.h"
 
@@ -11,7 +12,7 @@ int Z8_w2_byte(unsigned char* P, int m, unsigned char* T, int n, float* time) {
     int b = 8;
     char z[256];
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
     memset(z, 1, 256);
 
     for (i = 0; i < m; ++i) {
@@ -72,8 +73,7 @@ int Z8_w2_byte(unsigned char* P, int m, unsigned char* T, int n, float* time) {
             pos0 += m - 2;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     return count - 1;
 }

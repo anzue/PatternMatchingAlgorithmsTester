@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <cassert>
 
 #include "algorithms/consts.h"
 
@@ -13,7 +14,7 @@ int Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* t
 
     assert(m >= 4);
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
     memset(z, 1, mask);
 
     for (i = 0; i < m - 1; ++i) {
@@ -79,8 +80,7 @@ int Zk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* t
             pos0 += m - 2;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     delete[] z;
 

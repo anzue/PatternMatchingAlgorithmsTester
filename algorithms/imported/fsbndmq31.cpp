@@ -34,14 +34,14 @@ int fsbndmq31(unsigned char* x, int m, unsigned char* y, int n, float* time)
     unsigned int B[MAX_SIGMA], D, set;
     int i, j, pos, mm, sh, m1, count;
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
 
     if (m < Q)
         return -1;
     int plen = m;
-    int larger = m + F > WORD ? 1 : 0;
+    int larger = m + F > WORD_ ? 1 : 0;
     if (larger)
-        m = WORD - F;
+        m = WORD_ - F;
 
     /* Preprocessing */
     count = 0;
@@ -85,8 +85,7 @@ int fsbndmq31(unsigned char* x, int m, unsigned char* y, int n, float* time)
             j += sh;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     return count;
 }

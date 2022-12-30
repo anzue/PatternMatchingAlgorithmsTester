@@ -39,7 +39,7 @@ int sa(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int lim, D; 
    unsigned int S[MAX_SIGMA], F;
    int j, count; 
-   if (m > WORD) return large_sa(x,m,y,n);
+   if (m > WORD_) return large_sa(x,m,y,n);
 
    /* Preprocessing */ 
    preSA(x, m, S); 

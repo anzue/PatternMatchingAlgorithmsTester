@@ -19,7 +19,7 @@
 
 /* Exerpt of nauty.c -- Copyright (1984-2004) Brendan McKay
    Only works on 32 bits architecture
-      WORDSIZE==32 : unsigned int unless it is too small,
+      WORD_SIZE==32 : unsigned int unless it is too small,
                         in which case unsigned long
 */
 

@@ -2,7 +2,6 @@
 #include "algorithms/simd_defines_i128.h"
 #include "algorithms/simd_defines_i64.h"
 #include <bitset>
-#include <intrin.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -21,7 +20,7 @@ int RZk_w2_mmx(unsigned char* P, int m, unsigned char* T, int n, int k, float* t
     int ndiv2 = n / 2;
     int pos0, pos1;
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
     memset(z, 1, mask);
 
     pack_pattern_i128();
@@ -88,7 +87,6 @@ int RZk_w2_mmx(unsigned char* P, int m, unsigned char* T, int n, int k, float* t
             pos1 -= m - 1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
     return 1 - 1;
 }

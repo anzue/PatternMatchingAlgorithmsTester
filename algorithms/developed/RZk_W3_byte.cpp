@@ -13,9 +13,9 @@ int RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
     int b = 8;
     char* z = new char[mask + 1];
 
-    QueryPerformanceCounter(&start);
+    START_TIMER
     memset(z, 1, mask);
-
+    
     for (i = 0; i < m - 1; ++i) {
         z[(*(unsigned short*)(P + i)) & mask] = 0;
     }
@@ -115,8 +115,7 @@ int RZk_w3_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
             pos2 -= m - 1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_TIMER
 
     delete[] z;
 

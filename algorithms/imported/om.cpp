@@ -20,7 +20,7 @@
  * in D. M. Sunday. A very fast substring search algorithm. Commun. ACM, vol.33, n.8, pp.132--142, (1990).
  */
 
-#include "Algorithms/consts.h"
+#include "algorithms/consts.h"
 #include "include/main.h"
 
 typedef struct patternScanOrder {

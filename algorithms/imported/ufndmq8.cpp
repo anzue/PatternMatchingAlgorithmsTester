@@ -35,7 +35,7 @@ int ufndmq8(unsigned char *x, int m, unsigned char *y, int n) {
    q = 8;
    if (m<q) return -1;
 
-   if(m+q > WORD) return large_ufndmq8(x,m,y,n);
+   if(m+q > WORD_) return large_ufndmq8(x,m,y,n);
 
    /* Preprocessing */
    S = ~((unsigned char)127 << m);

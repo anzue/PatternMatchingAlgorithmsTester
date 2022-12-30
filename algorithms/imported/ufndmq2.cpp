@@ -34,7 +34,7 @@ int ufndmq2(unsigned char *x, int m, unsigned char *y, int n) {
    int count = 0;
    q = 2;
    if(m<q) return -1;
-   if(m+q > WORD) return large_ufndmq2(x,m,y,n);
+   if(m+q > WORD_) return large_ufndmq2(x,m,y,n);
 
    /* Preprocessing */
    S = ~((unsigned int)1 << m);
