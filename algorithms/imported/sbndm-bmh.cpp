@@ -37,15 +37,15 @@ int sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
 
    /* preprocessing */
    for (i=0; i<SIGMA; i++)  B[i] = 0;
-   for (i=0; i<m; i++) B[x[m-i-1]] |= (unsigned int)1 << (i+WORD-m);
+   for (i=0; i<m; i++) B[x[m-i-1]] |= (unsigned int)1 << (i+WORD_-m);
    for (i=0;i<SIGMA;i++)   hbc[i]=2*m;
    for (i=0;i<m;i++)     hbc[x[i]]=(2*m)-i-1;
    last = m;
-   s = (unsigned int)(~0) << (WORD-m);
+   s = (unsigned int)(~0) << (WORD_-m);
    s = (unsigned int)(~0);
    for (i=m-1; i>=0; i--) {
       s &= B[x[i]]; 
-      if (s & ((unsigned int)1<<(WORD-1))) {
+      if (s & ((unsigned int)1<<(WORD_-1))) {
          if(i > 0)  last = i; 
       }
       restore[i] = last;
@@ -96,15 +96,15 @@ int large_sbndm_bmh(unsigned char *x, int m, unsigned char *y, int n) {
 
    /* preprocessing */
    for (i=0; i<SIGMA; i++)  B[i] = 0;
-   for (i=0; i<m; i++) B[x[m-i-1]] |= (unsigned int)1 << (i+WORD-m);
+   for (i=0; i<m; i++) B[x[m-i-1]] |= (unsigned int)1 << (i+WORD_-m);
    for (i=0;i<SIGMA;i++)   hbc[i]=2*m;
    for (i=0;i<m;i++)     hbc[x[i]]=(2*m)-i-1;
    last = m;
-   s = (unsigned int)(~0) << (WORD-m);
+   s = (unsigned int)(~0) << (WORD_-m);
    s = (unsigned int)(~0);
    for (i=m-1; i>=0; i--) {
       s &= B[x[i]]; 
-      if (s & ((unsigned int)1<<(WORD-1))) {
+      if (s & ((unsigned int)1<<(WORD_-1))) {
          if(i > 0)  last = i; 
       }
       restore[i] = last;

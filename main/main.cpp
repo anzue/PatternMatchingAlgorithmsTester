@@ -69,7 +69,7 @@ public:
     virtual void write()
     {
         fstream fout;
-        fout.open("/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/out.json", ios_base::out);
+        fout.open("out.json", ios_base::out);
         fout << j.dump();
         fout.close();
         Writer::write();
@@ -95,7 +95,7 @@ public:
     virtual void write()
     {
         fstream fout;
-        fout.open("/home/zuievant/Desktop/Projects/PatternMatchingAlgorithmsTester/out.csv", ios_base::out);
+        fout.open("out.csv", ios_base::out);
         fout << fixed << setprecision(2);
         fout << to_len("length", 12) + "\t";
         for (auto v : labels)
@@ -119,8 +119,8 @@ public:
 int main()
 {
     vector<Algo *> algos = get_algos();
-    vector<int> patternLengths = {8, 16, 32, 48, 64, 96, 128, 192, 256};
-    vector<vector<float>> test_res = test(algos, patternLengths, 64, 900000, 20, 5);
+    vector<int> patternLengths = {32, 40, 48, 56, 64, 80, 96, 112, 128, 140, 160, 180, 192, 220, 256};
+    vector<vector<float>> test_res = test(algos, patternLengths, 192, 900000, 50, 25);
 
     Writer *wr1 = new JsonWriter(nullptr, patternLengths);
     Writer *writter = new FileWritter(wr1, patternLengths);

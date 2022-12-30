@@ -48,14 +48,14 @@ int lbndm(unsigned char *x, int m, unsigned char *y, int n)
    int m1, m2, rmd;
 
    /* Preprocessing */
-   M = 1 << (WORD-1);
-   k = (m-1)/WORD+1;
+   M = 1 << (WORD_-1);
+   k = (m-1)/WORD_+1;
    m1 = m-1;
    m2 = m1-k;
    rmd = m-(m/k)*k;
    for (i=m/k, l=m; i>0; i--, l-=k)
       for (j=k; j>0; j--)
-         B[x[l-j]] |= 1 << (WORD-i);
+         B[x[l-j]] |= 1 << (WORD_-i);
 
    /* Searching */
    int count = 0;

@@ -34,7 +34,7 @@ int bndmq4(unsigned char *x, int m, unsigned char *y, int n) {
    int i,j,q, count, first;
    q = 4;
    if(m<q) return -1;
-   if(m>WORD) return large_bndmq4(x,m,y,n);
+   if(m>WORD_) return large_bndmq4(x,m,y,n);
 
    /* Preprocessing */
    for (i=0; i<SIGMA; i++) B[i] = 0;

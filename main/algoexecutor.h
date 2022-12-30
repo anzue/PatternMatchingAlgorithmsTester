@@ -5,14 +5,15 @@
 inline vector<Algo *> get_algos()
 {
   return {
-      new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
-      new KExecutableAlgo("RZ{}_w2_simd3", RZk_w2_simd3, 14, false),
+
+      //   new KExecutableAlgo("RZ{}_w2_simd3", RZk_w2_simd3, 14, false),
       new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, true),
       new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
-      new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 14, false),
+      //    new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 14, false),
 
-      new KExecutableAlgo("RZ{}_w4_simd3", RZk_w4_simd3, 14, false),
+      //   new KExecutableAlgo("RZ{}_w4_simd3", RZk_w4_simd3, 14, false),
 
+      new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
       //       new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, false),
 
       //  new ExecutableAlgo("Bricks43", Bricks43, true, {2, 15}, {2, 1000}),

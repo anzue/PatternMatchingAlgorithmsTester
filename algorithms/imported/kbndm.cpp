@@ -26,21 +26,21 @@
 #include "include/main.h"
 
 #define CHAR_BIT 8
-#define WORD_TYPE unsigned int
-#define WORD_BITS (sizeof(WORD_TYPE)*CHAR_BIT)
+#define WORD__TYPE unsigned int
+#define WORD__BITS (sizeof(WORD__TYPE)*CHAR_BIT)
 
 int kbndm(const unsigned char *x, int m, const unsigned char *y, int n)
 {
    int i, j, k, m1;
    int beg, end;
-   WORD_TYPE M;
-   WORD_TYPE B[MAX_SIGMA][MAX_SIGMA] = {{0}};
-   WORD_TYPE L[MAX_SIGMA] = {0};
+   WORD__TYPE M;
+   WORD__TYPE B[MAX_SIGMA][MAX_SIGMA] = {{0}};
+   WORD__TYPE L[MAX_SIGMA] = {0};
    unsigned count = 0;
    
    /* Preprocessing */
    end = 0;
-   for (k = 0; k < WORD_BITS-1; k++) {
+   for (k = 0; k < WORD__BITS-1; k++) {
       char occ[MAX_SIGMA] = {0};
       while (end < m && occ[x[end]] == 0) {
          occ[x[end]] = 1;
@@ -79,8 +79,8 @@ int kbndm(const unsigned char *x, int m, const unsigned char *y, int n)
       int k = 1;
       int l = y[j] == x[0];
       unsigned char c = y[j];
-      WORD_TYPE D = ~0;
-      WORD_TYPE D_;
+      WORD__TYPE D = ~0;
+      WORD__TYPE D_;
       do {
          D = D & B[c][y[j-k]];
          D_ = D & L[c];

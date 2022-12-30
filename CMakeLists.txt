@@ -1,17 +1,25 @@
 cmake_minimum_required(VERSION 3.18)
 project(PatternMatchingSIMDAMD)
 
-set(CMAKE_C_COMPILER "/usr/bin/gcc")
-set(CMAKE_CXX_COMPILER "/usr/bin/g++")
+#set(CMAKE_C_COMPILER "C:\MinGW\bin\mingw32-gcc")
+# set(CMAKE_CXX_COMPILER "C:\MinGW\bin\mingw32-g++")
 
-set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_AUTOMOC ON)
-set(CMAKE_AUTORCC ON)
-set(CMAKE_AUTOUIC ON)
+set(CMAKE_CXX_STANDARD 17)
+#set(CMAKE_AUTOMOC ON)
+#set(CMAKE_AUTORCC ON)
+#set(CMAKE_AUTOUIC ON)
+
+add_library(sse4_1 INTERFACE IMPORTED)
+if(MSVC)
+    target_compile_options(sse4_1 INTERFACE /arch:SSE4.1)
+else()
+    target_compile_options(sse4_1 INTERFACE -msse4.1)
+endif()
+
 
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS}")
 
-set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -msse4.2 -O3")
+set(CMAKE_CXX_FLAGS "${CMAKE_C_FLAGS} -march=native -msse2 -O3")
 
 include_directories(. main algorithms)
 

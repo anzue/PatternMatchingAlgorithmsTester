@@ -29,6 +29,6 @@
 ////#define ASIZE		256				//constant alphabet size
 //#define UNDEFINED       -1
 //#define HALFDEFINED     -2
-//#define WORD	    32				//computer word size (in bit)
+//#define WORD_	    32				//computer word size (in bit)
 //#define OUTPUT(j)   count++
 

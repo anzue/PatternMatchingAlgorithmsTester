@@ -34,7 +34,7 @@ int ufndmq4(unsigned char *x, int m, unsigned char *y, int n) {
    int count = 0;
    q = 4;
    if(m<q) return -1;
-   if(m+q > WORD) return large_ufndmq4(x,m,y,n);
+   if(m+q > WORD_) return large_ufndmq4(x,m,y,n);
 
    /* Preprocessing */
    S = ~((unsigned char)7 << m);

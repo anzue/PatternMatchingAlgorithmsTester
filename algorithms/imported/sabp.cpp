@@ -49,7 +49,7 @@ int sabp(unsigned char *x, int m, unsigned char *y, int n) {
    if(m>30) return large_sabp(x,m,y,n);   
 
    /* Preprocessing */
-   z = WORD;
+   z = WORD_;
    mask = 1;
    for (i = 1; i < m; ++i) mask = (mask << 1) | 1;
    for (i = 0; i < SIGMA; ++i) T[i] = mask;
@@ -103,7 +103,7 @@ int large_sabp(unsigned char *x, int m, unsigned char *y, int n) {
    m = 30;
 
    /* Preprocessing */
-   z = WORD;
+   z = WORD_;
    mask = 1;
    for (i = 1; i < m; ++i) mask = (mask << 1) | 1;
    

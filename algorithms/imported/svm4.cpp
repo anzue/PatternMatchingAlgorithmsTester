@@ -55,7 +55,7 @@ int svm4(unsigned char *x, int m, unsigned char *y, int n) {
 
    /* Preprocessing */
    tmp = (~0);
-   tmp >>= (WORD-m);
+   tmp >>= (WORD_-m);
    for(j = 0; j < SIGMA; j++) cv[j] = tmp;
    tmp = 1;
    for(j = m-1; j >= 0; j--) {
@@ -102,7 +102,7 @@ int large_svm4(unsigned char *x, int m, unsigned char *y, int n) {
 
    /* Preprocessing */
    tmp = (~0);
-   tmp >>= (WORD-m);
+   tmp >>= (WORD_-m);
    for(j = 0; j < SIGMA; j++) cv[j] = tmp;
    tmp = 1;
    for(j = m-1; j >= 0; j--) {

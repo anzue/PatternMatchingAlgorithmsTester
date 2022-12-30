@@ -43,7 +43,7 @@ int so(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int lim, D; 
    unsigned int S[MAX_SIGMA];
    int j, count; 
-   if (m > WORD) return large_so(x,m,y,n);
+   if (m > WORD_) return large_so(x,m,y,n);
 
    /* Preprocessing */ 
    lim = preSo(x, m, S); 

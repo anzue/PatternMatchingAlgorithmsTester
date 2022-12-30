@@ -25,22 +25,22 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 #define CHAR_BIT 8
-#define WORD_TYPE unsigned int
-#define WORD_BITS (sizeof(WORD_TYPE)*CHAR_BIT)
+#define WORD__TYPE unsigned int
+#define WORD__BITS (sizeof(WORD__TYPE)*CHAR_BIT)
 
 int ksa(const unsigned char *x, int m, const unsigned char *y, int n)
 {
    int i, j, k, m1;
    int beg, end;
-   WORD_TYPE D, D_, M;
-   WORD_TYPE B[MAX_SIGMA][MAX_SIGMA] = {{0}};
-   WORD_TYPE L[MAX_SIGMA] = {0};
+   WORD__TYPE D, D_, M;
+   WORD__TYPE B[MAX_SIGMA][MAX_SIGMA] = {{0}};
+   WORD__TYPE L[MAX_SIGMA] = {0};
    unsigned count = 0;
    unsigned char c;
 
    /* Preprocessing */
    end = 1;
-   for (k = 1; k < WORD_BITS-1; k++) {
+   for (k = 1; k < WORD__BITS-1; k++) {
       char occ[MAX_SIGMA] = {0};
       while (end < m && occ[x[end]] == 0) {
          occ[x[end]] = 1;

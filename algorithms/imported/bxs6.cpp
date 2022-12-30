@@ -31,7 +31,7 @@ int bxs6(unsigned char *x, int m, unsigned char *y, int n) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, first, k, mm, sh, m1, count;
    if(m<Q) return -1;
-	int w = WORD, mq1 = m-Q+1, nq1 = n-Q+1;
+	int w = WORD_, mq1 = m-Q+1, nq1 = n-Q+1;
 	if (w > m) w = m;
 	unsigned int mask = 1<<(w-1);
 		

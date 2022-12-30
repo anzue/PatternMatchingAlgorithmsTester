@@ -34,8 +34,8 @@ int fsbndmq82(unsigned char *x, int m, unsigned char *y, int n) {
    int i, j, pos, mm, sh, m1, count;
    if(m<Q) return -1;
 	int plen = m;
-	int larger = m+F>WORD? 1:0;
-   if(larger) m = WORD-F;
+	int larger = m+F>WORD_? 1:0;
+   if(larger) m = WORD_-F;
 		
    /* Preprocessing */
    count = 0;

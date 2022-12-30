@@ -41,7 +41,7 @@ int tndma(unsigned char *x, int m, unsigned char *y, int n) {
       s <<= 1;
    }
    last = m;
-   s = (unsigned int)(~0) >> (WORD-m);
+   s = (unsigned int)(~0) >> (WORD_-m);
    for (i=m-1; i>=0; i--) {
       s &= B[x[i]]; 
       if (s & ((unsigned int)1<<(m-1))) {
@@ -112,7 +112,7 @@ int large_tndma(unsigned char *x, int m, unsigned char *y, int n)
       s <<= 1;
    }
    last = m;
-   s = (unsigned int)(~0) >> (WORD-m);
+   s = (unsigned int)(~0) >> (WORD_-m);
    for (i=m-1; i>=0; i--) {
       s &= B[x[i]]; 
       if (s & ((unsigned int)1<<(m-1))) {

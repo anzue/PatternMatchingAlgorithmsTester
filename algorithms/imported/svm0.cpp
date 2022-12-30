@@ -41,7 +41,7 @@ int search_svm0(unsigned char *x, int m, unsigned char *y, int n) {
 
    /* Preprocessing */
    tmp = (~0);
-   tmp >>= (WORD-m);
+   tmp >>= (WORD_-m);
    for(j = 0; j < SIGMA; j++) cv[j] = tmp;
    tmp = 1;
    for(j = m-1; j >= 0; j--) {
@@ -83,7 +83,7 @@ int search_large_svm0(unsigned char *x, int m, unsigned char *y, int n) {
 
    /* proprocessing */
    tmp = (~0);
-   tmp >>= (WORD-m);
+   tmp >>= (WORD_-m);
    for(j = 0; j < SIGMA; j++) cv[j] = tmp;
    tmp = 1;
    for(j = m-1; j >= 0; j--) {
