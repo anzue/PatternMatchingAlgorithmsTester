@@ -14,67 +14,89 @@ ControlPanel::ControlPanel(MainChart* parent)
 {
 
     algorithms = {
-
-        // new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 13, false),
-        // new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 14, false),
+        new ExecutableAlgo("MAW22", MAW22, true, {2,4}),
+    //    new ExecutableAlgo("MAW22P", MAW22P, true, {2,8}, {3,1000}),
+        new ExecutableAlgo("Bricks43", Bricks43, true, {4, 16}),
+     //   new ExecutableAlgo("qf33", qf33, true),
+      //  new ExecutableAlgo("bxs4", bxs4, true, {2, 256}, {4,1000}),
+        new ExecutableAlgo("hash3", hash3, true, {2,8}, {3, 1000}),
+        new ExecutableAlgo("hash8", hash8, true, {2,8}, {3, 1000}),
+        new ExecutableAlgo("fsbndmq41", fsbndmq41, true, {2,1000}, {4, 1000}),
+        new ExecutableAlgo("fsbndmq61", fsbndmq61, true ,{2,1000}, {6, 1000}),
+        new ExecutableAlgo("ebom", ebom, true),
+        new ExecutableAlgo("sbndm2", sbndm2, true),
+        new ExecutableAlgo("tsw", tsw, true),
+      //  new KExecutableAlgo("Z{}_W5", Z_w5, 13, true),
+        new ExecutableAlgo("new_algo", new_algo, true ),
 
         new KExecutableAlgo("RZ{}_byte", RZk_byte, 13, true),
-        new KExecutableAlgo("RZ{}_byte", RZk_byte, 14, false),
-
         new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 14, false),
 
-        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 14, false),
+        new KExecutableAlgo("RZ{}_w2_byte_single_var", RZk_w2_byte_single_var, 13, true),
 
-        new KExecutableAlgo("RZ{}_w2_simd3", RZk_w2_simd3, 13, true),
 
-        new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 13, true),
-        new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, false),
+     //   new ExecutableAlgo("new_algo_k", new_algo_k, true ),
 
-        new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 13, true),
-        new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 14, false),
+       // new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 13, false),
+        // new KExecutableAlgo("RZ{}_w2_mmx", RZk_w2_mmx, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
-        new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
+   //     new KExecutableAlgo("RZ{}_byte", RZk_byte, 13, true),
+      //  new KExecutableAlgo("RZ{}_byte", RZk_byte, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 13, true),
-        new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
+     //   new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 13, true),
+    //    new KExecutableAlgo("RZ{}_w2_byte", RZk_w2_byte, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_simd3", RZk_w3_simd3, 13, true),
+      //  new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 13, true),
+    //    new KExecutableAlgo("RZ{}_w2_pointer", RZk_w2_pointer, 14, false),
 
-        new KExecutableAlgo("RZ{}_w3_simd2_range_cmp", RZk_w3_simd2_range_cmp, 13, true),
+    //    new KExecutableAlgo("RZ{}_w2_simd3", RZk_w2_simd3, 13, true),
 
-        new KExecutableAlgo("RZ{}_w3_simd3_range_cmp", RZk_w3_simd3_range_cmp, 13, true),
+    //    new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 13, true),
+    //    new KExecutableAlgo("RZ{}_w3_byte", RZk_w3_byte, 14, false),
 
-        new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 13, true),
+//        new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 13, true),
+  //      new KExecutableAlgo("RZ{}_w3_pointer", RZk_w3_pointer, 14, false),
 
-        new KExecutableAlgo("RZ{}_w4_simd3", RZk_w4_simd3, 13, true),
-        new KExecutableAlgo("RZ{}_w4_simd3_pointer", RZk_w4_simd3_pointer, 13, false),
+    //    new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 13, true),
+    //    new KExecutableAlgo("RZ{}_w3_simd1", RZk_w3_simd1, 14, false),
 
-        new KExecutableAlgo("test_algo_{}", test_algo, 13, false),
+     //   new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 13, true),
+     //   new KExecutableAlgo("RZ{}_w3_simd2", RZk_w3_simd2, 14, false),
+
+    //    new KExecutableAlgo("RZ{}_w3_simd3", RZk_w3_simd3, 13, true),
+
+      //  new KExecutableAlgo("RZ{}_w3_simd2_range_cmp", RZk_w3_simd2_range_cmp, 13, true),
+
+     //   new KExecutableAlgo("RZ{}_w3_simd3_range_cmp", RZk_w3_simd3_range_cmp, 13, true),
+
+//        new KExecutableAlgo("RZ{}_w4_simd2", RZk_w4_simd2, 13, true),
+
+//        new KExecutableAlgo("RZ{}_w4_simd3", RZk_w4_simd3, 13, true),
+//        new KExecutableAlgo("RZ{}_w4_simd3_pointer", RZk_w4_simd3_pointer, 13, false),
+
+ //       new KExecutableAlgo("test_algo_{}", test_algo, 13, false),
         //  new KExecutableAlgo("test_algo_{}", test_algo, 14, false),
 
         //   new ExecutableAlgo("FSBNDM_W1", fsbndm_w1, false),
         //   new ExecutableAlgo("FSBNDM_W2", fsbndm_w2, false),
-        new ExecutableAlgo("FSBNDM_W4", fsbndm_w4, false),
-        new ExecutableAlgo("FSBNDM_W6", fsbndm_w6, false),
-        new ExecutableAlgo("FSBNDM_W8", fsbndm_w8, false),
-        new ExecutableAlgo("FSBNDM_31", fsbndmq31, false),
+//        new ExecutableAlgo("FSBNDM_W4", fsbndm_w4, false),
+//        new ExecutableAlgo("FSBNDM_W6", fsbndm_w6, false),
+//        new ExecutableAlgo("FSBNDM_W8", fsbndm_w8, false),
+//        new ExecutableAlgo("FSBNDM_31", fsbndmq31, false),
 
-        new ExecutableAlgo("FS", fs, false),
-        new ExecutableAlgo("FSw4", fs_w4, false),
-        new ExecutableAlgo("FSw6", fs_w6, false),
-        new ExecutableAlgo("FSw8", fs_w8, true),
-        new ExecutableAlgo("FJS", fjs, true),
+//        new ExecutableAlgo("FS", fs, false),
+//        new ExecutableAlgo("FSw4", fs_w4, false),
+//        new ExecutableAlgo("FSw6", fs_w6, false),
+//        new ExecutableAlgo("FSw8", fs_w8, true),
+//        new ExecutableAlgo("FJS", fjs, true),
 
-        new KExecutableAlgo("Z{}_byte", Zk_byte, 13, true),
-        new KExecutableAlgo("Z{}_byte", Zk_byte, 14, false),
+//        new KExecutableAlgo("Z{}_byte", Zk_byte, 13, true),
+//        new KExecutableAlgo("Z{}_byte", Zk_byte, 14, false),
 
-        new KExecutableAlgo("Z{}_w2_byte", Zk_w2_byte, 13, true),
-        new KExecutableAlgo("Z{}_w2_byte", Zk_w2_byte, 14, false),
+//        new KExecutableAlgo("Z{}_w2_byte", Zk_w2_byte, 13, true),
+//        new KExecutableAlgo("Z{}_w2_byte", Zk_w2_byte, 14, false),
 
-        new ExecutableAlgo("Z8", Z8_byte, false),
+//        new ExecutableAlgo("Z8", Z8_byte, false),
 
         //  new KExecutableAlgo("Z{}_shift2", Zk_shift2_byte, 13, true),
 
@@ -116,16 +138,16 @@ ControlPanel::ControlPanel(MainChart* parent)
 
     for (int i = 0; i < (int)algorithms.size(); ++i) {
         QCheckBox* algoCheckbox = new QCheckBox;
-        algoCheckbox->setChecked(algorithms[i]->isSelected);
+        algoCheckbox->setChecked(algorithms[i]->is_selected);
         algoCheckbox->setText(QString::fromStdString(algorithms[i]->name));
         algorithmSelectionLayout->addWidget(algoCheckbox);
 
         connect(algoCheckbox, QOverload<int>::of(&QCheckBox::stateChanged), [=](int state) {
             assert(state != Qt::PartiallyChecked);
             if (state == Qt::Unchecked) {
-                algorithms[i]->isSelected = false;
+                algorithms[i]->is_selected = false;
             } else if (state == Qt::Checked) {
-                algorithms[i]->isSelected = true;
+                algorithms[i]->is_selected = true;
             }
         });
     }
@@ -194,7 +216,7 @@ vector<Algo*> ControlPanel::getActiveAlgorithms()
 {
     vector<Algo*> tmp;
     for (auto& algo : algorithms)
-        if (algo->isSelected)
+        if (algo->is_selected)
             tmp.push_back(algo);
     return tmp;
 }

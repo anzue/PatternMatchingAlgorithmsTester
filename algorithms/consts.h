@@ -53,7 +53,7 @@ extern LARGE_INTEGER start, finish, freq;
 extern unsigned int SIGMA;
 extern unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
 
-//#define MATCH_DEBUGGING
+// #define MATCH_DEBUGGING
 
 #ifdef MATCH_DEBUGGING
 extern std::map<string, vector<int>> matches_pos;
@@ -62,8 +62,8 @@ extern std::map<string, vector<int>> matches_pos;
     {                                                            \
         if (matches_pos.find(__FUNCTION__) == matches_pos.end()) \
             matches_pos[__FUNCTION__] = vector<int>();           \
-        matches_pos[__FUNCTION__].push_back(pos);                \
-        ++count;                                                 \
+        if(pos >= 0 && pos < n - m) {matches_pos[__FUNCTION__].push_back(pos);                \
+        ++count;}                                                 \
     }
 
 #define MULTIMATCH(pos, key, lim)                        \
@@ -132,15 +132,21 @@ extern std::map<string, vector<int>> matches_pos;
     }
 
 #else
-#define MATCH(pos) ++count
+#define MATCH(pos) if(pos >= 0 && pos < n - m){++count;}
 
 #define MULTIMATCH(pos, key, lim) \
     count += (lim <= pos) ? __builtin_popcount(key) : (lim - (pos) <= 16 ? __builtin_popcount(key >> ((lim) - (pos))) : 0)
+
+
 
 #define CLEAR_MATCHES
 #define FIND_DIFF_MATCHES
 #define PRINT_DIFF(ALGO1, ALGO2)
 
 #endif // MATCH_DEBUGGING
+
+#define START_COUNTER     QueryPerformanceCounter(&start);
+#define FINISH_COUNTER     QueryPerformanceCounter(&finish); *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+
 
 #endif // CONSTS_H

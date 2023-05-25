@@ -27,7 +27,7 @@
 #include "include/main.h"
 #define Q 4 
 
-int bxs4(unsigned char *x, int m, unsigned char *y, int n) {
+int bxs4(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, first, k, mm, sh, m1, count;
    if(m<Q) return -1;
@@ -45,6 +45,7 @@ int bxs4(unsigned char *x, int m, unsigned char *y, int n) {
 		if(set==0) set=1;
 	}
 	
+   START_COUNTER
    /* Searching */
 	for (i=mq1-1; i<nq1; i+=mq1) {
 		D = B[y[i+3]];
@@ -60,7 +61,7 @@ int bxs4(unsigned char *x, int m, unsigned char *y, int n) {
 				   if (j-first) i=j;
 				   else {
 					   for (k=m; y[first+k]==x[k-1] && (k); k--);
-					   if ( k==0 ) count++;
+                       if ( k==0 ) MATCH(first);
 				   }
 				   D = ((D<<1)|1) & B[y[j]];
 			   }
@@ -68,5 +69,7 @@ int bxs4(unsigned char *x, int m, unsigned char *y, int n) {
 		   } while (D && j>first);
 	   }
    }
+
+   FINISH_COUNTER
    return count;
 }

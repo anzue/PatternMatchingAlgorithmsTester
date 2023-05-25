@@ -4,7 +4,7 @@
 #include <string.h>
 
 #include "algorithms/consts.h"
-#include "algorithms/simd_defines_i128.h"
+#include "algorithms/simd_intel/simd_defines_i128.h"
 
 #define word(a) *((unsigned short*)(T + a))
 
@@ -20,7 +20,7 @@ int RZk_w3_simd2_range_cmp(unsigned char* P, int m, unsigned char* T, int n, int
     int b = 8;
     char z[mask + 1];
     int mm1 = m - 1;
-    QueryPerformanceCounter(&start);
+    START_COUNTER
 
     pack_pattern_i128();
     memset(z, 1, mask);
@@ -115,8 +115,8 @@ int RZk_w3_simd2_range_cmp(unsigned char* P, int m, unsigned char* T, int n, int
             pos2 -= mm1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
 
     return count;
 }

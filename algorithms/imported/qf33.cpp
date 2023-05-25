@@ -32,7 +32,7 @@
 #define AMASK (ASIZE-1)
 #define BSIZE 262144	/* = 2**18 */
 
-int qf33(unsigned char *x, int m, unsigned char *y, int n)
+int qf33(unsigned char *x, int m, unsigned char *y, int n, float* time)
 {
 	int count = 0;
 	int i, j, k, mq1=m-Q+1, B[ASIZE];
@@ -50,6 +50,7 @@ int qf33(unsigned char *x, int m, unsigned char *y, int n)
 			B[ch] |= (1<<((m-i) % Q));
 	}
 	
+    START_COUNTER
 	/* Searching */
 	for(i=mq1-1; i<=n-Q; i+=mq1) {
 		ch = y[i+2];
@@ -74,10 +75,11 @@ int qf33(unsigned char *x, int m, unsigned char *y, int n)
 		      if(j > n-m)  j = n-m;
 		      for(  ; k <= j; k++) {
 		         if(memcmp(y+k,x,m) == 0) 
-						count++;
+                    MATCH(k);
 			   }  
 		   }
 	   }
 	}
+    FINISH_COUNTER
 	return count;
 }

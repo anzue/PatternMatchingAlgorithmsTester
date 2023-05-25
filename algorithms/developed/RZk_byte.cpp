@@ -11,7 +11,7 @@ int RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* tim
     int b = 8;
     char *z = new char[mask + 1];
 
-    QueryPerformanceCounter(&start);
+    START_COUNTER
     memset(z, 1, mask);
 
     for (i = 0; i < m - 1; ++i) {
@@ -20,6 +20,10 @@ int RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* tim
     for (i = 0; i < (1 << (k - b)); ++i) {
         z[(i << b) | P[m - 1]] = 0;
     }
+
+    // todo why crashes without it ???
+    for (i = 0; i < MAX_SIGMA; ++i)
+        RQS[i] = m + 1;
 
     for (i = 0; i < SIGMA; ++i)
         RQS[i] = m + 1;
@@ -45,8 +49,8 @@ int RZk_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* tim
 
     } while (pos >= 0);
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
     delete[] z;
 
     return count - 1;

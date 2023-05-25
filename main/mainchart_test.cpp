@@ -8,7 +8,7 @@
 
 LARGE_INTEGER start, finish, freq;
 unsigned char T[TOTAL], T1[TOTAL], P[MAX_PAT_LEN];
-#define TN (T1 + m)
+#define TN (T1 + MAXM + MAXM + 1)
 
 unsigned int SIGMA = 256;
 
@@ -45,7 +45,7 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms)
          << std::endl;
 
     vector<vector<float>> res(algorithms.size(), vector<float>(0));
-    unsigned int m, glob = 0;
+    unsigned int m,  glob = 0;
     for (int i = 0; i < N; i++) {
         TN[i] = (rand() + glob % 320) % SIGMA;
         glob = (glob * 11 + 30157) % 499;
@@ -74,51 +74,74 @@ vector<vector<float>> MainChart::test(vector<Algo*> algorithms)
 
         memset(execTime, 0, sizeof(float) * algorithms.size());
 
-        for (ig = 0; ig < OUTER_ITER; ig++) {
-            //  memset(T1, 0, TOTAL);
-            //  memcpy(TN, T, N);
 
-            for (int i = 0; i < m; i++) {
-                P[i] = (rand() + glob) % SIGMA;
-                glob = (glob * 123 + 3157) % 893;
-            }
+        for (ig = 0; ig < OUTER_ITER; ig++)
+               {
+                   for (int i = 0; i < N; i++)
+                   {
+                       TN[i] = (rand() + glob % 320) % SIGMA;
+                       glob = (glob * 11 + 30157) % 499;
+                   }
 
-            memcpy(TN - m, P, m);
-            memcpy(TN + N, P, m);
+                   //  memset(T1, 0, TOTAL);
+                   //  memcpy(TN, T, N);
 
-            for (ii = 0; ii < INNER_ITER; ii++) {
+                   for (int i = 0; i < m; i++)
+                   {
+                       P[i] = (rand() + glob) % SIGMA;
+                       glob = (glob * 123 + 3157) % 893;
+                   }
 
-                int patpos = get_rand_int(N - m - 2);
-                memcpy(TN + patpos, P, m);
+                //   memcpy(TN, T1, N);
 
-                CLEAR_MATCHES;
+                   memcpy(TN - m, P, m);
+                   memcpy(TN - 2*m - 1, P, m);
+                   memcpy(TN + N, P, m);
 
-                std::random_shuffle(ids, ids + algorithms.size());
+                   for (ii = 0; ii < INNER_ITER; ii++)
+                   {
 
-                for (i = 0; i < algorithms.size(); ++i) {
-                    int id_i = ids[i];
-                    int id_0 = ids[0];
+                       int patpos = get_rand_int(N - m - 2);
+                       memcpy(TN + patpos, P, m);
 
-                    if( algorithms[id_i]->name == "RZ13_w2_mmx"){
-                        cout << id_i << " " << execTime[id_i] << "\n";
-                    }
-                    matches[id_i] = algorithms[id_i]->search(P, (int)m, TN, (int)N, &execTime[id_i]);
+                       CLEAR_MATCHES;
 
-                    if( algorithms[id_i]->name == "RZ13_w2_mmx"){
-                        cout << id_i << " " << execTime[id_i] << "\n\n";
-                    }
+                       std::random_shuffle(ids, ids + algorithms.size());
 
-                    if (matches[id_i] != matches[id_0]) {
-                        cout << "Result for algo " << algorithms[id_i]->name << " is " << matches[id_i]
-                             << " while for algo " + algorithms[id_0]->name + " is " + to_string(matches[id_0])
-                             << "\nM = " << m << ", N = " << N << ", SIGMA = " << SIGMA << std::endl;
+                       int consensus_result = -11;
+                       string consensus_name;
 
-                        FIND_DIFF_MATCHES
-                    }
+                       for (i = 0; i < algorithms.size(); ++i)
+                       {
+                           int id_i = ids[i];
+                           if (algorithms[id_i]->is_applicable(SIGMA, m))
+                           {
+                               // cout << "Running " << algorithms[id_i]->name << " for patlen = " << m << " and sigma = " << SIGMA << std::endl;
+                               matches[id_i] = algorithms[id_i]->search(P, (int)m, TN, (int)N, &execTime[id_i]);
+                               if (consensus_result == -11)
+                               {
+                                   consensus_result = matches[id_i];
+                                   consensus_name = algorithms[id_i]->name;
+                               }
+                               if (matches[id_i] != consensus_result)
+                               {
+                                   cout << "Result for algo " << algorithms[id_i]->name << " is " << matches[id_i]
+                                        << " while for algo " + consensus_name + " is " + to_string(consensus_result)
+                                        << "\nM = " << m << ", N = " << N << ", SIGMA = " << SIGMA << std::endl;
 
-                  //  assert(matches[id_i] == matches[id_0]);
-                }
-            }
+                                   FIND_DIFF_MATCHES
+                               }
+                           }
+                           else
+                           {
+                               matches[id_i] = -11;
+                           }
+
+                           //  assert(matches[id_i] == matches[id_0]);
+                       }
+                   }
+
+
         }
         for (i = 0; i < algorithms.size(); ++i) {
             // cout << i << " " << algorithms[i]->name << " " << execTime[i] << std::endl;

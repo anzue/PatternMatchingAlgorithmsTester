@@ -12,7 +12,7 @@ int RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
     int b = 8;
     char *z = new char[mask + 1];
 
-    QueryPerformanceCounter(&start);
+
     memset(z, 1, mask);
 
     for (i = 0; i < m - 1; ++i) {
@@ -31,6 +31,8 @@ int RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
 
     int pos0 = ndiv2;
     int pos1 = n - m;
+    int mm1 =  m-1;
+    START_COUNTER
 
     while (pos0 + m >= 0) {
         while (z[word(T + pos0) & mask] != 0 &&
@@ -47,7 +49,7 @@ int RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
             pos0 -= RQS[T[pos0 - 1]];
 
         } else {
-            pos0 -= m - 1;
+            pos0 -= mm1;
 
         }
 
@@ -59,7 +61,7 @@ int RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
             }
             pos1 -= RQS[T[pos1 - 1]];
         } else
-            pos1 -= m - 1;
+            pos1 -= mm1;
     }
 
     while (pos1 > ndiv2) {
@@ -74,15 +76,15 @@ int RZk_w2_byte(unsigned char* P, int m, unsigned char* T, int n, int k, float* 
             }
             pos1 -= RQS[T[pos1 - 1]];
         } else
-            pos1 -= m - 1;
+            pos1 -= mm1;
     }
 
 
   //  cout << pos0 << " " << pos1 << " "<< m << " "<< n << std::endl;
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
     delete[] z;
 
-    return count - 1;
+    return count;
 }

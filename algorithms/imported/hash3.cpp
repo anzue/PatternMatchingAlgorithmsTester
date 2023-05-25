@@ -25,7 +25,7 @@
 #include "include/main.h"
 #define RANK3 3
 
-int hash3(unsigned char *x, int m, unsigned char *y, int n) {
+int hash3(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    int count, j, i, sh, sh1, mMinus1, mMinus2, shift[WSIZE];
    unsigned char h;
    if(m<3) return -1;
@@ -54,6 +54,7 @@ int hash3(unsigned char *x, int m, unsigned char *y, int n) {
    shift[h] = 0;
    if(sh1==0) sh1=1;
 
+   START_COUNTER
 
    /* Searching */
    i = mMinus1;
@@ -71,10 +72,13 @@ int hash3(unsigned char *x, int m, unsigned char *y, int n) {
          j=0;
          while(j<m && x[j]==y[i-mMinus1+j]) j++;
          if (j>=m) {
-            OUTPUT(i-mMinus1);
+            MATCH(i-mMinus1);
          }
          i+=sh1;
       }
-      else return count;
+      else {
+          FINISH_COUNTER
+          return count;
+        }
    }
 }

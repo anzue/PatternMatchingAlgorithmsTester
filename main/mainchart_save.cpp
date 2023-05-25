@@ -11,8 +11,6 @@
 #include "mainchart.h"
 #include "ui_mainchart.h"
 
-using namespace QtCharts;
-
 void MainChart::save(QString name) {
     QFile file(name);
     if (file.open(QFile::WriteOnly | QFile::Append)) {

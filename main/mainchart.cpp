@@ -13,7 +13,6 @@
 
 #include <math.h>
 
-using namespace QtCharts;
 
 MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChart) {
     tabs = new QTabWidget;
@@ -42,11 +41,16 @@ MainChart::MainChart(QWidget* parent) : QMainWindow(parent), ui(new Ui::MainChar
     tabs->addTab(chartView, "Graph represenation");
 
     if (patternLengths.isEmpty()) {
-        for (int i = 4; i <= MAX_PAT_LEN; i += (i < 16 ? 4 : i < 64 ? 8
+        for (int i = 2; i <= MAX_PAT_LEN; i += (i < 8? 1: i < 16 ? 4 : i < 64 ? 8
                                                          : i < 128  ? 16
                                                                     : 32))
             patternLengths.append(QString::number(i));
     }
+
+//        if (patternLengths.isEmpty()) {
+//            for (int i = 2; i <= MAX_PAT_LEN; i *= 2)
+//                patternLengths.append(QString::number(i));
+//        }
 
     controlPanel = new ControlPanel(this);
     QHBoxLayout* mainHLayout = new QHBoxLayout;
@@ -113,7 +117,11 @@ void MainChart::runTests() {
                 item = new QTableWidgetItem();
                 runtimeTableResults->setItem(i, j, item);
             }
-            item->setText(QString::number(round(res[i][j] *100)/ 100));
+            if(res[i][j] <= 0) {
+                item->setText("-");
+            } else {
+                item->setText(QString::number(round(res[i][j] *100)/ 100));
+            }
         }
     }
 
@@ -126,7 +134,7 @@ void MainChart::runTests() {
     for (i = 0; i < patternsCount; ++i) {
         maxIdx = 0;
         for (j = 0; j < algorithmsCount; ++j) {
-            if (res[j][i] < res[maxIdx][i])
+            if ((res[j][i] < res[maxIdx][i] || res[maxIdx][i] == 0)  && res[j][i] > 0)
                 maxIdx = j;
         }
         runtimeTableResults->item(maxIdx, i)->setFont(boldFont);

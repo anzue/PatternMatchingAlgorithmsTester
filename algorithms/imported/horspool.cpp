@@ -2,7 +2,7 @@
 
 int h(unsigned char *P, int m, unsigned char *T, int n, float* time) {
     int i, s, count, hbc[MAX_SIGMA];
-    QueryPerformanceCounter(&start);
+    START_COUNTER
     for (i=0;i<SIGMA;i++)   hbc[i]=m;
     for (i=0;i<m-1;i++) hbc[P[i]]=m-i-1;
     /* Searching */
@@ -17,7 +17,7 @@ int h(unsigned char *P, int m, unsigned char *T, int n, float* time) {
 
         s+=hbc[T[s+mm1]];
     }
-    QueryPerformanceCounter(&finish);
+    FINISH_COUNTER
     auto  u=(finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart ;
     *time+=u;
     return count;

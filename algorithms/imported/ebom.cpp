@@ -25,7 +25,7 @@
 #include "algorithms/consts.h"
 #include "include/main.h"
 
-int ebom(unsigned char *x, int m, unsigned char *y, int n) {
+int ebom(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    int S[MAX_PAT_LEN], FT[MAX_SIGMA][MAX_SIGMA];
    int *trans[MAX_PAT_LEN];
    int i, j, p, q;
@@ -57,6 +57,8 @@ int ebom(unsigned char *x, int m, unsigned char *y, int n) {
          else FT[i][j] = UNDEFINED;
    }
 
+   START_COUNTER
+
    /* Searching */
    for(i=0; i<m; i++) y[n+i]=x[i];
    if( !memcmp(x,y,m) ) count++;
@@ -68,12 +70,13 @@ int ebom(unsigned char *x, int m, unsigned char *y, int n) {
       p = FT[y[j]][y[j-1]];
       while ( (p = trans[p][y[i]]) != UNDEFINED ) i--;
       if (i < j-mMinus1 && j<n) {
-         count++;
+         MATCH(i);
          i++;
       }
       j = i + m;
    }
 
+   FINISH_COUNTER
    for(i=0; i<=m+1; i++) free(trans[i]);
    return count;
 }

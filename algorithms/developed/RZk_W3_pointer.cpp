@@ -11,7 +11,7 @@ int RZk_w3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, floa
     int b = 8;
     char *z = new char[mask + 1];
 
-    QueryPerformanceCounter(&start);
+    START_COUNTER
     memset(z, 1, mask);
 
     for (i = 0; i < m - 1; ++i) {
@@ -116,8 +116,8 @@ int RZk_w3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k, floa
             pos2 -= m - 1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
 
     delete[] z;
 

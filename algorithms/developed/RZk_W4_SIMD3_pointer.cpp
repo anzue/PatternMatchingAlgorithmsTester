@@ -1,5 +1,5 @@
 #include "algorithms/consts.h"
-#include "algorithms/simd_defines_i128.h"
+#include "algorithms/simd_intel/simd_defines_i128.h"
 
 #include <bitset>
 #include <intrin.h>
@@ -20,7 +20,7 @@ int RZk_w4_simd3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k
     int b = 8;
     char z[mask + 1];
 
-    QueryPerformanceCounter(&start);
+    START_COUNTER
 
     pack_pattern_i128();
 
@@ -158,8 +158,8 @@ int RZk_w4_simd3_pointer(unsigned char* P, int m, unsigned char* T, int n, int k
             pos3 -= m - 1;
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
 
     return count;
 }

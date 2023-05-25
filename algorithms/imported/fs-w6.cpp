@@ -73,7 +73,7 @@ int fs_w6(unsigned char* P, int m, unsigned char* T, int n, float* time)
     int h, count, hbcr[MAX_SIGMA], hbcl[MAX_SIGMA], gsR[MAX_PAT_LEN], gsL[MAX_PAT_LEN];
     unsigned char c, Pr[MAX_PAT_LEN];
 
-    QueryPerformanceCounter(&start);
+    START_COUNTER
 
     /* proprocessing */
     for (i = 0; i < SIGMA; i++)
@@ -174,8 +174,8 @@ int fs_w6(unsigned char* P, int m, unsigned char* T, int n, float* time)
         }
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
 
     return count;
 }

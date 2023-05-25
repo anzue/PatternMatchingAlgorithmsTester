@@ -29,7 +29,7 @@ class MainChart : public QMainWindow {
     void initChart();
 
   private:
-    unsigned int MINM = 2, MAXM = 200, N = TOTAL - 2 * MAX_PAT_LEN, OUTER_ITER = 5, INNER_ITER = 3;
+    unsigned int MINM = 2, MAXM = 200, N = TOTAL - 3 * MAX_PAT_LEN - 6, OUTER_ITER = 5, INNER_ITER = 3;
 
     QStringList patternLengths;
     QStringList sigmaValues;
@@ -43,8 +43,8 @@ class MainChart : public QMainWindow {
 
     QTableWidget* runtimeTableResults;
     QTabWidget* tabs;
-    QtCharts::QChartView* chartView;
-    QtCharts::QChart* chart;
+    QChartView* chartView;
+    QChart* chart;
 
   private slots:
     void runTests();

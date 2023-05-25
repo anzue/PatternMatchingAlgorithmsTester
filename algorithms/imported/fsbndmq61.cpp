@@ -29,7 +29,9 @@
 #define Q 6 
 #define F 1 
 
-int fsbndmq61(unsigned char *x, int m, unsigned char *y, int n) {
+
+
+int fsbndmq61(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    unsigned int B[MAX_SIGMA], D, set;
    int i, j, pos, mm, sh, m1, count;
    if(m<Q) return -1;
@@ -47,8 +49,10 @@ int fsbndmq61(unsigned char *x, int m, unsigned char *y, int n) {
 	sh = m-Q+F+1;
 	m1 = m-1; 
 	
+    START_COUNTER
+
    /* Searching */
-   if(!memcmp(x,y,m)) OUTPUT(0);
+   if(!memcmp(x,y,m)) MATCH(0);
 	int end = n-plen+m;
    j = m;
    while (j < end) {
@@ -66,7 +70,7 @@ int fsbndmq61(unsigned char *x, int m, unsigned char *y, int n) {
 				if(larger) {
 					i=m;
 					while(i<plen && x[i]==y[j-m1+i]) i++;
-					if(i==plen) OUTPUT(j);
+                    if(i==plen) MATCH(j);
 				}
             else OUTPUT(j);
             ++j;
@@ -74,5 +78,6 @@ int fsbndmq61(unsigned char *x, int m, unsigned char *y, int n) {
       }
       else j += sh;
    }
+   FINISH_COUNTER
    return count;
 }

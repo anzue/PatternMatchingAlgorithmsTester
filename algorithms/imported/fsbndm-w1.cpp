@@ -49,7 +49,7 @@ int fsbndm_w1(unsigned char* x, int m, unsigned char* y, int n, float* time) {
     unsigned int B[MAX_SIGMA], d, set, hbc[MAX_SIGMA];
     int i, j, pos, mm1, mp1, count;
 
-    QueryPerformanceCounter(&start);
+    START_COUNTER
 
     /* Preprocessing */
     int plen = m;
@@ -92,8 +92,8 @@ int fsbndm_w1(unsigned char* x, int m, unsigned char* y, int n, float* time) {
         }
     }
 
-    QueryPerformanceCounter(&finish);
-    *time += (finish.QuadPart - start.QuadPart) * 1000000 / freq.QuadPart;
+    FINISH_COUNTER
+    
 
     return count;
 }

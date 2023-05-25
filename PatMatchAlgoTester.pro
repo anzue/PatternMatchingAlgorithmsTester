@@ -22,6 +22,7 @@ SOURCES += \
     algorithms/developed/RZk_W2_MMX.cpp \
     algorithms/developed/RZk_W2_SIMD3.cpp \
     algorithms/developed/RZk_W2_byte.cpp \
+    algorithms/developed/RZk_W2_byte_single_var.cpp \
     algorithms/developed/RZk_W2_pointer.cpp \
     algorithms/developed/RZk_W3_SIMD1.cpp \
     algorithms/developed/RZk_W3_SIMD2.cpp \
@@ -39,6 +40,8 @@ SOURCES += \
     algorithms/developed/Zk.cpp \
     algorithms/developed/Zk_shift2.cpp \
     algorithms/developed/Zk_w2.cpp \
+    algorithms/developed/new_algo.cpp \
+    algorithms/developed/new_algo_k.cpp \
     algorithms/developed/test_placeholder.cpp \
     algorithms/imported/ac.cpp \
     algorithms/imported/ag.cpp \
@@ -61,6 +64,7 @@ SOURCES += \
     algorithms/imported/bom.cpp \
     algorithms/imported/bom2.cpp \
     algorithms/imported/br.cpp \
+    algorithms/imported/bricks43.cpp \
     algorithms/imported/bsdm.cpp \
     algorithms/imported/bsdm2.cpp \
     algorithms/imported/bsdm3.cpp \
@@ -128,6 +132,7 @@ SOURCES += \
     algorithms/imported/kr.cpp \
     algorithms/imported/ksa.cpp \
     algorithms/imported/lbndm.cpp \
+    algorithms/imported/maw22.cpp \
     algorithms/imported/mp.cpp \
     algorithms/imported/nsn.cpp \
     algorithms/imported/pbmh.cpp \
@@ -187,6 +192,7 @@ SOURCES += \
     algorithms/imported/ufndmq4.cpp \
     algorithms/imported/ufndmq6.cpp \
     algorithms/imported/ufndmq8.cpp \
+    algorithms/imported/zk_w5.cpp \
     algorithms/imported/zt.cpp \
     algorithms/imported/horspool.cpp \
     main/main.cpp \
@@ -208,8 +214,8 @@ HEADERS += \
     algorithms/imported/include/timer.h \
     algorithms/consts.h \
     algorithms/executablealgo.h \
-    algorithms/simd_defines_i128.h \
-    algorithms/simd_defines_i64.h \
+    algorithms/simd_intel/simd_defines_i128.h \
+    algorithms/simd_intel/simd_defines_i64.h \
     main/mainchart.h \
     ui/controlpanel.h \
     ui/progressbar.h \

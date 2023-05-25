@@ -25,13 +25,13 @@
 #include "include/main.h"
 
 
-int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n);
+int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n, float* time);
 
-int sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
+int sbndm2(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    unsigned int B[MAX_SIGMA], D;
    int i, j, pos, mMinus1, m2, count, shift;
    if(m<2) return -1;
-   if(m>32) return large_sbndm2(x,m,y,n);
+   if(m>32) return large_sbndm2(x,m,y,n, time);
 
    /* Preprocessing */
    mMinus1 = m - 1;
@@ -47,6 +47,8 @@ int sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
       if(D & (1<<(m-1))) shift = m-j;
    }
 
+   START_COUNTER
+
    /* Searching */
    count = 0;
    if( !memcmp(x,y,m) ) OUTPUT(0);
@@ -59,12 +61,13 @@ int sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
             --j;
          j += m2;
          if (j == pos) {
-            OUTPUT(j);
+            MATCH(j);
             j+=shift;
          }
       }
       else j+=mMinus1;
    }
+   FINISH_COUNTER
    return count;
 }
 
@@ -74,7 +77,7 @@ int sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
  * When an occurrence is found the algorithm tests for the whole occurrence of the pattern
  */
 
-int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
+int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    unsigned int B[MAX_SIGMA], D;
    int i, j, pos, mMinus1, m2, count, p_len, shift;
 
@@ -94,6 +97,7 @@ int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
       D = (D<<1) & B[x[i]];
    }
 
+   START_COUNTER
    /* Searching */
    if( !memcmp(x,y,m) ) OUTPUT(0);
    j = m;
@@ -106,12 +110,13 @@ int large_sbndm2(unsigned char *x, int m, unsigned char *y, int n) {
          j += m2;
          if (j == pos) {
             for(i=m+1; i<p_len && x[i]==y[j-m+1+i]; i++);
-            if (i==p_len) OUTPUT(j-m+1);
+            if (i==p_len) MATCH(j-m+1);
             j+=shift;
          }
       }
       else j+=mMinus1;
    }
+   FINISH_COUNTER
    return count;
 }
 

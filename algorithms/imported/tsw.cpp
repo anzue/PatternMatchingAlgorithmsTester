@@ -37,7 +37,7 @@ void preBrBc_tsw(unsigned char *x, int m, int brBc[MAX_SIGMA][MAX_SIGMA]) {
       brBc[x[m - 1]][a] = 1;
 }
 
-int tsw(unsigned char *x, int m, unsigned char *y, int n) {
+int tsw(unsigned char *x, int m, unsigned char *y, int n, float* time) {
    int j, brBc_left[MAX_SIGMA][MAX_SIGMA], brBc_right[MAX_SIGMA][MAX_SIGMA];
    int i, a,b;
    int count;
@@ -49,6 +49,7 @@ int tsw(unsigned char *x, int m, unsigned char *y, int n) {
    preBrBc_tsw(x1, m, brBc_right);
    count =0;
 
+   START_COUNTER
    /* Searching */
    j = 0; a = n-m;
    while (j <= a) {
@@ -56,11 +57,12 @@ int tsw(unsigned char *x, int m, unsigned char *y, int n) {
       if (i>=m && j<=a) count++;
 
       for(b=0; b<m && x[b]==y[a+b]; b++);
-      if (b>=m && j<a) count++;
+      if (b>=m && j<a) MATCH(a);
 
       j += brBc_left[y[j + m]][y[j + m + 1]];
       a -= brBc_right[y[a - 1]][y[a - 2]];
    }
+   FINISH_COUNTER
    return count;
 }
 
