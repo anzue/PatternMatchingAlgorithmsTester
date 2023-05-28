@@ -3,7 +3,7 @@
 #define LONG64 unsigned long long
 
 
-int new_algo(unsigned char* P, int m, unsigned char* T, int n, float* time) {
+int compressed_shifts(unsigned char* P, int m, unsigned char* T, int n, float* time) {
     int count = 0;
     LONG64 shift_table=0;
     int real_shift [SIGMA];
